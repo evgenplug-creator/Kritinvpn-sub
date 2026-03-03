@@ -1,0 +1,228 @@
+name: Update VPN Keys Every Minute
+
+# Права на запись в репозиторий
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Запускать КАЖДУЮ МИНУТУ
+    - cron: '* * * * *'
+  # Ручной запуск
+  workflow_dispatch:
+
+jobs:
+  update-keys:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and process keys
+        run: |
+          echo "📥 Скачиваю свежие ключи..."
+          curl -L -o all_keys.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
+          
+          if [ ! -s all_keys.txt ]; then
+            echo "❌ Ошибка: файл пустой или не скачался"
+            exit 1
+          fi
+          
+          # Удаляем пустые строки, комментарии И ключи с Anycast
+          echo "🔍 Исключаю ключи с Anycast..."
+          grep -v '^#' all_keys.txt | grep -v '^$' | grep -v -i "anycast" > clean_keys.txt
+          
+          total_keys=$(wc -l < clean_keys.txt)
+          echo "📊 Всего ключей без Anycast: $total_keys"
+          
+          if [ $total_keys -eq 0 ]; then
+            echo "❌ Ошибка: нет ключей после фильтрации"
+            exit 1
+          fi
+          
+          # Перемешиваем все ключи
+          shuf clean_keys.txt > shuffled_keys.txt
+          
+          # Берем первые 20 (или сколько есть)
+          head -n 20 shuffled_keys.txt > selected_keys.txt
+          
+          selected_count=$(wc -l < selected_keys.txt)
+          echo "✅ Выбрано $selected_count ключей"
+
+      - name: Create formatted keys with flags
+        run: |
+          echo "🏴 Создаю ключи с флагами..."
+          
+          # Создаем временный файл
+          > formatted_keys.txt
+          
+          # Проходим по каждому ключу и добавляем флаг и название
+          while IFS= read -r key; do
+            # Определяем страну из ключа (обычно после #)
+            if [[ $key == *"#"* ]]; then
+              # Если есть комментарий со страной
+              country=$(echo "$key" | grep -o '#.*' | sed 's/#//' | xargs)
+              # Очищаем ключ от комментария
+              clean_key=$(echo "$key" | sed 's/#.*//' | xargs)
+            else
+              # Если нет комментария, пробуем определить по домену
+              if [[ $key == *"ru"* ]]; then
+                country="Russia"
+              elif [[ $key == *"us"* ]] || [[ $key == *"com"* ]]; then
+                country="USA"
+              elif [[ $key == *"de"* ]]; then
+                country="Germany"
+              elif [[ $key == *"nl"* ]]; then
+                country="Netherlands"
+              elif [[ $key == *"jp"* ]]; then
+                country="Japan"
+              elif [[ $key == *"sg"* ]]; then
+                country="Singapore"
+              elif [[ $key == *"fr"* ]]; then
+                country="France"
+              elif [[ $key == *"gb"* ]] || [[ $key == *"uk"* ]]; then
+                country="United Kingdom"
+              elif [[ $key == *"ca"* ]]; then
+                country="Canada"
+              elif [[ $key == *"au"* ]]; then
+                country="Australia"
+              else
+                country="World"
+              fi
+              clean_key="$key"
+            fi
+            
+            # Определяем флаг по стране (эмодзи флаги)
+            case $country in
+              *Russia*|*россия*|*ru*)
+                flag="🇷🇺"
+                country_name="Russia"
+                ;;
+              *USA*|*America*|*us*|*com*)
+                flag="🇺🇸"
+                country_name="USA"
+                ;;
+              *Germany*|*germany*|*de*)
+                flag="🇩🇪"
+                country_name="Germany"
+                ;;
+              *Netherlands*|*holland*|*nl*)
+                flag="🇳🇱"
+                country_name="Netherlands"
+                ;;
+              *Japan*|*japan*|*jp*)
+                flag="🇯🇵"
+                country_name="Japan"
+                ;;
+              *Singapore*|*singapore*|*sg*)
+                flag="🇸🇬"
+                country_name="Singapore"
+                ;;
+              *France*|*france*|*fr*)
+                flag="🇫🇷"
+                country_name="France"
+                ;;
+              *United*Kingdom*|*britain*|*gb*|*uk*)
+                flag="🇬🇧"
+                country_name="UK"
+                ;;
+              *Canada*|*canada*|*ca*)
+                flag="🇨🇦"
+                country_name="Canada"
+                ;;
+              *Australia*|*australia*|*au*)
+                flag="🇦🇺"
+                country_name="Australia"
+                ;;
+              *Poland*|*poland*|*pl*)
+                flag="🇵🇱"
+                country_name="Poland"
+                ;;
+              *Finland*|*finland*|*fi*)
+                flag="🇫🇮"
+                country_name="Finland"
+                ;;
+              *Sweden*|*sweden*|*se*)
+                flag="🇸🇪"
+                country_name="Sweden"
+                ;;
+              *Norway*|*norway*|*no*)
+                flag="🇳🇴"
+                country_name="Norway"
+                ;;
+              *Italy*|*italy*|*it*)
+                flag="🇮🇹"
+                country_name="Italy"
+                ;;
+              *Spain*|*spain*|*es*)
+                flag="🇪🇸"
+                country_name="Spain"
+                ;;
+              *China*|*china*|*cn*)
+                flag="🇨🇳"
+                country_name="China"
+                ;;
+              *India*|*india*|*in*)
+                flag="🇮🇳"
+                country_name="India"
+                ;;
+              *Brazil*|*brazil*|*br*)
+                flag="🇧🇷"
+                country_name="Brazil"
+                ;;
+              *)
+                flag="🌍"
+                country_name="World"
+                ;;
+            esac
+            
+            # Создаем новое имя: флаг + "KritinVPN | Страна"
+            # Добавляем в начало ключа, некоторые клиенты так понимают название
+            echo "$flag KritinVPN | $country_name $clean_key" >> formatted_keys.txt
+            
+          done < selected_keys.txt
+          
+          echo "✅ Ключи отформатированы"
+
+      - name: Update sub.txt
+        run: |
+          echo "🔄 Обновляю sub.txt..."
+          
+          # Создаем новый файл
+          echo "🇷🇺 KritinVPN - Автообновление каждый час" > sub.txt
+          echo "" >> sub.txt
+          echo "# Автообновление: $(date '+%d.%m.%Y %H:%M:%S')" >> sub.txt
+          echo "# Всего ключей: $(wc -l < formatted_keys.txt)" >> sub.txt
+          echo "# Anycast ключи исключены" >> sub.txt
+          echo "" >> sub.txt
+          
+          # Добавляем отформатированные ключи
+          cat formatted_keys.txt >> sub.txt
+          echo "✅ Файл sub.txt обновлен"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet sub.txt; then
+            echo "📊 Изменений нет"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "📊 Есть изменения"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sub.txt
+          git commit -m "🔄 Автообновление $(date '+%d.%m.%Y %H:%M:%S') - $(wc -l < formatted_keys.txt) ключей с флагами"
+          git push
+          echo "✅ Изменения отправлены в репозиторий"
+
+      - name: Log completion
+        if: always()
+        run: |
+          echo "✅ Workflow завершен в $(date '+%d.%m.%Y %H:%M:%S')"
