@@ -1,0 +1,76 @@
+name: Update VPN Keys Every Minute
+
+# Права на запись в репозиторий
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # Запускать КАЖДУЮ МИНУТУ
+    - cron: '* * * * *'
+  # Ручной запуск
+  workflow_dispatch:
+
+jobs:
+  update-keys:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and select random keys (excluding Anycast)
+        run: |
+          echo "📥 Скачиваю свежие ключи..."
+          curl -L -o all_keys.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
+          
+          if [ ! -s all_keys.txt ]; then
+            echo "❌ Ошибка: файл пустой или не скачался"
+            exit 1
+          fi
+          
+          echo "🔍 Исключаю ключи с Anycast..."
+          grep -v '^#' all_keys.txt | grep -v '^$' | grep -v -i "anycast" > clean_keys.txt
+          
+          total_keys=$(wc -l < clean_keys.txt)
+          echo "📊 Всего ключей без Anycast: $total_keys"
+          
+          if [ $total_keys -eq 0 ]; then
+            echo "❌ Ошибка: нет ключей после фильтрации"
+            exit 1
+          fi
+          
+          echo "🎲 Выбираю 20 случайных ключей..."
+          shuf clean_keys.txt | head -n 20 > selected_keys.txt
+          
+          selected_count=$(wc -l < selected_keys.txt)
+          echo "✅ Выбрано $selected_count ключей"
+
+      - name: Update sub.txt
+        run: |
+          echo "🔄 Обновляю sub.txt..."
+          
+          # Добавляем timestamp для принудительного обновления
+          echo "# Автообновление $(date '+%d.%m.%Y %H:%M:%S')" > sub.txt
+          echo "# Всего ключей: $(wc -l < selected_keys.txt)" >> sub.txt
+          echo "# Anycast ключи исключены" >> sub.txt
+          echo "# Timestamp: $(date +%s)" >> sub.txt
+          echo "" >> sub.txt
+          
+          # Добавляем выбранные ключи
+          cat selected_keys.txt >> sub.txt
+          echo "✅ Файл sub.txt обновлен"
+
+      - name: Force update (always commit)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sub.txt
+          git commit -m "🔄 Автообновление $(date '+%d.%m.%Y %H:%M:%S') - $(wc -l < selected_keys.txt) ключей" || exit 0
+          git push
+          echo "✅ Изменения отправлены в репозиторий"
+
+      - name: Log completion
+        if: always()
+        run: |
+          echo "✅ Workflow завершен в $(date '+%d.%m.%Y %H:%M:%S')"
