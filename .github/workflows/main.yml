@@ -1,0 +1,63 @@
+name: Update VPN Keys Every Minute
+
+on:
+  schedule:
+    # Запускать КАЖДУЮ МИНУТУ
+    - cron: '* * * * *'
+  # Разрешить ручной запуск
+  workflow_dispatch:
+
+jobs:
+  update-keys:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest keys
+        run: |
+          echo "📥 Скачиваем ключи из источника..."
+          # Скачиваем файл с ключами
+          curl -L -o fresh_keys.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
+          
+          # Проверяем, что файл скачался и не пустой
+          if [ -s fresh_keys.txt ]; then
+            echo "✅ Ключи скачаны. Размер файла: $(wc -l < fresh_keys.txt) строк"
+          else
+            echo "❌ Файл пустой или не скачался"
+            exit 1
+          fi
+
+      - name: Update subscription file
+        run: |
+          echo "🔄 Обновляем файл sub.txt..."
+          # Копируем свежие ключи в наш файл подписки
+          cp fresh_keys.txt sub.txt
+          echo "✅ Файл sub.txt обновлен"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          # Проверяем, были ли изменения
+          if git diff --quiet sub.txt; then
+            echo "📊 Изменений нет"
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "📊 Есть изменения"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sub.txt
+          git commit -m "🔄 Автообновление $(date '+%d.%m.%Y %H:%M:%S')"
+          git push
+          echo "✅ Изменения отправлены в репозиторий"
+
+      - name: Log successful update
+        if: always()
+        run: |
+          echo "✅ Обновление завершено в $(date '+%d.%m.%Y %H:%M:%S')"
