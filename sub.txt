@@ -1,7 +1,7 @@
-# Автообновление 20.03.2026 17:05:29
+# Автообновление 20.03.2026 17:49:35
 # Всего ключей: 2
 # Anycast ключи исключены
-# Timestamp: 1774026329
+# Timestamp: 1774028975
 
 vless://f3e5644e-5937-4909-af88-cc7da1792cda@72.56.1.46:8446?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=barclays.co.uk&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://f3e5644e-5937-4909-af88-cc7da1792cda@72.56.1.46:8447?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=barclays.co.uk&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
