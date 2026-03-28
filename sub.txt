@@ -1,8 +1,6 @@
-# Автообновление 28.03.2026 08:52:02
-# Всего ключей: 3
+# Автообновление 28.03.2026 09:23:37
+# Всего ключей: 1
 # Anycast ключи исключены
-# Timestamp: 1774687922
+# Timestamp: 1774689817
 
-vless://424e7cc4-df34-3518-9c7b-401db4ece90a@s863.ccgfw.top:443?encryption=none&type=grpc&headerType=none&fp=ios&host=s863.ccgfw.top&path=&flow=&security=tls&sni=u710947u4a5cs863.ccgfw.top&serviceName=ssp&mode=gun&alpn=#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-vless://424e7cc4-df34-3518-9c7b-401db4ece90a@s722.okgfw.top:443?encryption=none&type=tcp&headerType=none&fp=random&host=s722.okgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u710947u3516s722.okgfw.top&serviceName=&mode=&alpn=#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://424e7cc4-df34-3518-9c7b-401db4ece90a@s121.ccgfw.top:443?encryption=none&type=grpc&headerType=none&fp=ios&host=s121.ccgfw.top&path=&flow=&security=tls&sni=u710947u7938s121.ccgfw.top&serviceName=ssp&mode=gun&alpn=#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://424e7cc4-df34-3518-9c7b-401db4ece90a@185.46.68.36:443?security=tls&flow=xtls-rprx-vision&sni=u710947u3516s722.okgfw.top&type=tcp&host=s722.okgfw.top&fp=random#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
