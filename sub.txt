@@ -1,9 +1,9 @@
-# Автообновление 30.03.2026 20:01:27
+# Автообновление 30.03.2026 20:56:37
 # Всего ключей: 4
 # Anycast ключи исключены
-# Timestamp: 1774900887
+# Timestamp: 1774904197
 
 vless://d0e1c040-eee0-4225-8027-08b7e77f94f5@ficdn6.melodramaonline.net:443?type=tcp&security=tls&sni=ficdn6.melodramaonline.net&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
-vless://903e7951-8033-4213-a73e-85f315f6fc6b@germany-13.ptu.ink:443?security=reality&sni=www.microsoft.com&fp=random&pbk=tmlWERQJTOyfaStRK5uJhA_pVN75gO8OtXxtOItWwHU&type=tcp&flow=xtls-rprx-vision&sid=d62c9748f3fd6743#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://d0e1c040-eee0-4225-8027-08b7e77f94f5@secdn15.melodramaonline.net:443?type=tcp&security=tls&sni=secdn15.melodramaonline.net#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
 vless://bb7d8763-4afa-465f-b066-35786781ced2@216.236.26.19:43229?&security=reality&flow=xtls-rprx-vision&pbk=JzUmS6a7nFt54YhvIe-KE31-W8WWJxcgQJt_q_-HbSQ&sid=e0a48d60&fp=chrome&sni=apple.com&type=tcp&headerType=none&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+vless://903e7951-8033-4213-a73e-85f315f6fc6b@germany-13.ptu.ink:443?security=reality&sni=www.microsoft.com&fp=random&pbk=tmlWERQJTOyfaStRK5uJhA_pVN75gO8OtXxtOItWwHU&type=tcp&flow=xtls-rprx-vision&sid=d62c9748f3fd6743#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
