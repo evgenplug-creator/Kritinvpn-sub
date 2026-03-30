@@ -1,12 +1,9 @@
-# Автообновление 30.03.2026 13:56:04
-# Всего ключей: 7
+# Автообновление 30.03.2026 14:58:06
+# Всего ключей: 4
 # Anycast ключи исключены
-# Timestamp: 1774878964
+# Timestamp: 1774882686
 
-vless://1d765bec-c137-4b63-98c1-00237df90f34@ru-sb-01.com:8443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=sni.ru-sb-01.com&fp=random&pbk=ySjh6i7SzApnuaxEqMYv2bAqaB4b1yATfJEF_mFjm1Y&sid=3ebbc04da7f0919d#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
-vless://bb5437cd-3a6c-4509-9d91-fbf40d5f36bb@82.148.21.39:8443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=dUcVdVu99Jq80wC3VgbwHVAUi4LD8s_XrZ1zfs3zsno&sid=4e2134d09bca4acf&sni=video.tilda.cc&spx=/#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 vless://c8d65a3a-5002-4dff-bfd6-d4b9ef90b9cc@fin-q9.duckdns.org:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=bf6djSt6q3txxHwDMcU8AkW-Zp7Fgtr1YZNAl0sYoy4&sid=5ee4be85b872889b&sni=fin-q9.duckdns.org#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://b8dc6a61-11ce-43a5-909c-45cdbda5084a@23.137.249.110:20365?type=tcp&security=none&encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://cb627e19-cd7b-4613-a8c9-87722b23ce9a@23.137.249.110:20365?type=tcp&security=none&encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
-vless://63499873-e7bb-4c2c-a22c-36b462773aa5@205.237.107.106:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=sub.sbrf-cdn342.ru#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-vless://97b46d78-c58a-4e09-a4a6-b800f12cb07f@185.189.58.195:38353?type=tcp&security=tls&encryption=none&fp=chrome&sni=185.189.58.195&alpn=h2,http/1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://1d765bec-c137-4b63-98c1-00237df90f34@ru-sb-01.com:8443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=sni.ru-sb-01.com&fp=random&pbk=ySjh6i7SzApnuaxEqMYv2bAqaB4b1yATfJEF_mFjm1Y&sid=3ebbc04da7f0919d#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+vless://1a8c4353-8aa9-4038-99a8-b613ad47000e@hke01.jumperservice.com:19001?security=reality&type=tcp&sni=www.speedtest.org&fp=chrome&flow=xtls-rprx-vision&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
+vless://f25eb463-e242-4fa9-b174-c305af3ab95e@kinose27.dramatorg.net:443?type=tcp&security=tls&sni=kinose27.dramatorg.net#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
