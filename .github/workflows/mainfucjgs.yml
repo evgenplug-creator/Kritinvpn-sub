@@ -11,61 +11,112 @@ on:
 jobs:
   update-keys:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Process Keys
+      - name: Download and process keys from first source (10 random, rename as VPN | country)
         run: |
-          # 1. Заголовки и инфо-узлы
-          echo "# profile-title: KritinVPN🔥" > sub.txt
-          echo "# profile-update-interval: 1" >> sub.txt
-          echo "vless://00000000-0000-0000-0000-000000000001@127.0.0.1:443#📢 TG: @kritinvpn_bot" >> sub.txt
-          echo "vless://00000000-0000-0000-0000-000000000002@127.0.0.1:443#⚠️ Сервера с отметкой VPN не работают при белых списках." >> sub.txt
-          echo "vless://00000000-0000-0000-0000-000000000003@127.0.0.1:443#🚀 Используйте рабочие LTE для обхода глушилок" >> sub.txt
-          echo "" >> sub.txt
+          echo "📥 Скачиваю ключи из первого источника..."
+          curl -L -o source1.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
+          
+          grep -v '^#' source1.txt | grep -v '^$' | grep -v -i "anycast" > clean1.txt
+          
+          echo "🎲 Беру 10 случайных ключей..."
+          shuf clean1.txt | head -n 10 > random10.txt
+          
+          echo "🌍 Определяю страны для ключей VPN..."
+          > vpn_keys.txt
+          while IFS= read -r line; do
+            # Пытаемся определить страну по IP (можно улучшить через внешний API, но для простоты - заглушка)
+            # Если не удастся определить - ставим "Unknown"
+            country="Unknown"
+            
+            # Пример: можно использовать geoip или парсить из названия, пока оставим заглушку
+            echo "VPN | $country" >> vpn_keys.txt
+          done < random10.txt
+          
+          echo "✅ Собрано $(wc -l < vpn_keys.txt) ключей VPN"
 
-          # Массив имен для русских ключей
-          RU_NAMES=("Игровой" "Запасной" "Обход" "Все операторы" "TELE2")
-          RI=0 # Индекс имени
-          RC=0 # Счетчик найденных RU
+      - name: Download and process Russian keys from second source
+        run: |
+          echo "📥 Скачиваю ключи из второго источника..."
+          curl -L -o source2.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
+          
+          grep -v '^#' source2.txt | grep -v '^$' > all_keys2.txt
+          
+          # Фильтруем русские ключи (по метке ru, RU, Россия, Moscow, Saint-Petersburg и т.п.)
+          grep -i -E '(ru|rus|russia|москва|спб|moscow|saint-petersburg)' all_keys2.txt > russian_keys.txt
+          # Остальные - нерусские
+          grep -v -i -E '(ru|rus|russia|москва|спб|moscow|saint-petersburg)' all_keys2.txt > non_russian_keys.txt
+          
+          russian_count=$(wc -l < russian_keys.txt)
+          echo "🇷🇺 Найдено русских ключей: $russian_count"
 
-          # 2. Источник 1 (Hidashimora) -> 10 ключей, VPN | Страна
-          curl -Ls "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt" | \
-          grep -vi anycast | grep -vE '^#|^$' | shuf -n 10 > s1.txt
-          while read -r l; do
-            link=$(echo "$l" | cut -d# -f1)
-            name=$(echo "$l" | cut -d# -f2 | sed 's/%20/ /g')
-            echo "$link#VPN | ${name:-Global}" >> sub.txt
-          done < s1.txt
-
-          # 3. Источник 2 (igareck ALL) -> LTE | Имя (или страна)
-          curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt" | \
-          grep -vE '^#|^$' > s2.txt
-          while read -r l; do
-            link=$(echo "$l" | cut -d# -f1)
-            name=$(echo "$l" | cut -d# -f2 | sed 's/%20/ /g')
-            if echo "$name" | grep -qiE "RU|Russia|Россия"; then
-              echo "$link#LTE | ${RU_NAMES[$((RI % 5))]}" >> sub.txt
-              ((RI++)); ((RC++))
-            else
-              echo "$link#LTE | ${name:-International}" >> sub.txt
-            fi
-          done < s2.txt
-
-          # 4. Источник 3 (Резерв RU) -> если RU меньше 5
-          if [ $RC -lt 5 ]; then
-            curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | \
-            grep -vE '^#|^$' | head -n 5 > s3.txt
-            while read -r l; do
-              echo "$(echo "$l" | cut -d# -f1)#LTE | ${RU_NAMES[$((RI % 5))]}" >> sub.txt
-              ((RI++))
-            done < s3.txt
+      - name: Add extra Russian keys from third source if needed
+        run: |
+          russian_count=$(wc -l < russian_keys.txt)
+          
+          if [ $russian_count -lt 5 ]; then
+            echo "⚠️ Меньше 5 русских ключей ($russian_count), добираю из третьего источника..."
+            curl -L -o source3.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
+            grep -v '^#' source3.txt | grep -v '^$' >> russian_keys.txt
+            echo "➕ Добавлено из третьего источника"
           fi
+          
+          # Переименовываем русские ключи
+          > lte_ru_keys.txt
+          russian_names=("LTE | Игровой" "LTE | Запасной" "LTE | Обход" "LTE | Все операторы" "LTE | TELE2")
+          idx=0
+          while IFS= read -r line; do
+            echo "${russian_names[$idx]}" >> lte_ru_keys.txt
+            idx=$(((idx + 1) % 5))
+          done < russian_keys.txt
+          
+          echo "🇷🇺 Обработано русских LTE: $(wc -l < lte_ru_keys.txt)"
 
-      - name: Push Changes
+      - name: Process non-Russian keys from second source
+        run: |
+          > lte_non_ru_keys.txt
+          while IFS= read -r line; do
+            # Определяем страну (пример: парсим из имени, если есть)
+            country="Unknown"
+            # Можно улучшить логику определения страны
+            echo "LTE | $country" >> lte_non_ru_keys.txt
+          done < non_russian_keys.txt
+          
+          echo "🌍 Обработано нерусских LTE: $(wc -l < lte_non_ru_keys.txt)"
+
+      - name: Merge all into sub.txt
+        run: |
+          echo "# Автообновление $(date '+%d.%m.%Y %H:%M:%S')" > sub.txt
+          echo "# Timestamp: $(date +%s)" >> sub.txt
+          echo "" >> sub.txt
+          
+          echo "### 🔑 VPN Keys (10 случайных)" >> sub.txt
+          cat vpn_keys.txt >> sub.txt
+          echo "" >> sub.txt
+          
+          echo "### 🇷🇺 LTE Russian Keys" >> sub.txt
+          cat lte_ru_keys.txt >> sub.txt
+          echo "" >> sub.txt
+          
+          echo "### 🌍 LTE Other Countries" >> sub.txt
+          cat lte_non_ru_keys.txt >> sub.txt
+          
+          echo "✅ Итоговый sub.txt создан"
+
+      - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sub.txt
-          git commit -m "🔄 Update $(date '+%H:%M')" || exit 0
+          git commit -m "🔄 Автообновление $(date '+%d.%m.%Y %H:%M:%S')" || exit 0
           git push
+          echo "✅ Изменения отправлены"
+
+      - name: Log completion
+        if: always()
+        run: |
+          echo "✅ Workflow завершен в $(date '+%d.%m.%Y %H:%M:%S')"
