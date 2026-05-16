@@ -1,4 +1,4 @@
-      - name: Process and Rename Keys
+        name: Process and Rename Keys
         run: |
           echo "📥 Начинаю сбор и обработку ключей..."
           
