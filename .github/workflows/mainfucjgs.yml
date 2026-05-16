@@ -2,9 +2,9 @@ name: Update VPN Keys (Hidashimora + Igareck)
 
 on:
   schedule:
-    # Запуск каждые 30 минут (более стабильно, чем каждую минуту)
+    # Запуск каждые 30 минут
     - cron: '*/30 * * * *'
-  workflow_dispatch: # Ручной запуск
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,111 +18,132 @@ jobs:
 
       - name: Download and process keys
         run: |
-          # --- Функция для извлечения страны из комментария (для ключей VPN и нерусских LTE) ---
-          extract_country() {
+          # Функция декодирования URL (простая, для флагов)
+          url_decode() {
+            echo -e "$(sed 's/+/ /g; s/%\([0-9A-F][0-9A-F]\)/\\x\1/g')" <<< "$1"
+          }
+          
+          # Функция извлечения страны из комментария (с сохранением флага)
+          extract_country_with_flag() {
               local comment="$1"
-              # Ищем в комментарии флаг страны и идущее за ним название
-              # Пример: %F0%9F%87%BA%F0%9F%87%A6%20USA -> USA
-              local country=$(echo "$comment" | grep -oP '(%[0-9A-F]{2}){4}\s*\K[A-Za-z\s]+' | head -1 | xargs)
-              if [[ -z "$country" ]]; then
-                  # Если не нашли по флагу, ищем по ключевым словам 'France', 'Kazakhstan' и т.д.
-                  country=$(echo "$comment" | grep -oP '(?<=\%20)[A-Z][a-z]+(?=\%| |$)' | head -1)
+              local flag=""
+              local country=""
+              
+              # Ищем флаг (4 байта URL-кодированного флага: %F0%9F%87%BA = 🇷🇺)
+              if [[ "$comment" =~ (%[0-9A-F]{2}){4} ]]; then
+                  flag_code="${BASH_REMATCH[0]}"
+                  # Декодируем флаг для отображения (как есть, в URL-формате)
+                  flag=$(echo "$flag_code" | sed 's/%/\\x/g')
+                  flag=$(printf "$flag")
               fi
-              if [[ -z "$country" ]]; then
+              
+              # Ищем название страны после флага
+              if [[ "$comment" =~ (%[0-9A-F]{2}){4}%20([A-Za-z\ ]+) ]]; then
+                  country="${BASH_REMATCH[2]}"
+              elif [[ "$comment" =~ %20([A-Z][a-z]+) ]]; then
+                  country="${BASH_REMATCH[1]}"
+              else
                   country="World"
               fi
-              echo "$country"
+              
+              echo "$flag|$country"
           }
-
-          # --- 1. Обработка источника Hidashimora (10 случайных ключей, VPN | Страна) ---
+          
+          # --- 1. Обработка источника Hidashimora (VPN | Страна, с флагом) ---
           echo "📥 1. Скачиваю ключи из источника 1 (Hidashimora)..."
           curl -L -o source1_all.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
           
-          # Чистим от пустых строк, комментариев и исключаем Anycast
           grep -v '^#' source1_all.txt | grep -v '^$' | grep -v -i "anycast" > source1_clean.txt
           
-          # Случайно выбираем ровно 10 ключей (или меньше, если их всего меньше 10)
+          # Берём 10 случайных ключей
           shuf source1_clean.txt | head -n 10 > source1_selected.txt
           
-          echo "✅ Выбрано $(wc -l < source1_selected.txt) / 10 ключей из источника 1"
+          echo "✅ Выбрано $(wc -l < source1_selected.txt) ключей из источника 1"
 
-          # --- 2. Обработка источника Igareck (все ключи, LTE | ...) ---
+          # --- 2. Обработка источника Igareck (все ключи) ---
           echo "📥 2. Скачиваю ключи из источника 2 (igareck)..."
           curl -L -o source2_all.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
           
-          # Убираем строки-заголовки, которые начинаются с '#' в начале файла
           grep -v '^#' source2_all.txt | grep -v '^$' > source2_clean.txt
           echo "✅ Скачано $(wc -l < source2_clean.txt) ключей из источника 2"
 
-          # --- 3. Создание финального sub.txt с новыми именами ---
-          echo "🔄 Создаю файл подписки sub.txt с новыми именами..."
+          # --- 3. Создание sub.txt с сохранением флагов ---
+          echo "🔄 Создаю файл подписки..."
           
-          # Заголовок для удобства чтения
-          echo "# KritinVPN - Объединённая подписка (Обновлено: $(date '+%d.%m.%Y %H:%M:%S'))" > sub.txt
-          echo "# ---------- КЛЮЧИ VPN (Источник 1) ----------" >> sub.txt
+          echo "# KritinVPN - Объединённая подписка ($(date '+%d.%m.%Y %H:%M:%S'))" > sub.txt
+          echo "" >> sub.txt
+          echo "# ========== КЛЮЧИ VPN (Источник 1) ==========" >> sub.txt
           
-          # Список имен для русских ключей из источника 2
+          # Массив имён для российских LTE ключей
           RU_NAMES=("LTE | Игровой" "LTE | Запасной" "LTE | Обход" "LTE | Все операторы" "LTE | TELE2")
-          ru_name_index=0
+          ru_index=0
           
-          # Перебираем выбранные ключи из источника 1 (Hidashimora)
+          # Обработка источника 1 (VPN ключи)
           while IFS= read -r line; do
-              # Извлекаем страну из комментария
               if [[ "$line" == *"#"* ]]; then
                   comment="${line#*#}"
-                  country=$(extract_country "$comment")
+                  key_part="${line%#*}"
+                  
+                  # Извлекаем флаг и страну
+                  flag_and_country=$(extract_country_with_flag "$comment")
+                  flag=$(echo "$flag_and_country" | cut -d'|' -f1)
+                  country=$(echo "$flag_and_country" | cut -d'|' -f2)
+                  
+                  # Создаём новое имя: "VPN | Страна" + флаг
+                  echo "${key_part}#VPN | ${country} ${flag}" >> sub.txt
               else
-                  country="World"
+                  # Если нет комментария, добавляем без изменений
+                  echo "$line" >> sub.txt
               fi
-              # Создаем новое имя: "VPN | Страна"
-              new_name="VPN | $country"
-              # Формируем строку: base64 имя + ключ
-              # Ключ часто приходит с экранированным комментарием, оставляем как есть
-              echo "$line#$new_name" >> sub.txt
           done < source1_selected.txt
           
-          # Добавляем разделитель
           echo "" >> sub.txt
-          echo "# ---------- КЛЮЧИ LTE (Источник 2) ----------" >> sub.txt
+          echo "# ========== КЛЮЧИ LTE (Источник 2) ==========" >> sub.txt
           
-          # Перебираем все ключи из источника 2 (Igareck)
+          # Обработка источника 2 (LTE ключи)
           while IFS= read -r line; do
-              new_name=""
-              # Проверяем, является ли ключ русским (по наличию метки Russia или Россия)
-              if [[ "$line" == *"Russia"* ]] || [[ "$line" == *"Россия"* ]] || [[ "$line" == *"%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F"* ]]; then
-                  # Берем следующее имя из списка, по кругу, если ключей больше 5
-                  current_name="${RU_NAMES[$ru_name_index]}"
-                  new_name="$current_name"
-                  ru_name_index=$(( (ru_name_index + 1) % ${#RU_NAMES[@]} ))
-              else
-                  # Иначе — нерусский ключ, извлекаем страну
-                  if [[ "$line" == *"#"* ]]; then
-                      comment="${line#*#}"
-                      country=$(extract_country "$comment")
+              if [[ "$line" == *"#"* ]]; then
+                  comment="${line#*#}"
+                  key_part="${line%#*}"
+                  
+                  # Проверяем, российский ли ключ
+                  if [[ "$comment" == *"Russia"* ]] || [[ "$comment" == *"Россия"* ]] || [[ "$comment" == *"%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F"* ]]; then
+                      # Русский ключ - берём имя из списка
+                      new_name="${RU_NAMES[$ru_index]}"
+                      ru_index=$(( (ru_index + 1) % ${#RU_NAMES[@]} ))
+                      
+                      # Сохраняем оригинальный флаг из комментария
+                      flag_part=$(echo "$comment" | grep -oP '(%[0-9A-F]{2}){4}')
+                      if [[ -n "$flag_part" ]]; then
+                          decoded_flag=$(printf "$(echo "$flag_part" | sed 's/%/\\x/g')")
+                          echo "${key_part}#${new_name} ${decoded_flag}" >> sub.txt
+                      else
+                          echo "${key_part}#${new_name}" >> sub.txt
+                      fi
                   else
-                      country="World"
+                      # Нерусский ключ - извлекаем страну с флагом
+                      flag_and_country=$(extract_country_with_flag "$comment")
+                      flag=$(echo "$flag_and_country" | cut -d'|' -f1)
+                      country=$(echo "$flag_and_country" | cut -d'|' -f2)
+                      
+                      if [[ -n "$flag" ]]; then
+                          echo "${key_part}#LTE | ${country} ${flag}" >> sub.txt
+                      else
+                          echo "${key_part}#LTE | ${country}" >> sub.txt
+                      fi
                   fi
-                  new_name="LTE | $country"
+              else
+                  echo "$line" >> sub.txt
               fi
-              
-              # Обрезаем или заменяем существующий комментарий в строке ключа
-              # Удаляем старый комментарий (#... в конце строки) и добавляем новый
-              clean_key=$(echo "$line" | sed 's/#.*//')
-              echo "${clean_key}#${new_name}" >> sub.txt
           done < source2_clean.txt
           
-          echo "✅ Файл sub.txt успешно создан!"
+          echo "✅ Файл sub.txt создан!"
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sub.txt
-          git commit -m "🔄 Автообновление подписки $(date '+%d.%m.%Y %H:%M:%S')" || echo "📊 Нет изменений для коммита"
+          git commit -m "🔄 Обновление $(date '+%d.%m.%Y %H:%M:%S')" || echo "Нет изменений"
           git push
-          echo "✅ Изменения отправлены в репозиторий"
-
-      - name: Log completion
-        if: always()
-        run: |
-          echo "✅ Workflow успешно завершен в $(date '+%d.%m.%Y %H:%M:%S')"
+          echo "✅ Готово!"
