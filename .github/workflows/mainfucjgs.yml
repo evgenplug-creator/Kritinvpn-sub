@@ -2,7 +2,6 @@ name: Update VPN Keys (Hidashimora + Igareck)
 
 on:
   schedule:
-    # Запуск каждые 30 минут
     - cron: '*/30 * * * *'
   workflow_dispatch:
 
@@ -18,126 +17,74 @@ jobs:
 
       - name: Download and process keys
         run: |
-          # Функция декодирования URL (простая, для флагов)
-          url_decode() {
-            echo -e "$(sed 's/+/ /g; s/%\([0-9A-F][0-9A-F]\)/\\x\1/g')" <<< "$1"
-          }
-          
-          # Функция извлечения страны из комментария (с сохранением флага)
-          extract_country_with_flag() {
-              local comment="$1"
-              local flag=""
-              local country=""
-              
-              # Ищем флаг (4 байта URL-кодированного флага: %F0%9F%87%BA = 🇷🇺)
-              if [[ "$comment" =~ (%[0-9A-F]{2}){4} ]]; then
-                  flag_code="${BASH_REMATCH[0]}"
-                  # Декодируем флаг для отображения (как есть, в URL-формате)
-                  flag=$(echo "$flag_code" | sed 's/%/\\x/g')
-                  flag=$(printf "$flag")
-              fi
-              
-              # Ищем название страны после флага
-              if [[ "$comment" =~ (%[0-9A-F]{2}){4}%20([A-Za-z\ ]+) ]]; then
-                  country="${BASH_REMATCH[2]}"
-              elif [[ "$comment" =~ %20([A-Z][a-z]+) ]]; then
-                  country="${BASH_REMATCH[1]}"
-              else
-                  country="World"
-              fi
-              
-              echo "$flag|$country"
-          }
-          
-          # --- 1. Обработка источника Hidashimora (VPN | Страна, с флагом) ---
           echo "📥 1. Скачиваю ключи из источника 1 (Hidashimora)..."
-          curl -L -o source1_all.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
+          curl -L -o source1.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
           
-          grep -v '^#' source1_all.txt | grep -v '^$' | grep -v -i "anycast" > source1_clean.txt
+          # Чистим и исключаем Anycast
+          grep -v '^#' source1.txt | grep -v '^$' | grep -v -i "anycast" > source1_clean.txt
           
           # Берём 10 случайных ключей
           shuf source1_clean.txt | head -n 10 > source1_selected.txt
           
-          echo "✅ Выбрано $(wc -l < source1_selected.txt) ключей из источника 1"
-
-          # --- 2. Обработка источника Igareck (все ключи) ---
           echo "📥 2. Скачиваю ключи из источника 2 (igareck)..."
-          curl -L -o source2_all.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
+          curl -L -o source2.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
           
-          grep -v '^#' source2_all.txt | grep -v '^$' > source2_clean.txt
-          echo "✅ Скачано $(wc -l < source2_clean.txt) ключей из источника 2"
-
-          # --- 3. Создание sub.txt с сохранением флагов ---
-          echo "🔄 Создаю файл подписки..."
+          # Убираем только строки-заголовки (которые начинаются с # в начале строки)
+          grep -v '^#' source2.txt | grep -v '^$' > source2_clean.txt
           
-          echo "# KritinVPN - Объединённая подписка ($(date '+%d.%m.%Y %H:%M:%S'))" > sub.txt
+          echo "🔄 Создаю sub.txt..."
+          
+          # Заголовок
+          echo "# KritinVPN - Обновлено $(date '+%d.%m.%Y %H:%M:%S')" > sub.txt
           echo "" >> sub.txt
-          echo "# ========== КЛЮЧИ VPN (Источник 1) ==========" >> sub.txt
+          echo "# ===== КЛЮЧИ VPN (10 шт) =====" >> sub.txt
           
-          # Массив имён для российских LTE ключей
+          # Список имён для российских LTE
           RU_NAMES=("LTE | Игровой" "LTE | Запасной" "LTE | Обход" "LTE | Все операторы" "LTE | TELE2")
-          ru_index=0
+          ru_counter=0
           
-          # Обработка источника 1 (VPN ключи)
+          # Обрабатываем ключи из источника 1 (Hidashimora)
+          # Просто добавляем "VPN | " перед существующим комментарием
           while IFS= read -r line; do
               if [[ "$line" == *"#"* ]]; then
-                  comment="${line#*#}"
+                  # Разделяем ключ и комментарий
                   key_part="${line%#*}"
-                  
-                  # Извлекаем флаг и страну
-                  flag_and_country=$(extract_country_with_flag "$comment")
-                  flag=$(echo "$flag_and_country" | cut -d'|' -f1)
-                  country=$(echo "$flag_and_country" | cut -d'|' -f2)
-                  
-                  # Создаём новое имя: "VPN | Страна" + флаг
-                  echo "${key_part}#VPN | ${country} ${flag}" >> sub.txt
+                  old_comment="${line#*#}"
+                  # Добавляем VPN | перед комментарием
+                  echo "${key_part}#VPN | ${old_comment}" >> sub.txt
               else
-                  # Если нет комментария, добавляем без изменений
                   echo "$line" >> sub.txt
               fi
           done < source1_selected.txt
           
           echo "" >> sub.txt
-          echo "# ========== КЛЮЧИ LTE (Источник 2) ==========" >> sub.txt
+          echo "# ===== КЛЮЧИ LTE =====" >> sub.txt
           
-          # Обработка источника 2 (LTE ключи)
+          # Обрабатываем ключи из источника 2 (Igareck)
           while IFS= read -r line; do
               if [[ "$line" == *"#"* ]]; then
-                  comment="${line#*#}"
                   key_part="${line%#*}"
+                  old_comment="${line#*#}"
                   
-                  # Проверяем, российский ли ключ
-                  if [[ "$comment" == *"Russia"* ]] || [[ "$comment" == *"Россия"* ]] || [[ "$comment" == *"%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F"* ]]; then
-                      # Русский ключ - берём имя из списка
-                      new_name="${RU_NAMES[$ru_index]}"
-                      ru_index=$(( (ru_index + 1) % ${#RU_NAMES[@]} ))
-                      
-                      # Сохраняем оригинальный флаг из комментария
-                      flag_part=$(echo "$comment" | grep -oP '(%[0-9A-F]{2}){4}')
-                      if [[ -n "$flag_part" ]]; then
-                          decoded_flag=$(printf "$(echo "$flag_part" | sed 's/%/\\x/g')")
-                          echo "${key_part}#${new_name} ${decoded_flag}" >> sub.txt
-                      else
-                          echo "${key_part}#${new_name}" >> sub.txt
+                  # Проверяем, российский ли ключ (по наличию Russia или флага России)
+                  if echo "$old_comment" | grep -qi "russia\|россия\|%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F"; then
+                      # Берём следующее имя из списка
+                      new_name="${RU_NAMES[$ru_counter]}"
+                      ru_counter=$((ru_counter + 1))
+                      if [ $ru_counter -ge ${#RU_NAMES[@]} ]; then
+                          ru_counter=0
                       fi
+                      echo "${key_part}#${new_name} ${old_comment}" >> sub.txt
                   else
-                      # Нерусский ключ - извлекаем страну с флагом
-                      flag_and_country=$(extract_country_with_flag "$comment")
-                      flag=$(echo "$flag_and_country" | cut -d'|' -f1)
-                      country=$(echo "$flag_and_country" | cut -d'|' -f2)
-                      
-                      if [[ -n "$flag" ]]; then
-                          echo "${key_part}#LTE | ${country} ${flag}" >> sub.txt
-                      else
-                          echo "${key_part}#LTE | ${country}" >> sub.txt
-                      fi
+                      # Нерусский - добавляем LTE | перед комментарием
+                      echo "${key_part}#LTE | ${old_comment}" >> sub.txt
                   fi
               else
                   echo "$line" >> sub.txt
               fi
           done < source2_clean.txt
           
-          echo "✅ Файл sub.txt создан!"
+          echo "✅ Готово! Создано $(wc -l < sub.txt) строк"
 
       - name: Commit and push changes
         run: |
@@ -146,4 +93,4 @@ jobs:
           git add sub.txt
           git commit -m "🔄 Обновление $(date '+%d.%m.%Y %H:%M:%S')" || echo "Нет изменений"
           git push
-          echo "✅ Готово!"
+          echo "✅ Отправлено в репозиторий"
