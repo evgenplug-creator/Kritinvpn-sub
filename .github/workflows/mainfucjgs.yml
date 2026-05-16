@@ -5,105 +5,53 @@ permissions:
 
 on:
   schedule:
-    # Запускать каждую минуту
     - cron: '* * * * *'
-  # Ручной запуск
   workflow_dispatch:
 
 jobs:
   update-keys:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Process and Rename Keys
+      - name: Process Keys
         run: |
-          echo "📥 Сбор ключей запущен..."
-          
-          # --- Заголовки и описание ---
-          echo "# profile-title: KritinVPN🔥" > sub.txt
-          echo "# profile-update-interval: 1" >> sub.txt
-          echo "" >> sub.txt
-          
-          echo "vless://00000000-0000-0000-0000-000000000001@127.0.0.1:443#📢 TG: @kritinvpn_bot" >> sub.txt
-          echo "vless://00000000-0000-0000-0000-000000000002@127.0.0.1:443#⚠️ Сервера с отметкой VPN не работают при белых списках." >> sub.txt
-          echo "vless://00000000-0000-0000-0000-000000000003@127.0.0.1:443#🚀 Используйте рабочие LTE для обхода глушилок" >> sub.txt
-          echo "" >> sub.txt
+          # 1. Заголовки и описание
+          echo -e "# profile-title: KritinVPN🔥\n# profile-update-interval: 1\n" > sub.txt
+          echo "vless://00000001@127.0.0.1:443#📢 TG: @kritinvpn_bot" >> sub.txt
+          echo "vless://00000002@127.0.0.1:443#⚠️ Сервера с отметкой VPN не работают при белых списках." >> sub.txt
+          echo "vless://00000003@127.0.0.1:443#🚀 Используйте рабочие LTE для обхода глушилок\n" >> sub.txt
 
-          # --- Настройки для русских ключей ---
-          RU_NAMES=("Игровой" "Запасной" "Обход" "Все операторы" "TELE2" "Мобильный")
-          RU_INDEX=0
-          RU_FOUND_COUNT=0
+          RUNAMES=("Игровой" "Запасной" "Обход" "Все операторы" "TELE2" "Мобильный")
+          RI=0; RC=0
 
-          # --- ИСТОЧНИК 1: Hidashimora (VPN | Страна) ---
-          echo "🌐 Получение источника 1..."
-          # Скачиваем, очищаем, берем 10 случайных
-          curl -L -s --max-time 10 "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt" | \
-          grep -v -i "anycast" | grep -v '^#' | grep -v '^$' > raw1.txt || touch raw1.txt # Создаем пустой файл, если curl упал
-          
-          # Если файл скачался и не пустой
-          if [ -s raw1.txt ]; then
-            shuf -n 10 raw1.txt > src1.txt # Выбираем 10 случайных
-            while IFS= read -r line; do # Обрабатываем каждую строку
-              base_link=$(echo "$line" | cut -d'#' -f1)
-              country=$(echo "$line" | cut -d'#' -f2 | sed 's/%20/ /g')
-              [ -z "$country" ] && country="Unknown" # Если страны нет, ставим Unknown
-              echo "${base_link}#VPN | ${country}" >> sub.txt # Записываем в итоговый файл
-            done < src1.txt
+          # 2. Источник 1 (10 ключей VPN)
+          curl -Ls "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt" | grep -vi anycast | grep -vE '^#|^$' | shuf -n 10 | while read -r l; do
+            echo "$(echo $l | cut -d# -f1)#VPN | $(echo $l | cut -d# -f2 | sed 's/%20/ /g')" >> sub.txt
+          done
+
+          # 3. Источник 2 (LTE ключи)
+          curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt" | grep -vE '^#|^$' | while read -r l; do
+            link=$(echo $l | cut -d# -f1); name=$(echo $l | cut -d# -f2 | sed 's/%20/ /g')
+            if echo "$name" | grep -qiE "RU|Russia|Россия"; then
+              echo "$link#LTE | ${RUNAMES[$((RI % 6))]}" >> sub.txt; ((RI++)); ((RC++))
+            else
+              echo "$link#LTE | $name" >> sub.txt
+            fi
+          done
+
+          # 4. Резерв (если RU < 5)
+          if [ $RC -lt 5 ]; then
+            curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | grep -vE '^#|^$' | head -n 8 | while read -r l; do
+              echo "$(echo $l | cut -d# -f1)#LTE | ${RUNAMES[$((RI % 6))]}" >> sub.txt; ((RI++))
+            done
           fi
 
-          # --- ИСТОЧНИК 2: igareck WHITE-SNI-RU (LTE | Название) ---
-          echo "🌐 Получение источника 2..."
-          curl -L -s --max-time 10 "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt" | \
-          
-          grep -v '^#' | grep -v '^$' > src2.txt || touch src2.txt
-          
-          if [ -s src2.txt ]; then
-            while IFS= read -r line; do
-              base_link=$(echo "$line" | cut -d'#' -f1)
-              old_name=$(echo "$line" | cut -d'#' -f2 | sed 's/%20/ /g')
-              
-              # Проверяем, русский ли ключ
-              if echo "$old_name" | grep -qiE "RU|Russia|Россия"; then
-                name_idx=$((RU_INDEX % ${#RU_NAMES[@]})) # Циклически берем имя из массива RU_NAMES
-                echo "${base_link}#LTE | ${RU_NAMES[$name_idx]}" >> sub.txt
-                ((RU_INDEX++))
-                ((RU_FOUND_COUNT++))
-              else
-                echo "${base_link}#LTE | ${old_name}" >> sub.txt # Для нерусских стран
-              fi
-            done < src2.txt
-          fi
-
-          # --- ИСТОЧНИК 3: Резерв (если русских < 5) ---
-          if [ $RU_FOUND_COUNT -lt 5 ]; then
-            echo "🌐 Добор RU ключей из резерва..."
-            curl -L -s --max-time 10 "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | \
-            grep -v '^#' | grep -v '^$' | head -n 8 > src3.txt || touch src3.txt # Берем до 8 ключей
-            
-            while IFS= read -r line; do
-              base_link=$(echo "$line" | cut -d'#' -f1)
-              name_idx=$((RU_INDEX % ${#RU_NAMES[@]}))
-              echo "${base_link}#LTE | ${RU_NAMES[$name_idx]}" >> sub.txt
-              ((RU_INDEX++))
-            done < src3.txt
-          fi
-
-          echo "✅ Сбор и обработка ключей завершены."
-
-      - name: Commit and Push changes
+      - name: Push
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "bot"
+          git config --global user.email "bot@mail.com"
           git add sub.txt
-          # Коммитим только если sub.txt изменился
-          if git diff --quiet || git diff --staged --quiet; then
-            echo "📝 Нет изменений в sub.txt"
-          else
-            echo "🔄 Обнаружены изменения. Создаю коммит..."
-            git commit -m "🔄 Auto Update Keys $(date '+%d.%m.%Y %H:%M')"
-            git push
-            echo "✅ Изменения отправлены."
-          fi
+          git commit -m "update" || exit 0
+          git push
+          
