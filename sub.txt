@@ -1,3 +1,7 @@
+profile-title: 🏳️KritinVPN
+# profile-update-interval: 1
+# Date/Time: 2026-05-16 / 10:47 (Moscow)
+# Количество: 7
 # KritinVPN - Объединённая подписка (16.05.2026 08:12:43)
 
 # ========== КЛЮЧИ VPN (Источник 1) ==========
