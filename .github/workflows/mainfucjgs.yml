@@ -16,42 +16,56 @@ jobs:
 
       - name: Process Keys
         run: |
-          # 1. Заголовки и описание
-          echo -e "# profile-title: KritinVPN🔥\n# profile-update-interval: 1\n" > sub.txt
-          echo "vless://00000001@127.0.0.1:443#📢 TG: @kritinvpn_bot" >> sub.txt
-          echo "vless://00000002@127.0.0.1:443#⚠️ Сервера с отметкой VPN не работают при белых списках." >> sub.txt
-          echo "vless://00000003@127.0.0.1:443#🚀 Используйте рабочие LTE для обхода глушилок\n" >> sub.txt
+          # 1. Заголовки и инфо-узлы
+          echo "# profile-title: KritinVPN🔥" > sub.txt
+          echo "# profile-update-interval: 1" >> sub.txt
+          echo "vless://00000000-0000-0000-0000-000000000001@127.0.0.1:443#📢 TG: @kritinvpn_bot" >> sub.txt
+          echo "vless://00000000-0000-0000-0000-000000000002@127.0.0.1:443#⚠️ Сервера с отметкой VPN не работают при белых списках." >> sub.txt
+          echo "vless://00000000-0000-0000-0000-000000000003@127.0.0.1:443#🚀 Используйте рабочие LTE для обхода глушилок" >> sub.txt
+          echo "" >> sub.txt
 
-          RUNAMES=("Игровой" "Запасной" "Обход" "Все операторы" "TELE2" "Мобильный")
-          RI=0; RC=0
+          # Массив имен для русских ключей
+          RU_NAMES=("Игровой" "Запасной" "Обход" "Все операторы" "TELE2")
+          RI=0 # Индекс имени
+          RC=0 # Счетчик найденных RU
 
-          # 2. Источник 1 (10 ключей VPN)
-          curl -Ls "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt" | grep -vi anycast | grep -vE '^#|^$' | shuf -n 10 | while read -r l; do
-            echo "$(echo $l | cut -d# -f1)#VPN | $(echo $l | cut -d# -f2 | sed 's/%20/ /g')" >> sub.txt
-          done
+          # 2. Источник 1 (Hidashimora) -> 10 ключей, VPN | Страна
+          curl -Ls "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt" | \
+          grep -vi anycast | grep -vE '^#|^$' | shuf -n 10 > s1.txt
+          while read -r l; do
+            link=$(echo "$l" | cut -d# -f1)
+            name=$(echo "$l" | cut -d# -f2 | sed 's/%20/ /g')
+            echo "$link#VPN | ${name:-Global}" >> sub.txt
+          done < s1.txt
 
-          # 3. Источник 2 (LTE ключи)
-          curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt" | grep -vE '^#|^$' | while read -r l; do
-            link=$(echo $l | cut -d# -f1); name=$(echo $l | cut -d# -f2 | sed 's/%20/ /g')
+          # 3. Источник 2 (igareck ALL) -> LTE | Имя (или страна)
+          curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt" | \
+          grep -vE '^#|^$' > s2.txt
+          while read -r l; do
+            link=$(echo "$l" | cut -d# -f1)
+            name=$(echo "$l" | cut -d# -f2 | sed 's/%20/ /g')
             if echo "$name" | grep -qiE "RU|Russia|Россия"; then
-              echo "$link#LTE | ${RUNAMES[$((RI % 6))]}" >> sub.txt; ((RI++)); ((RC++))
+              echo "$link#LTE | ${RU_NAMES[$((RI % 5))]}" >> sub.txt
+              ((RI++)); ((RC++))
             else
-              echo "$link#LTE | $name" >> sub.txt
+              echo "$link#LTE | ${name:-International}" >> sub.txt
             fi
-          done
+          done < s2.txt
 
-          # 4. Резерв (если RU < 5)
+          # 4. Источник 3 (Резерв RU) -> если RU меньше 5
           if [ $RC -lt 5 ]; then
-            curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | grep -vE '^#|^$' | head -n 8 | while read -r l; do
-              echo "$(echo $l | cut -d# -f1)#LTE | ${RUNAMES[$((RI % 6))]}" >> sub.txt; ((RI++))
-            done
+            curl -Ls "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt" | \
+            grep -vE '^#|^$' | head -n 5 > s3.txt
+            while read -r l; do
+              echo "$(echo "$l" | cut -d# -f1)#LTE | ${RU_NAMES[$((RI % 5))]}" >> sub.txt
+              ((RI++))
+            done < s3.txt
           fi
 
-      - name: Push
+      - name: Push Changes
         run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@mail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sub.txt
-          git commit -m "update" || exit 0
+          git commit -m "🔄 Update $(date '+%H:%M')" || exit 0
           git push
-          
