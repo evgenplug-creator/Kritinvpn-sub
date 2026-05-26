@@ -1,18 +1,18 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 25.05.2026 22:34:10
+# Обновлено: 26.05.2026 00:06:12
 
 # ===== 1. VPN (Hidashimora) — 10 шт =====
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?encryption=none&security=tls&flow=xtls-rprx-vision&type=tcp&sni=r1.mizulina.top&serverName=r1.mizulina.top&fp=edge&alpn=&allowInsecure=0#VPN | %F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://e3da803c-9c04-4ffb-a0f2-32cda93dd868@ch-1.shadowhub.cc:443?encryption=none&type=xhttp&mode=auto&security=reality&sni=static.gcore.pro&fp=chrome&pbk=OgJz7oQ3aYL5w5mQjdMp0QgCTwRoPuj0LgEZlBtpTRY&sid=6fce2d08#VPN | %F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Geneva%20%7C%20%5BBL%5D
 vless://b2b62085-f202-4c49-9f19-a44676a3d76d@116.44.147.152:22085?allow_insecure=0&host=vpn2.rnmcnm.com&path=%2Fray&security=tls&sni=vpn2.rnmcnm.com&type=ws#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
-vless://f4d74570-934c-44a2-9639-73598dde77de@ee.nodes.rocketnetwork.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ee.nodes.rocketnetwork.ru&fp=chrome&security=reality&pbk=Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs&sid=428ef87fd47a3a32#VPN | %F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:443?encryption=none&flow=xtls-rprx-vision&fp=edge&security=tls&sni=r1.mizulina.top&type=tcp#VPN | %F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://7a814e01-457b-42ca-96cb-4e82ae0c00bf@147.45.244.177:443?fp=chrome&pbk=k0PiinCAao_mS5jAiZ1h57Mpoh_CUtLw8-Dk6mGvLmA&security=reality&sid=301f&sni=yahoo.com&spx=%2F&type=tcp#VPN | %F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?&security=tls&flow=xtls-rprx-vision&fp=edge&sni=r1.mizulina.top&type=tcp&headerType=none&host=r1.mizulina.top&path=%2F#VPN | %F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?allowInsecure=0&sni=r1.mizulina.top&flow=xtls-rprx-vision-udp443&fp=edge&security=tls#VPN | %F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://e3da803c-9c04-4ffb-a0f2-32cda93dd868@ch-1.shadowhub.cc:443?encryption=none&type=xhttp&mode=auto&security=reality&sni=static.gcore.pro&fp=chrome&pbk=OgJz7oQ3aYL5w5mQjdMp0QgCTwRoPuj0LgEZlBtpTRY&sid=6fce2d08#VPN | %F0%9F%87%A8%F0%9F%87%AD%20Switzerland%2C%20Geneva%20%7C%20%5BBL%5D
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=r1.mizulina.top&type=tcp#VPN | %F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://0d39989c-b92c-4ff0-9014-dcf2fe44a6c1@pl02.kubservice.icu:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=pl02.kubservice.icu&fp=chrome&security=reality&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&sid=#VPN | %F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://f815b837-8504-41f9-9a06-bd3c72d2fcf3@72.56.38.191:443?flow=xtls-rprx-vision&fp=chrome&pbk=1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ&security=reality&sid=8bd29483ded126b4&sni=wikihow.com&type=tcp#VPN | %F0%9F%87%AD%F0%9F%87%BA%20Hungary%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://820c9c91-9747-4bea-b86d-d5d2e449494a@45.80.230.241:11111?mode=packet-up&path=%2Fnew-weels&security=none&encryption=none&type=xhttp#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://e5c7a52d-ee06-49c2-9eb7-6f3bf19d3d37@lv102.mechvpn.online:443?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&alpn=h3&flow=xtls-rprx-vision&insecure=0#VPN | %F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://e5c7a52d-ee06-49c2-9eb7-6f3bf19d3d37@se150.mechvpn.online:443?type=tcp&headerType=none&security=tls&encryption=none&fp=chrome&alpn=h3&flow=xtls-rprx-vision&insecure=0#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?encryption=none&security=tls&flow=xtls-rprx-vision-udp443&type=tcp&sni=r1.mizulina.top&serverName=r1.mizulina.top&fp=edge&alpn=&allowInsecure=0#VPN | %F0%9F%87%AC%F0%9F%87%AA%20Georgia%2C%20Tbilisi%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://ae6972d2-f0f3-4595-96fc-f52c7f3ebafd@de11.kubservice.icu:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=de11.kubservice.icu&fp=chrome&security=reality&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&sid=#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 
 # ===== 2. LTE (WHITE-SNI-RU) =====
 vless://106c376f-431d-4ea0-bc61-f82308fefb4e@94.125.103.217:443?flow=xtls-rprx-vision&fp=chrome&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&security=reality&sid=b76dcf9e1183fe1b&sni=ads.x5.ru&type=tcp#LTE | %F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%5BSNI-RU%5D%20ads.x5.ru
@@ -30,8 +30,9 @@ vless://40d50428-131c-401b-82b4-b787b260b183@72.56.248.24:444?security=reality&e
 vless://e147eed6-5c5d-42f5-8106-b1cd575889d3@yaded.cloudstreamself.com:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=ads.x5.ru&fp=qq&pbk=vgECJ1J0IOIrxpnh7Pu7nhy2wJ_RJWq5wp_5sxp-3Bk&sid=9db07670a7b491cb&flow=xtls-rprx-vision#LTE | TELE2 %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5BSNI-RU%5D%20ads.x5.ru
 
 # ===== 3. LTE Mobile (только русские, 5-6 шт) =====
-trojan://204bc731190243e7a8cc9c1d0b7ac3ba@94.103.2.31:9443?security=reality&sni=static.rutube.ru&pbk=Zuu0slAOjX2uWf6-xRWeZzv7O_URTgpe8BHpvoS1llw&sid=aabbccdd&type=tcp&fp=random#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://de87620b-6bff-4077-99cc-ce65e06b64ed@ru2.alexanderoff.ru:4443?type=tcp&headerType=none&security=none&encryption=none#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@185.175.47.238:4443?type=tcp&allowInsecure=1#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://e147eed6-5c5d-42f5-8106-b1cd575889d3@84.201.130.199:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=uYdYVZk9icFIvfd8eKHYHiULohrTdIHl2J8ktn7uTUU&sid=9db07670a7b491cb#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
+vless://791f388e-4b6c-4ace-a7da-648f1057a883@188.225.76.23:443?fp=chrome&pbk=wmMvp_Y8U-o61VgJS1lyNBhFzPnrESvy0uWm_yk1WTM&security=reality&sid=b99f&sni=yahoo.com&spx=%2F&type=tcp#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://de87620b-6bff-4077-99cc-ce65e06b64ed@ru7.alexanderoff.ru:4443?security=none&type=tcp#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@ru3.alexanderoff.ru:4443?type=tcp&headerType=none&security=none&encryption=none#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://e2cb3a78-a47c-41bd-bad9-189a797c8967@ru.rush-server.com:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=findmypackets.com&fp=qq&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=93ae75024604f796&flow=xtls-rprx-vision#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://e147eed6-5c5d-42f5-8106-b1cd575889d3@84.201.130.199:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=uYdYVZk9icFIvfd8eKHYHiULohrTdIHl2J8ktn7uTUU&sid=9db07670a7b491cb#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D%20YA
