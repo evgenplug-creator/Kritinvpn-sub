@@ -1,18 +1,18 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 17.06.2026 22:57:48
+# Обновлено: 18.06.2026 00:22:09
 
 # ===== 1. VPN (Hidashimora) — 10 шт =====
-vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.96:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.202:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.208:8443?security=tls&sni=ams1.fromblancwithlove.com&type=tcp#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
-vless://d26598cf-2cdf-4219-80d0-94646dff160d@14.137.238.152:10000?type=tcp&security=none&fp=firefox#VPN | %F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Osaka%20%7C%20%5BBL%5D
-vless://0e834188-5f15-41d2-bb25-b35f40b41350@gozar.biaban.eu.cc:33940?security=&encryption=none&headerType=none&type=tcp#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.197:8443?encryption=none&security=tls&sni=ams1.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.115:8443?type=tcp&security=tls&fp=chrome&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@87.249.139.248:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.224:8443?security=tls&sni=ams1.fromblancwithlove.com&type=tcp#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
-vless://43488128-319e-f480-64ea-0acdc712e2a8@185.164.35.37:443?encryption=none&type=tcp&security=reality&pbk=wPDTWjK4PYbOlruZOvX64vVS9tkOPSM6X4Ymg-FzvxY&sid=ad9cf8818428d847&flow=xtls-rprx-vision&sni=www.hyundai.com#VPN | %F0%9F%87%A7%F0%9F%87%A6%20Bosnia%20and%20Herzegovina%2C%20Novi%20Travnik%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.70:8443?encryption=none&security=tls&sni=ams1.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#VPN | %F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@169.150.215.70:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.195:8443?security=tls&sni=ams1.fromblancwithlove.com&type=tcp#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
+vless://b1652445-fcee-4746-aa2b-8900265338c9@130.49.129.179:56293?security=none&encryption=none&headerType=none&type=tcp#VPN | %F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+vless://0e49e208-e09e-49bc-afee-2907e5419107@turk.ldtp.com:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=qKdqnXH1jGHiFEUbutWaCs18S66KkVtT2nctAGbzuXU&security=reality&sid=4f39f48353c495b1&sni=turk.ldtp.com&type=tcp#VPN | %F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.78:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.197:8443?encryption=none&security=tls&flow=&type=tcp&sni=ams1.fromblancwithlove.com&serverName=ams1.fromblancwithlove.com&fp=chrome&alpn=&allowInsecure=0#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@79.127.249.197:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
+vless://62b8df2a-4cd4-4623-b65b-e989e75775dd@45.198.87.28:8443?flow=xtls-rprx-vision&fp=firefox&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&security=reality&sid=f4b4a6365558ea2e&sni=storage.yandex.net&type=tcp#VPN | %F0%9F%87%AD%F0%9F%87%BA%20Hungary%2C%20Budapest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.121:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
 
 # ===== 2. LTE (WHITE-SNI-RU) =====
 vless://ca428a2e-7f82-4030-851b-cab731a5645a@l1.l-itx.info:443?type=xhttp&security=reality&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sni=yandex.by&path=/xh&mode=stream-up#LTE | %F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20yandex.by
@@ -43,9 +43,9 @@ vless://18655112-fd8a-44e7-a30c-37388c05816b@45.8.228.110:443?flow=xtls-rprx-vis
 vless://8ccf89d2-1168-45f6-82d5-5927738e8ebe@j3e4po21-11lz3k.95.v-tun.com:40443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&spx=%2F&flow=xtls-rprx-vision#LTE | %F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20%F0%9F%87%B8%F0%9F%87%AA%20%5BSNI-RU%5D%20api-maps.yandex.ru
 
 # ===== 3. LTE Mobile (только русские, 5-6 шт) =====
-vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@37.139.34.63:23356?encryption=none&type=grpc&security=reality&mode=gun&serviceName=api&fp=edge&sni=apple.com&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&sid=483d116ad48a4091#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:2053?encryption=none&type=ws&security=tls&path=%2Fws&host=itx-server.digital&fp=firefox&sni=554dad6ab34f7baf.itx-server.digital#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-hysteria2://be7441a663ef465566e3a6e441a16357@tw-vds.t1n2.com:7443?headerType=none&encryption=none&sni=tw-vds.t1n2.com&insecure=0#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://ca428a2e-7f82-4030-851b-cab731a5645a@157.22.241.100:443?fp=firefox&host=yandex.by&mode=stream-up&path=%2Fxh&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&security=reality&sni=yandex.by&type=xhttp#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
-vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@nl.mail-appstatus.net:23356?mode=gun&security=reality&encryption=none&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&fp=edge&type=grpc&serviceName=api&sni=apple.com&sid=483d116ad48a4091#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
-vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@157.22.241.100:443?type=xhttp&security=reality&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sid=6ba85179e30d4fc3&sni=yandex.by&path=%2Fxh#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+hysteria2://be7441a663ef465566e3a6e441a16357@188.225.80.130:7443?sni=tw-vds.t1n2.com&pinSHA256=firefox#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://ff19693c-11f3-4df9-8713-79a85a5ca090@81.19.135.87:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://ca428a2e-7f82-4030-851b-cab731a5645a@l12.l-itx.info:443?type=xhttp&security=reality&fp=chrome&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sni=yandex.by&path=/xh&mode=stream-up#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://ec2aaf4f-b1aa-4410-4b14-d4b4e9b5daf4@213.219.212.51:443?flow=xtls-rprx-vision&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+hysteria2://be7441a663ef465566e3a6e441a16357@tw-vds.t1n2.com:7443?sni=tw-vds.t1n2.com#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l12.l-itx.info:2053?path=%2Fws&security=tls&encryption=none&host=itx-server.digital&fp=firefox&allowinsecure=0&type=ws&sni=554dad6ab34f7baf.itx-server.digital#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
