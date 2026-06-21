@@ -1,18 +1,18 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 21.06.2026 22:15:07
+# Обновлено: 21.06.2026 23:51:08
 
 # ===== 1. VPN (Hidashimora) — 10 шт =====
-vless://1dd5f2be-f124-4f35-9239-8abc042829c2@149.33.31.115:14302?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc&sid=106f1604d65bb70c&sni=www.samsung.com#VPN | %F0%9F%87%B7%F0%9F%87%B8%20Serbia%2C%20Belgrade%20%7C%20%5BBL%5D
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&type=tcp&headerType=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#VPN | %F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://e52fedb7-befe-4615-a53e-89d446f74bf4@161.104.16.112:8880?encryption=none&type=ws&security=none&path=/cdn/assets/stream&host=cnd.finland2.nexusdataroute.com#VPN | %F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://4c9b304f-ec00-41af-be5b-aa3f22ed430e@fsxhh.fastshop1.com:443?mode=packet-up&path=%2Fmammadalifsx&security=tls&encryption=none&insecure=0&host=wizardali.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=ssl.fastly.com#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://546d7622-cdf6-4d39-af34-9060c5720f57@89.125.20.104:443?encryption=none&type=tcp&security=reality&flow=xtls-rprx-vision&sni=auto.malina24.xyz&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd&fp=qq#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Limburg%20an%20der%20Lahn%20%7C%20%5BBL%5D
-vless://83b572ef-e449-415b-82df-cb15bf0cbff7@31.76.38.28:8443?type=xhttp&security=reality&fp=firefox&pbk=v02iTjpqjLz_wMquGn3z-MELSOeOFYzs_SF1EbQg_0U&sid=a4f8c92d&sni=www.twitch.tv&mode=auto#VPN | %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Martlesham%20%28Martlesham%20Heath%29%20%7C%20%5BBL%5D
-vless://821100fa-b819-4614-83ee-996c4cb142cb@secure.netraidly.ru:40443?flow=xtls-rprx-vision&fp=qq&pbk=_fG0m51dASh_sWJMJYtX4tqhaG-h-J8H-r-q2iyOwBg&security=reality&sid=3597&sni=deepl.com&spx=%2F&type=tcp#VPN | %F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Washington%20D.C.%20%7C%20%5BBL%5D
-vless://546d7622-cdf6-4d39-af34-9060c5720f57@89.125.20.104:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&security=reality&sid=abcd&sni=auto.malina24.xyz&type=tcp#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Limburg%20an%20der%20Lahn%20%7C%20%5BBL%5D
-vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.31:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#VPN | %F0%9F%87%B8%F0%9F%87%AA%20Sweden%2C%20Stockholm%20%7C%20%5BBL%5D
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?flow=&fp=chrome&headertype=none&host=&path=&quicsecurity=none&security=&servicename=&type=tcp#VPN | %F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://eb77be10-9d9e-527b-a78d-8caaf58992d6@45.13.119.219:8888?type=tcp&security=none&fp=firefox#VPN | %F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://5adf90fd-fad8-4495-a122-89b0f38aecb5@en1.fghy27.top:443?type=tcp&security=reality&sni=fonts.google.com&fp=firefox&pbk=X4vsGINyawDd9K6N7lGFaasYskbZ2HIJZuoJ-9llWTc&sid=6ba85179e30d4fc2&flow=xtls-rprx-vision#VPN | %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D
+vless://OwLimbow@31.56.117.234:80?type=ws&security=none&path=/ws#VPN | %F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
+vless://42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd@176.124.223.21:2052?encryption=none&security=none&type=xhttp&host=cdn3.goofymoofy.com&path=%2Fpabloping&mode=auto#VPN | %F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Washington%20D.C.%20%7C%20%5BBL%5D
+vless://7896c501-248f-4068-bc2f-363c91ba5122@45.198.87.56:8443?security=reality&encryption=none&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=2715592069f36fe7#VPN | %F0%9F%87%AD%F0%9F%87%BA%20Hungary%2C%20Budapest%20%7C%20%5BBL%5D
+vless://bcdb08d0-d6ea-4841-83bc-dee61353926d@tr.janusgate.org:443?type=tcp&headerType=none&security=reality&encryption=none&sni=tr.janusgate.org&fp=chrome&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=c324fdcf18f3390e&flow=xtls-rprx-vision#VPN | %F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://bcdb08d0-d6ea-4841-83bc-dee61353926d@fi.janusgate.org:443?type=tcp&headerType=none&security=reality&encryption=none&sni=fi.janusgate.org&fp=chrome&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=d7b0dab7f95c437d&flow=xtls-rprx-vision#VPN | %F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Turku%20%7C%20%5BBL%5D
+vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&headerType=none&fp=chrome&type=tcp#VPN | %F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://bbfea81a-ea44-4968-93fd-ac26683c77a2@uk-1.secureclouds.top:443?security=reality&encryption=none&pbk=31Xx3qWuWLvWfh-v2z7MZg1zVykVBkpDRoTFAnvBO1Q&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=uk-1.secureclouds.top&sid=a1b2c3d4#VPN | %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Slough%20%7C%20%5BBL%5D
+vless://42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd@25.26.27.21:2052/?type=xhttp&encryption=none&flow=&host=cdn3.goofymoofy.com&path=%2Fpabloping&mode=auto#VPN | %F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Washington%20D.C.%20%7C%20%5BBL%5D
 
 # ===== 2. LTE (WHITE-SNI-RU) =====
 vless://92e41c23-4b39-464a-bbff-63ef84f317da@152.233.66.68:443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=firefox&pbk=TXwYCrwkhTEeqtxTf3ZYmXNwYcmVtR9eVXJRo7Kvxmk&sid=8c5041b3&flow=xtls-rprx-vision#LTE | %F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%5BSNI-RU%5D%20api-maps.yandex.ru
@@ -50,5 +50,5 @@ vless://69e5fcdd-abf2-460a-b2d9-c31d16e7db1c@31.56.188.161:443?encryption=none&f
 vless://92e41c23-4b39-464a-bbff-63ef84f317da@79.127.245.249:443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=firefox&pbk=IhcYDA8gF5PuTtKLu-kB6zezpqAKQvnjE_XbgNg8nXI&sid=157ce3ba&flow=xtls-rprx-vision#LTE | %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%5BSNI-RU%5D%20api-maps.yandex.ru
 
 # ===== 3. LTE Mobile (только русские, 5-6 шт) =====
-vless://92e41c23-4b39-464a-bbff-63ef84f317da@82.202.157.193:443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=firefox&pbk=A51UvCAHsWrGkjaZQoE0PfHt-owiBxSMRIc8XfxdYkg&sid=fbc7b5b2&flow=xtls-rprx-vision#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 vless://8d1a1b09-12d6-4b76-82f0-893cc805d9c0@46.173.25.146:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=ru.crunch-crunch.com&pbk=djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo&sid=ea1058117be12087#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
+vless://92e41c23-4b39-464a-bbff-63ef84f317da@82.202.157.193:443?type=tcp&headerType=none&security=reality&encryption=none&sni=api-maps.yandex.ru&fp=firefox&pbk=A51UvCAHsWrGkjaZQoE0PfHt-owiBxSMRIc8XfxdYkg&sid=fbc7b5b2&flow=xtls-rprx-vision#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
