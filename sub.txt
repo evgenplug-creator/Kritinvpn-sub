@@ -1,18 +1,18 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 03.07.2026 14:42:08
+# Обновлено: 03.07.2026 16:24:08
 
 # ===== 1. VPN (Hidashimora) — 10 шт =====
+vless://bb229808-c207-428c-a398-0b4bf30f29be@109.69.20.228:8443?type=tcp&security=tls&path=/&sni=vpn.oplatasite.ru&fp=edge#VPN | %F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%5BBL%5D
+vless://f6664b46-3508-3f2a-8830-cb310a89df88@t1.feiyue706.com:36780?type=grpc&security=tls&fp=chrome&sni=t1.feiyue706.com&mode=gun&serviceName=ljfxz&udp=1#VPN | %F0%9F%87%B9%F0%9F%87%BC%20Taiwan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://315cd3a7-dbf8-4f98-93bd-110af8e89063@213.108.3.228:58443?security=none&type=httpupgrade&headerType=none&path=/&host=sun.userapi.com#VPN | %F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Secaucus%20%7C%20%5BBL%5D
 vless://ada4f294-b5c1-4de4-82ba-a654e2c3a30b@37.221.210.58:443?type=xhttp&headerType=none&security=reality&encryption=none&sni=hu99.bearbeer.digital&fp=firefox&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&path=%2F#VPN | %F0%9F%87%AD%F0%9F%87%BA%20Hungary%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://1a49012e-1dc4-45b7-a97c-3404bc915a66@tr-ist-3.blook.network:443?flow=xtls-rprx-vision&fp=chrome&pbk=W58BNG-2mtSvQYg7Id1yuW2-XqtLj0zoutETNsQuWkA&security=reality&sid=45f9dc94&sni=tr-ist-3.blook.network#VPN | %F0%9F%87%B9%F0%9F%87%B7%20Turkey%2C%20Istanbul%20%7C%20%5BBL%5D
-vless://315cd3a7-dbf8-4f98-93bd-110af8e89063@150.241.87.130:8443?security=reality&type=grpc&headerType=none&serviceName=multi&authority=&mode=multi&sni=www.microsoft.com&fp=chrome&pbk=TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4&sid=ea1058117be12087&spx=/#VPN | %F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?type=ws&encryption=none&path=%2F&host=&security=none#VPN | %F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://8e2191ec-535c-cebf-0a5e-a89b1f1a75b4@x4g-production.up.railway.app:443?type=ws&security=tls&path=/ws/8e2191ec-535c-cebf-0a5e-a89b1f1a75b4&sni=x4g-production.up.railway.app&fp=chrome#VPN | %F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Schiphol-Rijk%20%7C%20%5BBL%5D
-vless://4ecdf2bd-3ef1-4356-8323-420ed29e8e89@43.108.23.174:32521#VPN | %F0%9F%87%B0%F0%9F%87%B7%20South%20Korea%2C%20Seongnam-si%20%28Buljeong-ro%29%20%7C%20%5BBL%5D
+vless://insta%3Amahan_vpn@185.18.250.157:443?type=ws&headerType=none&security=tls&encryption=none&sni=mAhaNrEaliteAm.MaHkHan.iR&fp=chrome&path=%2F&host=mAhaNrEaliteAm.MaHkHan.iR&insecure=0#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://bad760fb-e66b-4e5d-a62c-ebf5a91d08b8@fin31.official-happ.ru:35381?type=tcp&headerType=none&security=none&encryption=none#VPN | %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Martlesham%20%28Martlesham%20Heath%29%20%7C%20%5BBL%5D
-vless://9316bdbe-64c3-11f1-a103-aef63c7126b0@5.129.250.210:2053?type=grpc&headerType=none&security=reality&encryption=none&sni=cam-msk-6.videomonitor.cloud&fp=firefox&pbk=waaYYZNd0vgbsNi8BO5e0FFjxFJMWnumuOdaarKsnQs&sid=e4fb18c16a95e52d&serviceName=grpc-direct#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?encryption=none&security=tls&sni=sca35.afterdomain.shop&alpn=h2&type=grpc&host=sca35.afterdomain.shop#VPN | %F0%9F%87%AE%F0%9F%87%B9%20Italy%2C%20Milan%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://ada4f294-b5c1-4de4-82ba-a654e2c3a30b@hu99.bearbeer.digital:443?type=xhttp&security=reality&fp=qq&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&sni=hu99.bearbeer.digital&mode=auto&spx=/#VPN | %F0%9F%87%AD%F0%9F%87%BA%20Hungary%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn1.hirbilon.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mn1.hirbilon.net&fp=chrome&pbk=pakeMwqKbfmqo9jOwgIJTCMIn2MYGKk95TpcYLDyEEI&sid=05f6a5418c2a6865&type=tcp&headerType=none#VPN | %F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%7C%20%5BBL%5D
+vless://91d0fa43-e557-43e7-a731-f0c3d1fb306a@n1.cloudgaming.one:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=n1.cloudgaming.one&fp=randomized&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=6d6f13013d3e1d0c&type=tcp&headerType=none#VPN | %F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Doetinchem%20%7C%20%5BBL%5D
+vless://4ecdf2bd-3ef1-4356-8323-420ed29e8e89@43.108.23.174:32521?type=tcp&security=none&fp=firefox#VPN | %F0%9F%87%B0%F0%9F%87%B7%20South%20Korea%2C%20Seoul%20%28Toegye-ro%29%20%7C%20%5BBL%5D
+vless://a412b637-3d21-4e6a-b669-1a305435ec29@148.253.215.120:443?type=xhttp&headerType=none&security=reality&encryption=none&sni=xgr.studiotech38.space&fp=firefox&pbk=GWGVThOKyxTzaO6oG5kp9_B_45fdKH4YW7y8iOcn-D8&sid=8fa6f642ab8ecb6d&path=%2Fabout#VPN | %F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 
 # ===== 2. LTE (WHITE-SNI-RU) =====
 vless://05b232dc-185b-48ed-8813-8c96d9d5d7f0@138.124.98.150:443?type=tcp&security=reality&encryption=none&fp=firefox&pbk=agZZLk3GNH8CME1dobmtO1UwIrXYL-WrEuLREy_EqnA&sid=aefe467c7b22f190&sni=ads.x5.ru#LTE | %F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20ads.x5.ru
@@ -26,6 +26,6 @@ vless://837e9ea2-cf0b-46a1-93a8-7e25c3a4066c@185.170.10.248:48350?encryption=non
 vless://837e9ea2-cf0b-46a1-93a8-7e25c3a4066c@185.170.10.248:48350?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=stats.vk-portal.net&pbk=Ea23HWLvV6k7UjJ8xCsUH2UI0oyasSLjXV84aTXQ6Uk#LTE | Запасной %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20stats.vk-portal.net
 
 # ===== 3. LTE Mobile (только русские, 5-6 шт) =====
-vless://e9c6c758-3718-000a-9b04-76b046308b74@79.174.95.68:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=8pexAJEIm7ZL48OkKjYWzVUjzlCcpkx1bv2O6ghUm2o#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
 hysteria2://53d0c9d8-0d59-453c-a5da-8f7c81f5ea03@vkmks.hysteria.ltd:5443?headerType=none&encryption=none&sni=vkmks.hysteria.ltd&insecure=0#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
 hysteria2://53d0c9d8-0d59-453c-a5da-8f7c81f5ea03@hyst-1.hysteria.ltd:5443?headerType=none&encryption=none&sni=hyst-1.hysteria.ltd&insecure=0#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D%20VK
+vless://e9c6c758-3718-000a-9b04-76b046308b74@79.174.95.68:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=firefox&sni=5post-gate.x5.ru&pbk=8pexAJEIm7ZL48OkKjYWzVUjzlCcpkx1bv2O6ghUm2o#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%5B%2ACIDR%5D
