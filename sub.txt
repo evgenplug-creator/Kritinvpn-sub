@@ -1,18 +1,18 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 14.08.2026 18:53:40
+# Обновлено: 14.08.2026 19:48:09
 
 # ===== 1. VPN (Hidashimora) — 10 шт =====
-vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?type=tcp&fp=ios#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://fb957ee2-2ca0-43f3-ab86-724a9ca0b628@36.248.14.90:33102?security=tls&flow=xtls-rprx-vision&sni=sgg.knhqf.com&type=tcp&headerType=&host=sgg.knhqf.com&path=%2F&fp=edge#VPN | %F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-vless://c0f16ee2-a909-4890-ab1c-96489230658a@172.64.80.1:443?encryption=none&host=admin.jikebet.com&path=%2Fvless&security=tls&sni=admin.jikebet.com&type=ws&fp=android#VPN | %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?type=tcp&fp=firefox#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?type=tcp&fp=qq#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?type=tcp&fp=safari#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://YOUR-UUID@82.40.62.22:8443?type=tcp&security=tls&fp=ios#VPN | %F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://81df88b4-ab24-4510-dc5f-7ebdbf24ff0a@k1.cloud--vpn.site:443?security=tls&type=ws&path=%2F&host=c12.com&packetEncoding=none&sni=ssl.fastly.com&allowInsecure=0&insecure=0&fp=edge#VPN | %F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://c0f16ee2-a909-4890-ab1c-96489230658a@172.64.80.1:443?encryption=none&host=admin.jikebet.com&path=%2Fvless&security=tls&sni=admin.jikebet.com&type=ws&fp=ios#VPN | %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://fb957ee2-2ca0-43f3-ab86-724a9ca0b628@36.248.14.90:33102?security=tls&flow=xtls-rprx-vision&sni=sgg.knhqf.com&type=tcp&headerType=&host=sgg.knhqf.com&path=%2F&fp=ios#VPN | %F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+vless://fb957ee2-2ca0-43f3-ab86-724a9ca0b628@36.248.14.90:33102?security=tls&flow=xtls-rprx-vision&sni=sgg.knhqf.com&type=tcp&headerType=&host=sgg.knhqf.com&path=%2F&fp=android#VPN | %F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+vless://fb957ee2-2ca0-43f3-ab86-724a9ca0b628@36.248.14.90:33102?security=tls&flow=xtls-rprx-vision&sni=sgg.knhqf.com&type=tcp&headerType=&host=sgg.knhqf.com&path=%2F&fp=edge#VPN | %F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
 vless://81df88b4-ab24-4510-dc5f-7ebdbf24ff0a@k1.cloud--vpn.site:443?security=tls&type=ws&path=%2F&host=c12.com&packetEncoding=none&sni=ssl.fastly.com&allowInsecure=0&insecure=0&fp=safari#VPN | %F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?type=tcp&fp=android#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?type=tcp&fp=qq#VPN | %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://YOUR-UUID@82.40.62.22:8443?type=tcp&security=tls&fp=edge#VPN | %F0%9F%87%B5%F0%9F%87%B1%20Poland%2C%20Warsaw%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://81df88b4-ab24-4510-dc5f-7ebdbf24ff0a@k1.cloud--vpn.site:443?security=tls&type=ws&path=%2F&host=c12.com&packetEncoding=none&sni=ssl.fastly.com&allowInsecure=0&insecure=0&fp=android#VPN | %F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 
 # ===== 2. LTE (WHITE-SNI-RU) =====
 vless://24f8209b-6689-4e7a-b067-f886e04dfc43@ru-1.p-esmy.icu:2066?sni=ads.x5.ru&pbk=XIBKbglsQ9pI4eo26LoUkmNxnVqlKtxZRO0H91v3jF0&security=reality&sid=1b2a3f&headerType=none&type=tcp&encryption=none&flow=xtls-rprx-vision&fp=chrome#LTE | Игровой %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5BSNI-RU%5D%20ads.x5.ru
@@ -22,8 +22,9 @@ vless://24f8209b-6689-4e7a-b067-f886e04dfc43@ru-1.p-esmy.icu:2066?sni=ads.x5.ru&
 vless://24f8209b-6689-4e7a-b067-f886e04dfc43@ru-1.p-esmy.icu:2066?sni=ads.x5.ru&pbk=XIBKbglsQ9pI4eo26LoUkmNxnVqlKtxZRO0H91v3jF0&security=reality&sid=1b2a3f&headerType=none&type=tcp&encryption=none&flow=xtls-rprx-vision&fp=safari#LTE | TELE2 %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5BSNI-RU%5D%20ads.x5.ru
 
 # ===== 3. LTE Mobile (только русские, 5-6 шт) =====
+vless://155e8dd4-a559-407a-9ea8-13a5e829f066@104.171.133.161:4100?encryption=none&type=ws&sni=tn.tmn141246.ru&path=%252Fv1&host=live.ok.ru#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+vless://fc07967d-925b-4246-a535-9527a8242a16@217.198.169.86:443?path=%2Fwk7Lj2YbQfCoLCnY5dZ3&pbk=h5rOWssRWMnFJ0Ka0-PwBwwg3PMPifPShXutXEoj2QM&security=reality&sid=b8ac5fcfceca&sni=avatars.mds.yandex.net&type=xhttp&fp=android#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20YA
+vless://5d0fbb28-3be3-4044-bc5b-e4b7ca1916c7@5.129.241.247:4100?encryption=none&path=%2Fv1&security=none&type=ws#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://155e8dd4-a559-407a-9ea8-13a5e829f066@188.225.81.61:4100?encryption=none&type=ws&path=%252Fv1&host=live.ok.ru#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
 vless://fc07967d-925b-4246-a535-9527a8242a16@217.198.169.86:443?path=%2Fwk7Lj2YbQfCoLCnY5dZ3&pbk=h5rOWssRWMnFJ0Ka0-PwBwwg3PMPifPShXutXEoj2QM&security=reality&sid=b8ac5fcfceca&sni=avatars.mds.yandex.net&type=xhttp&fp=safari#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20YA
 vless://fc07967d-925b-4246-a535-9527a8242a16@217.198.169.86:443?path=%2Fwk7Lj2YbQfCoLCnY5dZ3&pbk=h5rOWssRWMnFJ0Ka0-PwBwwg3PMPifPShXutXEoj2QM&security=reality&sid=b8ac5fcfceca&sni=avatars.mds.yandex.net&type=xhttp&fp=firefox#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20YA
-vless://5d0fbb28-3be3-4044-bc5b-e4b7ca1916c7@5.129.241.247:4100?encryption=none&path=%2Fv1&security=none&type=ws#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-vless://fc07967d-925b-4246-a535-9527a8242a16@217.198.169.86:443?path=%2Fwk7Lj2YbQfCoLCnY5dZ3&pbk=h5rOWssRWMnFJ0Ka0-PwBwwg3PMPifPShXutXEoj2QM&security=reality&sid=b8ac5fcfceca&sni=avatars.mds.yandex.net&type=xhttp&fp=chrome#LTE | %F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%5B%2ACIDR%5D%20YA
