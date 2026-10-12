@@ -1,4 +1,4 @@
-name: Update VPN Keys (3 источника)
+name: Update VPN Keys
 
 on:
   schedule:
@@ -17,102 +17,185 @@ jobs:
 
       - name: Download and process all sources
         run: |
-          echo "📥 1. Источник 1 (Hidashimora) — 10 любых ключей, название 'VPN | Страна'"
-          curl -L -o src1.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"
-          grep -v '^#' src1.txt | grep -v '^$' | grep -v -i "anycast" > src1_clean.txt
-          shuf src1_clean.txt | head -n 10 > src1_selected.txt
-          echo "   Выбрано $(wc -l < src1_selected.txt) ключей"
-
-          echo "📥 2. Источник 2 (igareck WHITE-SNI-RU) — все ключи, LTE | Страна (русские — по списку)"
-          curl -L -o src2.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
-          grep -v '^#' src2.txt | grep -v '^$' > src2_clean.txt
-          echo "   Скачано $(wc -l < src2_clean.txt) ключей"
-
-          echo "📥 3. Источник 3 (igareck Vless-Reality-White-Lists-Rus-Mobile) — 5-6 русских ключей, LTE | Страна"
-          curl -L -o src3.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
-          grep -v '^#' src3.txt | grep -v '^$' > src3_all.txt
+          set +e
           
-          # Отбираем только ключи с меткой Russia и выбираем 5-6 случайных
-          grep -i "russia" src3_all.txt > src3_ru.txt
-          ru_count=$(wc -l < src3_ru.txt)
-          if [ $ru_count -gt 0 ]; then
-            # Случайное число от 5 до 6
-            RANDOM_COUNT=$(( RANDOM % 2 + 5 ))
-            shuf src3_ru.txt | head -n $RANDOM_COUNT > src3_selected.txt
-            echo "   Выбрано $(wc -l < src3_selected.txt) русских ключей из $ru_count доступных"
+          # Устанавливаем netcat для проверки портов
+          sudo apt-get update -qq && sudo apt-get install -y -qq netcat-openbsd
+
+          echo "📥 Источник 1 (Hidashimora)"
+          if curl -L -f --max-time 30 -o src1.txt "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/28.1.txt"; then
+            grep -v '^#' src1.txt | grep -v '^$' | grep -v -i "anycast" > src1_clean.txt 2>/dev/null || true
+            # Проверка доступности
+            > src1_alive.txt
+            while IFS= read -r line; do
+              IP=$(echo "$line" | sed -E 's|vless://[^@]+@([^:]+):.*|\1|')
+              PORT=$(echo "$line" | sed -E 's|vless://[^@]+@[^:]+:([0-9]+).*|\1|')
+              if timeout 3 bash -c "</dev/tcp/$IP/$PORT" 2>/dev/null; then
+                echo "$line" >> src1_alive.txt
+              fi
+            done < src1_clean.txt
+            ALIVE=$(wc -l < src1_alive.txt)
+            echo "   Живых: $ALIVE из $(wc -l < src1_clean.txt)"
+            if [ "$ALIVE" -eq 0 ]; then
+              shuf src1_clean.txt | head -n 5 > src1_selected.txt
+            else
+              shuf src1_alive.txt | head -n 5 > src1_selected.txt
+            fi
           else
-            echo "   ⚠️ Русских ключей не найдено"
+            echo "   ❌ Не скачался"
+            touch src1_selected.txt
+          fi
+
+          echo "📥 Источник 2 (igareck WHITE-SNI-RU)"
+          if curl -L -f --max-time 30 -o src2.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"; then
+            grep -v '^#' src2.txt | grep -v '^$' > src2_clean.txt 2>/dev/null || true
+            > src2_alive.txt
+            while IFS= read -r line; do
+              IP=$(echo "$line" | sed -E 's|vless://[^@]+@([^:]+):.*|\1|')
+              PORT=$(echo "$line" | sed -E 's|vless://[^@]+@[^:]+:([0-9]+).*|\1|')
+              if timeout 3 bash -c "</dev/tcp/$IP/$PORT" 2>/dev/null; then
+                echo "$line" >> src2_alive.txt
+              fi
+            done < src2_clean.txt
+            ALIVE=$(wc -l < src2_alive.txt)
+            echo "   Живых: $ALIVE из $(wc -l < src2_clean.txt)"
+            if [ "$ALIVE" -eq 0 ]; then
+              shuf src2_clean.txt | head -n 4 > src2_selected.txt
+            else
+              shuf src2_alive.txt | head -n 4 > src2_selected.txt
+            fi
+          else
+            echo "   ❌ Не скачался"
+            touch src2_selected.txt
+          fi
+
+          echo "📥 Источник 3 (igareck Vless-Reality-Rus-Mobile)"
+          if curl -L -f --max-time 30 -o src3.txt "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"; then
+            grep -v '^#' src3.txt | grep -v '^$' > src3_all.txt 2>/dev/null || true
+            grep -i "russia" src3_all.txt > src3_ru.txt 2>/dev/null || touch src3_ru.txt
+            ru_count=$(wc -l < src3_ru.txt)
+            if [ "$ru_count" -gt 0 ]; then
+              shuf src3_ru.txt | head -n 3 > src3_selected.txt
+            else
+              touch src3_selected.txt
+            fi
+          else
+            echo "   ❌ Не скачался"
             touch src3_selected.txt
           fi
 
-          echo "🔄 Создаю sub.txt с правильными именами..."
-
-          # === ЗАГОЛОВКИ ДЛЯ HAPP ===
-          echo "#profile-title: 🏳️KritinVPN" > sub.txt
-          echo "#profile-update-interval: 1" >> sub.txt
-          echo "# Обновлено: $(date '+%d.%m.%Y %H:%M:%S')" >> sub.txt
-          echo "" >> sub.txt
-          echo "# ===== 1. VPN (Hidashimora) — 10 шт =====" >> sub.txt
-
-          # --- 1. Источник: добавляем "VPN | " перед комментарием ---
-          while IFS= read -r line; do
-            if [[ "$line" == *"#"* ]]; then
-              key_part="${line%#*}"
-              old_comment="${line#*#}"
-              echo "${key_part}#VPN | ${old_comment}" >> sub.txt
+          # === НОВЫЙ ИСТОЧНИК 4 ===
+          echo "📥 Источник 4 (Au1rxx — проверенные HTTP-запросом)"
+          if curl -L -f --max-time 30 -o src4_base64.txt "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt"; then
+            # Декодируем base64
+            base64 -d src4_base64.txt > src4_all.txt 2>/dev/null || cp src4_base64.txt src4_all.txt
+            grep '^vless://' src4_all.txt > src4_vless.txt 2>/dev/null || touch src4_vless.txt
+            vless_count=$(wc -l < src4_vless.txt)
+            echo "   VLESS ключей: $vless_count"
+            if [ "$vless_count" -gt 0 ]; then
+              shuf src4_vless.txt | head -n 4 > src4_selected.txt
             else
-              echo "$line" >> sub.txt
+              touch src4_selected.txt
             fi
+          else
+            echo "   ❌ Не скачался"
+            touch src4_selected.txt
+          fi
+
+          echo "🔄 Создаю sub.txt..."
+
+          {
+            echo "#profile-title: 🏳️KritinVPN"
+            echo "#profile-update-interval: 1"
+            echo "# Обновлено: $(date '+%d.%m.%Y %H:%M:%S')"
+            echo ""
+          } > sub.txt
+
+          # Функция для извлечения страны и переименования
+          rename_key() {
+            local line="$1"
+            local prefix="$2"
+            local key_part="${line%#*}"
+            local comment="${line#*#}"
+            
+            # Пытаемся определить страну из комментария
+            local country=""
+            
+            # Ищем эмодзи флагов (URL-encoded)
+            local flag_map="🇩🇪 Германия|🇫🇮 Финляндия|🇳🇱 Нидерланды|🇵🇱 Польша|🇦🇺 Австралия|🇨🇭 Швейцария|🇸🇪 Швеция|🇷🇺 Россия|🇺🇸 США|🇬🇧 Великобритания|🇫🇷 Франция|🇯🇵 Япония|🇸🇬 Сингапур|🇰🇷 Корея|🇭🇰 Гонконг|🇨🇦 Канада"
+            
+            # Проверяем URL-encoded флаги в комментарии
+            if echo "$comment" | grep -qi "Germany\|%F0%9F%87%A9%F0%9F%87%AA\|de-"; then
+              country="🇩🇪 Германия"
+            elif echo "$comment" | grep -qi "Finland\|%F0%9F%87%AB%F0%9F%87%AE\|finl\|fi-"; then
+              country="🇫🇮 Финляндия"
+            elif echo "$comment" | grep -qi "Netherlands\|%F0%9F%87%B3%F0%9F%87%B1\|nl-"; then
+              country="🇳🇱 Нидерланды"
+            elif echo "$comment" | grep -qi "Poland\|%F0%9F%87%B5%F0%9F%87%B1\|pl-"; then
+              country="🇵🇱 Польша"
+            elif echo "$comment" | grep -qi "Sweden\|%F0%9F%87%B8%F0%9F%87%AA\|se-"; then
+              country="🇸🇪 Швеция"
+            elif echo "$comment" | grep -qi "Switzerland\|%F0%9F%87%A8%F0%9F%87%AD"; then
+              country="🇨🇭 Швейцария"
+            elif echo "$comment" | grep -qi "Australia\|%F0%9F%87%A6%F0%9F%87%BA"; then
+              country="🇦🇺 Австралия"
+            elif echo "$comment" | grep -qi "Russia\|%F0%9F%87%B7%F0%9F%87%BA\|rus\|ru-"; then
+              country="🇷🇺 Россия"
+            elif echo "$comment" | grep -qi "United States\|%F0%9F%87%BA%F0%9F%87%B8\|us-"; then
+              country="🇺🇸 США"
+            elif echo "$comment" | grep -qi "United Kingdom\|%F0%9F%87%AC%F0%9F%87%A7\|uk-"; then
+              country="🇬🇧 Великобритания"
+            elif echo "$comment" | grep -qi "France\|%F0%9F%87%AB%F0%9F%87%B7\|fr-"; then
+              country="🇫🇷 Франция"
+            elif echo "$comment" | grep -qi "Japan\|%F0%9F%87%AF%F0%9F%87%B5\|jp-"; then
+              country="🇯🇵 Япония"
+            elif echo "$comment" | grep -qi "Singapore\|%F0%9F%87%B8%F0%9F%87%AC\|sg-"; then
+              country="🇸🇬 Сингапур"
+            elif echo "$comment" | grep -qi "Korea\|%F0%9F%87%B0%F0%9F%87%B7\|kr-"; then
+              country="🇰🇷 Корея"
+            elif echo "$comment" | grep -qi "Hong Kong\|%F0%9F%87%AD%F0%9F%87%B0\|hk-"; then
+              country="🇭🇰 Гонконг"
+            elif echo "$comment" | grep -qi "Canada\|%F0%9F%87%A8%F0%9F%87%A6\|ca-"; then
+              country="🇨🇦 Канада"
+            else
+              # Если не нашли — используем флаг или дефолт
+              country="🌐 Сервер"
+            fi
+            
+            echo "${key_part}#${country} 🔥"
+          }
+
+          # === 1. Источник 1 ===
+          echo "# ===== VPN (Hidashimora) =====" >> sub.txt
+          while IFS= read -r line; do
+            [ -n "$line" ] && rename_key "$line" >> sub.txt
           done < src1_selected.txt
 
           echo "" >> sub.txt
-          echo "# ===== 2. LTE (WHITE-SNI-RU) =====" >> sub.txt
-
-          # --- 2. Источник: LTE | ... , русские — по списку ---
-          RU_NAMES=("LTE | Игровой" "LTE | Запасной" "LTE | Обход" "LTE | Все операторы" "LTE | TELE2")
-          ru_counter=0
-
+          echo "# ===== LTE (WHITE-SNI-RU) =====" >> sub.txt
           while IFS= read -r line; do
-            if [[ "$line" == *"#"* ]]; then
-              key_part="${line%#*}"
-              old_comment="${line#*#}"
-              
-              if echo "$old_comment" | grep -qi "russia\|россия"; then
-                # Русский ключ — выбираем имя из списка по очереди
-                new_name="${RU_NAMES[$ru_counter]}"
-                ru_counter=$(( (ru_counter + 1) % ${#RU_NAMES[@]} ))
-                echo "${key_part}#${new_name} ${old_comment}" >> sub.txt
-              else
-                # Нерусский — просто LTE |
-                echo "${key_part}#LTE | ${old_comment}" >> sub.txt
-              fi
-            else
-              echo "$line" >> sub.txt
-            fi
-          done < src2_clean.txt
+            [ -n "$line" ] && rename_key "$line" >> sub.txt
+          done < src2_selected.txt
 
           echo "" >> sub.txt
-          echo "# ===== 3. LTE Mobile (только русские, 5-6 шт) =====" >> sub.txt
-
-          # --- 3. Источник: только русские ключи, название "LTE | Страна" ---
+          echo "# ===== LTE Mobile (RU) =====" >> sub.txt
           while IFS= read -r line; do
-            if [[ "$line" == *"#"* ]]; then
-              key_part="${line%#*}"
-              old_comment="${line#*#}"
-              # Уже отфильтровано только Russia, но на всякий случай проверим
-              echo "${key_part}#LTE | ${old_comment}" >> sub.txt
-            else
-              echo "$line" >> sub.txt
-            fi
+            [ -n "$line" ] && rename_key "$line" >> sub.txt
           done < src3_selected.txt
 
-          echo "✅ Готово! Файл sub.txt создан с заголовками для Happ"
+          echo "" >> sub.txt
+          echo "# ===== Premium (Au1rxx) =====" >> sub.txt
+          while IFS= read -r line; do
+            [ -n "$line" ] && rename_key "$line" >> sub.txt
+          done < src4_selected.txt
+
+          TOTAL=$(grep -c "^vless://" sub.txt 2>/dev/null || echo 0)
+          echo "✅ Готово! Всего ключей: $TOTAL"
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add sub.txt
-          git commit -m "🔄 Обновление 3 источников $(date '+%d.%m.%Y %H:%M:%S')" || echo "Нет изменений"
-          git push
-          echo "✅ Отправлено в репозиторий"
+          git diff --staged --quiet && echo "Нет изменений" || git commit -m "🔄 Обновление $(date '+%d.%m.%Y %H:%M:%S')"
+          git push || echo "Нет изменений для push"
