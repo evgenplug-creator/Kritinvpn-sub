@@ -1,23 +1,23 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 13.10.2026 22:22:28
+# Обновлено: 14.10.2026 01:19:52
 
 # ===== VPN (Hidashimora) =====
-vless://b0a100ee-c397-43f2-bdae-2adfb7a0d4e5@31.97.58.104:443?encryption=none&security=tls&sni=rnxq-1lpi3m.linmeisoft.com&type=ws&path=%2Fb0a100ee-c397-43f2-bdae-2adfb7a0d4e5&host=rnxq-1lpi3m.linmeisoft.com&fp=firefox#🇬🇧 Великобритания 🔥
-vless://c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8@ru-1-3.unturned-rust-dead.lol:443?encryption=none&security=reality&sni=ru-1-3.unturned-rust-dead.lol&pbk=aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk&type=grpc&serviceName=ru-api&fp=safari#🇷🇺 Россия 🔥
-vless://5e160c8a-7a29-437b-998d-7f6dcccc96ff@89.127.211.136:443?encryption=none&flow=xtls-rprx-vision&pbk=pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM&security=reality&sid=dbafdfc81bc20552&sni=www.sony.co.uk&spx=%2FGT0om8LQmfuOmHs&type=tcp&fp=edge#🇳🇱 Нидерланды 🔥
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freeus.aiage.work:443?security=reality&encryption=none&pbk=pxLk0ocXqKYYqUFyALvH2BVXaswI-6NE00posKNayy0&headerType=&type=tcp&flow=xtls-rprx-vision&sni=freeus.aiage.work&sid=ccaf7283610c6fa8&fp=chrome#🇺🇸 США 🔥
-vless://6db6b948-655f-4f68-a9e7-865050e05b31@play.murka.fun:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=play.murka.fun&pbk=1iDRaqLgk1t6J54DlCZP0AFfRv8KxUTEa3bpL5nJrD4&sid=1f82ac&type=tcp&fp=chrome#🇳🇱 Нидерланды 🔥
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@31.59.140.189:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nl1.aiage.work&fp=random&pbk=vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk&sid=adcbde41b1cf27ba&type=tcp#🇳🇱 Нидерланды 🔥
+vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?security=reality&flow=xtls-rprx-vision&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&sni=www.samsung.com&type=tcp&headerType=none&host=se3.h1cloud.net&path=%2F&fp=safari#🇸🇪 Швеция 🔥
+vless://b0a100ee-c397-43f2-bdae-2adfb7a0d4e5@45.142.120.54:443?encryption=none&security=tls&sni=rnxq-1lpi3m.linmeisoft.com&type=ws&path=%2Fb0a100ee-c397-43f2-bdae-2adfb7a0d4e5&host=rnxq-1lpi3m.linmeisoft.com&fp=qq#🇬🇧 Великобритания 🔥
+vless://fe15a643-4c5e-e133-f560-3b79074162da@04b51566-9333-492b-b680-8f80752411f9.fly.dev:443?encryption=none&security=tls&type=ws&host=04b51566-9333-492b-b680-8f80752411f9.fly.dev&path=%2Fws%2Ffe15a643-4c5e-e133-f560-3b79074162da&sni=04b51566-9333-492b-b680-8f80752411f9.fly.dev&alpn=http%2F1.1&fp=qq#🇺🇸 США 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ge-s-1.pythonmakemigreat.wiki&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&sid=2c9a2790ad5900b2&type=tcp&headerType=none&fp=edge#🇩🇪 Германия 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
-vless://c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8@93.188.184.150:443?type=grpc&security=reality&encryption=none&sni=ru-1-2.unturned-rust-dead.lol&fp=firefox&pbk=aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk&headerType=none&serviceName=ru-api&mode=gun#🇷🇺 Россия 🔥
-vless://c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8@ru-1-6.unturned-rust-dead.lol:443?encryption=none&security=reality&sni=ru-1-6.unturned-rust-dead.lol&pbk=aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk&type=grpc&serviceName=ru-api&fp=safari#🇷🇺 Россия 🔥
-vless://c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8@ru-1-1.unturned-rust-dead.lol:443/?type=tcp&encryption=none&flow=&sni=ru-1-1.unturned-rust-dead.lol&security=reality&pbk=gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg&sid=&fp=edge#🇷🇺 Россия 🔥
+hysteria2://9yOIR2_QAChKs26rYaiX_aoNnOALd0aU@ru1server.rabstvo.shop:443?sni=ru1server.rabstvo.shop#🇷🇺 Россия 🔥
+vless://c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8@ru-1-1.unturned-rust-dead.lol:443?encryption=none&fp=&pbk=gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg&security=reality&sni=ru-1-1.unturned-rust-dead.lol&type=tcp#🇷🇺 Россия 🔥
+vless://c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8@ru-1-1.unturned-rust-dead.lol:443?encryption=none&security=reality&sni=ru-1-1.unturned-rust-dead.lol&fp=random&pbk=gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg&type=tcp#🇷🇺 Россия 🔥
 
 # ===== Premium (Au1rxx) =====
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@39.109.110.80:27916?flow=xtls-rprx-vision&fp=random&pbk=ztQ8VYq_dVDc3x-QM8LXjup2161CirYrIBE1F7loVzQ&security=reality&sid=6772eb2b7a&sni=cdn-dynmedia-1.microsoft.com&type=tcp#🌐 Сервер 🔥
-vless://20ff936a-8eb5-4d27-9cce-93f2016d467b@free.nadun.store:443?security=tls&type=ws#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.133:443?flow=xtls-rprx-vision&fp=chrome&host=v2raynplus--v2raynplus--v2raynplus&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://9d9a048b-3aea-4b3e-b106-1106bf301feb@54.251.9.130:24146?flow=xtls-rprx-vision&fp=edge&pbk=VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo&security=reality&sid=7205d9079521832c&sni=www.intel.com&type=tcp#🌐 Сервер 🔥
+vless://f55e9aba-7b14-4f6f-b59a-d5b3d45c9309@178.17.57.33:8444?fp=random&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&security=reality&serviceName=GunService&sid=457fab2ac885dbe0&sni=github.com&type=grpc#🌐 Сервер 🔥
+vless://871bfce7-8440-4394-8d82-56b51f20fdad@18.183.215.124:28573?flow=xtls-rprx-vision&fp=random&pbk=1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg&security=reality&sid=03653bc03be10c97&sni=www.sony.com&type=tcp#🌐 Сервер 🔥
+vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=firefox&host=join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@cf.877774.xyz:443?host=lucasjow.us.ci&path=%2F&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
