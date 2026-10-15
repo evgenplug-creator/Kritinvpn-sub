@@ -1,24 +1,27 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 15.10.2026 18:54:03
+# Обновлено: 15.10.2026 21:58:03
 
 # ===== VPN (Hidashimora) =====
-vless://88081ee0-d46a-4913-acdc-5c78e018c44d@sync.happ-soft.com:443?mode=stream-up&path=%2Ffiles%2Fv1%2Fingest%2FDqcuXcZgzt&security=tls&encryption=none&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%7D&insecure=0&type=xhttp&allowInsecure=0&sni=sync.happ-soft.com&fp=safari#🇬🇧 Великобритания 🔥
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@hu1.aiage.work:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&sni=hu1.aiage.work&sid=f8379ce795f2e5ed&fp=qq#🌐 Сервер 🔥
-vless://318c935d-c195-41d3-99ad-9bbcfdab3386@nl.srv.vbuste-bot.com:444?mode=gun&security=reality&encryption=none&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&type=grpc&sni=nl.srv.vbuste-bot.com&sid=4be4110078ebed4a&fp=edge#🇳🇱 Нидерланды 🔥
-vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?encryption=none&security=none&type=ws&host=178.172.227.124&path=%2Fvless&sni=178.172.227.124&fp=ios#🇷🇺 Россия 🔥
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@hu1.aiage.work:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&sni=hu1.aiage.work&sid=f8379ce795f2e5ed&fp=edge#🌐 Сервер 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=sw.golangwikito.cfd&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&allowInsecure=1&fp=edge#🇳🇱 Нидерланды 🔥
+vless://f5b496d0-072a-4475-9f93-658f3f871d53@plnode.nothikka.ru:444?encryption=none&type=xhttp&security=reality&sni=plnode.nothikka.ru&pbk=xrxdlhK9tfJrIqa7B8McdQkeI30_yFKDUcaNUzoMcTM&sid=41bf8a60811d1ec4&path=%2F&host=www.ceneo.pl&mode=auto&fp=chrome#🇵🇱 Польша 🔥
+vless://6338c01a-310e-42c3-bf4f-2a20e161054b@freeus.aiage.work:443?security=reality&encryption=none&pbk=pxLk0ocXqKYYqUFyALvH2BVXaswI-6NE00posKNayy0&headerType=&type=tcp&flow=xtls-rprx-vision&sni=freeus.aiage.work&sid=ccaf7283610c6fa8&fp=edge#🇺🇸 США 🔥
+vless://d388d1ac-be49-4cb6-88a8-2eeec632efe8@189.24.84.170:443?security=reality&flow=xtls-rprx-vision&pbk=Mlc1zeT6bmVI1SikL1ZSuZv3c-RNa7qwBnOS5Wd-YwM&sid=a0&sni=www.sony.com&type=tcp&headerType=none&host=www.sony.com&path=%2F&fp=edge#🇩🇪 Германия 🔥
+vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?encryption=none&security=none&type=ws&host=178.172.227.124&path=%2Fvless&sni=178.172.227.124&fp=android#🇷🇺 Россия 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-hysteria2://3d7634af8cb2c6cb4bac1c0efad8b43d@152.67.200.82:50160?insecure=1&sni=vk.com#🇰🇷 Корея 🔥
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:10444?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&flow=xtls-rprx-vision&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&sid=8debcf36f1cc69ff&fp=safari#🇷🇺 Россия 🔥
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:10444?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&flow=xtls-rprx-vision&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&sid=8debcf36f1cc69ff&fp=qq#🇷🇺 Россия 🔥
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:10444?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&flow=xtls-rprx-vision&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&sid=8debcf36f1cc69ff&fp=edge#🇷🇺 Россия 🔥
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:10444?encryption=none&security=reality&type=tcp&sni=ads.x5.ru&flow=xtls-rprx-vision&pbk=0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo&sid=8debcf36f1cc69ff&fp=ios#🇷🇺 Россия 🔥
 
 # ===== LTE Mobile (RU) =====
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?encryption=none&host=kaoangeltrahnimenya.net&mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&sni=kaoangeltrahnimenya.net&type=xhttp&fp=qq#🇷🇺 Россия 🔥
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@37.18.14.168:2053?type=xhttp&security=tls&path=%2Fapi%2Fv1%2Fupload&sni=kaoangeltrahnimenya.net&fp=chrome#🇷🇺 Россия 🔥
-vless://8b54f296-7cd0-438e-b2b1-a27a0a69c788@5.42.121.248:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&sni=rutube.ru&sid=86b80f1e713a33ad&fp=android#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@37.18.14.168:2053?type=xhttp&security=tls&path=%2Fapi%2Fv1%2Fupload&sni=kaoangeltrahnimenya.net&fp=safari#🇷🇺 Россия 🔥
+hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?sni=match-stream.lovkisport.blog#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?security=tls&type=xhttp&path=%2Fapi%2Fv1%2Fupload&host=kaoangeltrahnimenya.net&mode=auto&packetEncoding=xudp&encryption=none&fp=ios#🇷🇺 Россия 🔥
 
 # ===== Premium (Au1rxx) =====
-vless://318c935d-c195-41d3-99ad-9bbcfdab3386@179.61.145.245:443?flow=xtls-rprx-vision&fp=chrome&host=%3Ftelegram--%40config7x--%40config7x--%40config7x&pbk=0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08&security=reality&sid=4be4110078ebed4a&sni=de2.srv.vbuste.ru&type=tcp#🌐 Сервер 🔥
-vless://a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d@178.104.248.34:2087?alpn=http%2F1.1&host=tuyiuoyuthgfdbf.localip.ir&path=%2Fhokm&security=tls&sni=tuyiuoyuthgfdbf.localip.ir&type=ws#🌐 Сервер 🔥
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?flow=xtls-rprx-vision&host=telegram-leviko_v2ray&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://49c0aac1-5e05-4f04-b624-248fc59e03c4@54.169.200.246:41688?flow=xtls-rprx-vision&fp=firefox&pbk=srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk&security=reality&sid=7f342137c20387&sni=www.intel.com&type=raw#🌐 Сервер 🔥
+vless://aee7ae19-672f-49d8-8a92-aa7cdfc89f89@185.253.116.33:14430?host=185.253.116.33&path=%2Fvless&security=none&sni=185.253.116.33&type=ws#🌐 Сервер 🔥
+vless://7e68e32f-8015-4f37-9082-70e8b0b58043@43.201.45.33:443?flow=xtls-rprx-vision&fp=chrome&pbk=DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE&security=reality&sid=e04a526b0b09c765&sni=api-cadi.dadilabs.com&type=tcp#🌐 Сервер 🔥
+vless://05d7a479-a099-40cf-aecf-41aa934767b0@nl5.hap-plus.ru:8443?fp=chrome&host=nl5.hap-plus.ru&path=%2Fapi%2Fv1%2Fevents&security=tls&sni=nl5.hap-plus.ru&type=ws#🌐 Сервер 🔥
+vless://a00d89f6-ab7e-4e30-a5e5-54c701d62c93@178.236.16.98:35728?fp=chrome&pbk=vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng&security=reality&sid=69a2&sni=yahoo.com&type=raw#🌐 Сервер 🔥
