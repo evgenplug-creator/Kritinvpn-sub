@@ -1,23 +1,23 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 17.10.2026 04:50:36
+# Обновлено: 17.10.2026 09:02:28
 
 # ===== VPN (Hidashimora) =====
-vless://9d9a048b-3aea-4b3e-b106-1106bf301feb@54.251.9.130:24146?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo&sid=7205d9079521832c&sni=www.intel.com&host=www.intel.com&fp=firefox#🇸🇬 Сингапур 🔥
-vless://5b01dc2d-6892-49b8-8289-3f73a32e00e4@3696b38bsg.murphyweb.sbs:32134?security=reality&flow=xtls-rprx-vision&pbk=OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4&sid=6c6c7c97&sni=buylite.music.apple.com&type=tcp&headerType=none&host=buylite.music.apple.com&path=%2F&fp=edge#🇭🇰 Гонконг 🔥
-vless://5b01dc2d-6892-49b8-8289-3f73a32e00e4@3696b38bsg.murphyweb.sbs:32134?security=reality&flow=xtls-rprx-vision&pbk=OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4&sid=6c6c7c97&sni=buylite.music.apple.com&type=tcp&headerType=none&host=buylite.music.apple.com&path=%2F&fp=ios#🇭🇰 Гонконг 🔥
-vless://5b01dc2d-6892-49b8-8289-3f73a32e00e4@3696b38bsg.murphyweb.sbs:32134?security=reality&encryption=none&pbk=OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=buylite.music.apple.com&sid=6c6c7c97&fp=edge#🇭🇰 Гонконг 🔥
-vless://082f5694-9019-4110-b67b-8125dbb9bab8@api.mediavolna.cc:443?mode=gun&security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&serviceName=r7Kp4mN9tQ2v&allowInsecure=0&sni=api.mediavolna.cc&fp=firefox#🌐 Сервер 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=safari#🇸🇬 Сингапур 🔥
+vless://f5f0babe-aea2-4f07-a1fc-3c9820253f49@188.114.98.0:443?host=jp.lovehk.xyz&path=%2FTokyo1&security=tls&sni=jp.lovehk.xyz&type=ws#🇯🇵 Япония 🔥
+vless://8a9c586c-4b2c-49e5-9e78-97408bf58500@revers.bachidze.com:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=poland.travel&pbk=TIKEWdxQBblFGWMQmQWserNef8P1rqJCfCLLi-KB32s&allowInsecure=1#🇬🇧 Великобритания 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@pl.golangwikito.cfd:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pl.golangwikito.cfd&pbk=DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg&sid=acccaaaa9f72147d&type=tcp&fp=ios#🇵🇱 Польша 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=android#🇸🇬 Сингапур 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?security=tls&type=xhttp&path=%2Fapi%2Fv1%2Fupload&host=kaoangeltrahnimenya.net&mode=auto&packetEncoding=xudp&encryption=none&fp=ios#🇷🇺 Россия 🔥
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@37.18.14.168:2053?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionIDPlacement%22%3A%22%22%2C%22sessionIDKey%22%3A%22%22%2C%22sessionIDTable%22%3A%22%22%2C%22sessionIDLength%22%3A%220%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A%220%22%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22serverMaxHeaderBytes%22%3A0%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%2264-128%22%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%220%22%2C%22hKeepAlivePeriod%22%3A0%7D%7D&host=kaoangeltrahnimenya.net&mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&sni=kaoangeltrahnimenya.net&type=xhttp&fp=qq#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?encryption=none&host=kaoangeltrahnimenya.net&mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&sni=kaoangeltrahnimenya.net&type=xhttp&fp=qq#🇷🇺 Россия 🔥
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@37.18.14.168:2053?type=xhttp&security=tls&encryption=none&path=%2Fapi%2Fv1%2Fupload&host=kaoangeltrahnimenya.net&sni=kaoangeltrahnimenya.net&headerType=none&mode=auto&fp=safari#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?security=tls&type=xhttp&path=%2Fapi%2Fv1%2Fupload&host=kaoangeltrahnimenya.net&mode=auto&packetEncoding=xudp&encryption=none&fp=ios#🇷🇺 Россия 🔥
 
 # ===== Premium (Au1rxx) =====
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@47.77.201.227:443?fp=chrome&host=edg-2oo.pages.dev&path=%2Faccount%2Fpicture%2Fstudy%3Fed%3D2560&security=tls&sni=edg-2oo.pages.dev&type=ws#🌐 Сервер 🔥
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?path=%2F&security=none&type=ws#🌐 Сервер 🔥
-vless://a5ce10af-5e95-4eb3-ab87-bf4f95cb059b@212.100.171.154:443?flow=xtls-rprx-vision&fp=random&pbk=8u8r2iWMt8Isz2ZNRbn3g4cfldhcePRB-1hxGYLTnSg&security=reality&sid=aa6582cf25e243ce&sni=www.google.com&type=tcp#🌐 Сервер 🔥
+vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@milo.rubinaz.xyz:8080?security=none&type=raw#🌐 Сервер 🔥
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:56656?flow=xtls-rprx-vision&fp=ios&pbk=QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc&security=reality&sid=aae6d935&sni=cdn-dynmedia-1.microsoft.com&type=tcp#🌐 Сервер 🔥
+vless://4d852af3-a121-41aa-9aed-4ca40a6f7b4d@177.1.192.74:443?flow=xtls-rprx-vision&fp=chrome&pbk=qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8&security=reality&sid=770618b6&sni=addons.mozilla.org&type=tcp#🌐 Сервер 🔥
+vless://bc058e69-0444-4c7b-98da-bd67f0b143da@130.12.242.106:443?flow=xtls-rprx-vision&pbk=vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8&security=reality&sid=15affa0af66dfc79&sni=deepl.com&type=tcp#🌐 Сервер 🔥
