@@ -1,23 +1,23 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 16.10.2026 21:56:57
+# Обновлено: 17.10.2026 00:12:20
 
 # ===== VPN (Hidashimora) =====
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=safari#🇳🇱 Нидерланды 🔥
-vless://ef8c7169-87fc-49ad-be91-1f3984ab446d@mog.keyblack.site:8444?flow=xtls-rprx-vision&host=mog.keyblack.site&path=%2F&pbk=DQGwrxOgoiyBDrbdFUofP88FGtxHDA2duzNXKkyxaig&security=reality&sid=6ba85179e30d4fc2&sni=www.cloudflare.com&type=tcp&fp=chrome#🇳🇱 Нидерланды 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=firefox#🇳🇱 Нидерланды 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=chrome#🇸🇬 Сингапур 🔥
-vless://8a9c586c-4b2c-49e5-9e78-97408bf58500@revers.bachidze.com:443?flow=xtls-rprx-vision&security=reality&sni=poland.travel&pbk=TIKEWdxQBblFGWMQmQWserNef8P1rqJCfCLLi-KB32s&fp=chrome#🇬🇧 Великобритания 🔥
+vless://68c3d665-b2b5-4ffb-9f37-9f3d8c47324d@se1.h1cloud.net:26128?type=grpc&security=reality&pbk=sACiHit5lNtPRK_eFP6jT8dMPUZ4kQRsfPj_LL5p7Uk&sid=13ac4d3bdadf1ea1&sni=www.icloud.com&mode=gun&serviceName=df50147201bf&spx=%2F&fp=firefox#🇸🇪 Швеция 🔥
+vless://b98d4c6e-6770-4a31-8256-a4750cdea0e7@t4.qifei.app:443?security=reality&flow=xtls-rprx-vision&pbk=0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo&sni=s3.ap-east-1.amazonaws.com&type=tcp&headerType=none&host=s3.ap-east-1.amazonaws.com&path=%2F&fp=random#🇭🇰 Гонконг 🔥
+vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.samsung.com&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&type=tcp&headerType=none&fp=safari#🇸🇪 Швеция 🔥
+vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.samsung.com&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&type=tcp&headerType=none&host=se3.h1cloud.net&path=%2F&fp=safari#🇸🇪 Швеция 🔥
+vless://9d9a048b-3aea-4b3e-b106-1106bf301feb@54.251.9.130:24146?encryption=none&flow=xtls-rprx-vision&pbk=VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo&security=reality&sid=7205d9079521832c&sni=www.intel.com&type=tcp&fp=random#🇸🇬 Сингапур 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?encryption=none&host=kaoangeltrahnimenya.net&mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&sni=kaoangeltrahnimenya.net&type=xhttp&fp=firefox#🇷🇺 Россия 🔥
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@37.18.14.168:2053?type=xhttp&security=tls&path=%2Fapi%2Fv1%2Fupload&sni=kaoangeltrahnimenya.net&fp=edge#🇷🇺 Россия 🔥
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?encryption=none&host=kaoangeltrahnimenya.net&mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&sni=kaoangeltrahnimenya.net&type=xhttp&fp=safari#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?security=tls&type=xhttp&path=%2Fapi%2Fv1%2Fupload&host=kaoangeltrahnimenya.net&mode=auto&packetEncoding=xudp&encryption=none&fp=firefox#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?security=tls&type=xhttp&path=%2Fapi%2Fv1%2Fupload&host=kaoangeltrahnimenya.net&mode=auto&packetEncoding=xudp&encryption=none&fp=chrome#🇷🇺 Россия 🔥
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@kaoangeltrahnimenya.net:2053?mode=auto&path=%2Fapi%2Fv1%2Fupload&security=tls&encryption=none&insecure=0&host=kaoangeltrahnimenya.net&type=xhttp&allowInsecure=0&sni=kaoangeltrahnimenya.net&fp=qq#🇷🇺 Россия 🔥
 
 # ===== Premium (Au1rxx) =====
-vless://df53b6c2-8005-475c-9eb9-74e1be785dc8@157.228.128.59:443?flow=xtls-rprx-vision&fp=chrome&host=%2F%3Ftelegram---planb_net---planb_net---planb_net---planb_net&pbk=QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws&security=reality&sid=06e00e7c&sni=addons.mozilla.org&type=tcp#🌐 Сервер 🔥
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@ro2.aiage.work:443?flow=xtls-rprx-vision&fp=firefox&pbk=pkKL2cqqPNxc1rqrvhJmexI7NOeZFaGUawAwqQpVY3c&security=reality&sid=1d2fecf1d2475168&sni=ro2.aiage.work&type=tcp#🌐 Сервер 🔥
-vless://b17f6233-6726-41ff-9f62-fde7ccdbd282@545.150333.xyz:21001?pbk=7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA&security=reality&sid=c6887d3b76ef73c9&sni=www.cloudflare.com&type=raw#🌐 Сервер 🔥
-vless://8732f92b-ba85-48f7-92e4-ad029f1cd4e7@45.59.120.217:443?fp=chrome&path=%2F&pbk=mWxcYeYE-M3iE0RBjTzG88QI9kj2wivJDoIYDu_aG3w&security=reality&sid=29c2dd1e3ef7c4d4&sni=strm.yandex.net&type=tcp#🌐 Сервер 🔥
+vless://df53b6c2-8005-475c-9eb9-74e1be785dc8@2.27.71.48:443?flow=xtls-rprx-vision&fp=chrome&pbk=FTB4bvTP-3JAbScj_vvkIOPFGjtN2TaNTUfeY-Ew8EU&security=reality&sid=4d767145&sni=addons.mozilla.org&type=tcp#🌐 Сервер 🔥
+vless://9d9a048b-3aea-4b3e-b106-1106bf301feb@54.251.9.130:24146?flow=xtls-rprx-vision&fp=firefox&pbk=VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo&security=reality&sid=7205d9079521832c&sni=www.intel.com&type=raw#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.97.6:2053?alpn=http%2F1.1&fp=chrome&host=lucasjow.us.ci&path=%2F%3F---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---%40Fear_Config---&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:14430?fp=chrome&host=178.172.227.228&path=%2Fvless&security=none&sni=178.172.227.228&type=ws#🌐 Сервер 🔥
