@@ -1,25 +1,27 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 18.10.2026 08:15:56
+# Обновлено: 18.10.2026 12:44:17
 
 # ===== VPN (Hidashimora) =====
-vless://61ae6877-5efd-41b5-920b-734a45100cbb@146.75.35.4:443?security=tls&sni=accounts.fastly.com&type=xhttp&host=ovd7.global.ssl.fastly.net&path=%2F&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A%22500000%22%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A%2260%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Atrue%2C%22xmux%22%3A%7B%22maxConnections%22%3A16%2C%22cMaxReuseTimes%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%7D&encryption=none#🇵🇱 Польша 🔥
-vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?security=reality&flow=xtls-rprx-vision&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&sni=www.samsung.com&type=tcp&headerType=none&host=www.samsung.com&path=%2F&fp=safari#🇸🇪 Швеция 🔥
-vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.samsung.com&fp=edge&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&type=tcp&headerType=none&host=se3.h1cloud.net&path=%2F#🇸🇪 Швеция 🔥
-vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.samsung.com&fp=edge&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&spx=%2F5xmOzu3pGosH91u&type=tcp&headerType=none#🇸🇪 Швеция 🔥
-vless://a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d@94.103.168.125:2087?fp=firefox&host=sdcdethyerft.localip.ir&path=%2Fhokm&security=tls&sni=sdcdethyerft.localip.ir&type=ws#🇩🇪 Германия 🔥
+vless://XpnTeam-18@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=safari#🇫🇷 Франция 🔥
+vless://XpnTeam-17@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=qq#🇫🇷 Франция 🔥
+vless://b3441cc7-1e5f-4eb6-8207-90788eeca21e@165.231.170.18:8443?flow=xtls-rprx-vision&security=tls&sni=api-6ad3c751.adhil.uk&type=raw&fp=ios#🌐 Сервер 🔥
+vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?security=reality&encryption=none&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.samsung.com&sid=10f517&fp=firefox#🇸🇪 Швеция 🔥
+vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@se3.h1cloud.net:25119?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.samsung.com&pbk=szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4&sid=10f517&type=tcp&headerType=none&host=se3.h1cloud.net&path=%2F&fp=edge#🇸🇪 Швеция 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
+vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?type=grpc&security=reality&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&sid=35debf0dc757d053&sni=max.ru&mode=multi&serviceName=grpc&fp=firefox#🇸🇪 Швеция 🔥
+vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?encryption=none&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&security=reality&serviceName=grpc&sid=35debf0dc757d053&sni=max.ru&type=grpc&fp=firefox#🇸🇪 Швеция 🔥
+vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?type=grpc&security=reality&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&sid=35debf0dc757d053&sni=max.ru&mode=multi&serviceName=grpc&fp=chrome#🇸🇪 Швеция 🔥
 vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?type=grpc&security=reality&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&sid=35debf0dc757d053&sni=max.ru&mode=multi&serviceName=grpc&fp=qq#🇸🇪 Швеция 🔥
-vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?type=grpc&security=reality&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&sid=35debf0dc757d053&sni=max.ru&mode=multi&serviceName=grpc&fp=edge#🇸🇪 Швеция 🔥
-vless://320bb8a2-0b37-4d1a-9b7e-615fe6534ecf@103.24.207.87:10000?encryption=none&flow=xtls-rprx-vision&pbk=vqRiLDLgn_0PWMUvELC0C4JD-a2LUoM0iZ6wdvgMBmQ&security=reality&sid=d0cd6a0b1a18092b&sni=rutube.ru&type=tcp&fp=firefox#🇩🇪 Германия 🔥
-vless://b869a8d0-0733-4346-8d1c-c1230a78651c@45.145.12.148:443?type=grpc&security=reality&pbk=OOI0p2vKjr8xdwcVCzxcd3rAxmMr7XRA0wMk14IXaFM&sid=35debf0dc757d053&sni=max.ru&mode=multi&serviceName=grpc&fp=android#🇸🇪 Швеция 🔥
 
 # ===== LTE Mobile (RU) =====
-hysteria2://7ab3c77e-8fcc-4848-918f-cae3d4eac794@194.87.118.184:2053?sni=match-stream.lovkisport.blog#🇷🇺 Россия 🔥
+vless://b3441cc7-1e5f-4eb6-8207-90788eeca21e@66.90.90.13:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=dsapi-v2-6ad3c751.adhil.uk&type=tcp&fp=firefox#🇷🇺 Россия 🔥
+vless://b3441cc7-1e5f-4eb6-8207-90788eeca21e@rus.noooo.win:8443?sni=id-6ad3c751.adhil.uk&alpn=h2&flow=xtls-rprx-vision-udp443&security=tls&fp=chrome#🇷🇺 Россия 🔥
+vless://b3441cc7-1e5f-4eb6-8207-90788eeca21e@rus.noooo.win:8443?alpn=h2&encryption=none&flow=xtls-rprx-vision&headerType=none&path=%2F&security=tls&sni=id-6ad3c751.adhil.uk&type=tcp&fp=chrome#🇷🇺 Россия 🔥
 
 # ===== Premium (Au1rxx) =====
-vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?alpn=channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn%D1%89%D2%97&flow=xtls-rprx-vision&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://871bfce7-8440-4394-8d82-56b51f20fdad@18.183.215.124:28573?flow=xtls-rprx-vision&fp=firefox&host=v2raynplus--v2raynplus--v2raynplus--&pbk=1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg&security=reality&sid=03653bc03be10c97&sni=www.sony.com&type=tcp#🌐 Сервер 🔥
-vless://e53eacb6-cd30-4964-a57c-febcb5151b98@epam.com:443?host=wallweb-4r0.pages.dev&path=%2Ffp%3Dchrome&security=tls&sni=wallweb-4r0.pages.dev&type=ws#🌐 Сервер 🔥
-vless://b4caaf57-ad77-4948-a6f5-51b3513799bf@46.250.250.149:2053?fp=firefox&pbk=hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M&security=reality&sid=9922313fffed1c63&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://c0dd6d59-1573-43af-8b70-1470b2632a6d@208.69.78.217:2053?fp=chrome&pbk=A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0&security=reality&sid=ad86e2d52ff40ebd&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://b3441cc7-1e5f-4eb6-8207-90788eeca21e@196.240.125.5:8443?flow=xtls-rprx-vision&fp=firefox&security=tls&sni=api-v2-6ad3c751.vmagnum.win&type=raw#🌐 Сервер 🔥
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@154.29.149.140:41705?flow=xtls-rprx-vision&fp=random&pbk=KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA&security=reality&sid=e51285e3&sni=us1p1.xn--ghq880n3na965a.com&type=tcp#🌐 Сервер 🔥
+vless://b98d4c6e-6770-4a31-8256-a4750cdea0e7@172.235.62.90:443?flow=xtls-rprx-vision&fp=firefox&pbk=0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo&security=reality&sni=www.amazon.com&type=tcp#🌐 Сервер 🔥
