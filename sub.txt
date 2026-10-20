@@ -1,24 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 20.10.2026 00:31:11
+# Обновлено: 20.10.2026 05:42:40
 
 # ===== VPN (Hidashimora) =====
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=android#🇸🇬 Сингапур 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@149.62.44.41:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&path=%2F&host=u.srilankangrill.online&fp=safari#🇸🇬 Сингапур 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@45.59.124.39:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&path=%2F&host=u.srilankangrill.online&fp=chrome#🇸🇬 Сингапур 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@103.47.186.8:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&path=%2F&host=u.srilankangrill.online&fp=chrome#🇸🇬 Сингапур 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=chrome#🇸🇬 Сингапур 🔥
+vless://7eecba82-6a8a-4f6a-bff9-baa092931150@146.75.32.8:443?security=tls&sni=Account.fastly.com&alpn=h2&type=xhttp&mode=auto&host=mxnlkmmqi.global.ssl.fastly.net&path=%2F&fp=firefox#🇩🇪 Германия 🔥
+vless://b47cc98c-54f4-4ab2-acb9-b493a04ccc6b@141.11.138.132:443?flow=xtls-rprx-vision&headerType=none&host=www.cloudflare.com&path=%2F&pbk=Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A&security=reality&sid=f9ca9286d0ff8920&sni=www.cloudflare.com&type=tcp&fp=ios#🇯🇵 Япония 🔥
+vless://056405e8-de9f-4d0d-8145-956f13cc34da@a0688bt.us4.h1clayd.click:443?type=tcp&pbk=5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E&security=reality&sid=257420d9d430152a&sni=a0688bt.us4.h1clayd.click&encryption=none&fp=edge#🇺🇸 США 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@45.194.66.193:443?security=reality&type=raw&packetEncoding=xudp&sni=pl.golangwikito.cfd&flow=xtls-rprx-vision&sid=f8b695e5c59d028c&pbk=DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg&fp=qq#🇵🇱 Польша 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@pl.golangwikito.cfd:443?encryption=none&flow=xtls-rprx-vision&pbk=DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg&security=reality&sid=f8b695e5c59d028c&sni=pl.golangwikito.cfd&type=tcp&fp=chrome#🇵🇱 Польша 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://fbbfebf3-dfc9-49cb-b5e5-06c99ef3d504@9.247.34.118:2053?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.rutube.ru&pbk=1kaGIHz5N3-UTemrcJIP6vGD6aEbTcAmxedDv2VTcSA&sid=c46d735d6444850f&spx=%2F&fp=edge#🇳🇱 Нидерланды 🔥
-vless://fbbfebf3-dfc9-49cb-b5e5-06c99ef3d504@9.247.34.118:443?encryption=none&type=xhttp&security=reality&sni=www.rutube.ru&pbk=1kaGIHz5N3-UTemrcJIP6vGD6aEbTcAmxedDv2VTcSA&sid=c46d735d6444850f&spx=%2F&path=%2Fapi%2Fv1%2Fupdates&mode=auto&fp=edge#🇳🇱 Нидерланды 🔥
-vless://381f7080-8f2c-49db-8321-dae85bee2115@9.247.34.134:8443?encryption=none&type=grpc&security=reality&sni=www.rutube.ru&pbk=KXrPtOUvDVBzcpniQ5Q9hLbuo99B0g5pz97oVJn0LGk&sid=50c503221adcb931&spx=%2F&serviceName=api.v1.Sync&fp=qq#🇳🇱 Нидерланды 🔥
-vless://fbbfebf3-dfc9-49cb-b5e5-06c99ef3d504@9.247.34.118:2053?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.rutube.ru&pbk=1kaGIHz5N3-UTemrcJIP6vGD6aEbTcAmxedDv2VTcSA&sid=c46d735d6444850f&spx=%2F&fp=firefox#🇳🇱 Нидерланды 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?alpn=http%2F1.1&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://6338c01a-310e-42c3-bf4f-2a20e161054b@79.139.59.46:443?flow=xtls-rprx-vision&fp=chrome&pbk=mPzNFHO4pZMzFviRkIhRd7xDUz4dMHyI-flZLOrgDVg&security=reality&sid=f8379ce795f2e5ed&sni=hu1.aiage.work&type=tcp#🌐 Сервер 🔥
-vless://37615d66-5467-44a3-bc23-f2c3bef7f761@tk1.high-speed-test-56424.me:443?flow=xtls-rprx-vision&fp=chrome&path=%2F&pbk=p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM&security=reality&sid=21270a66&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://cb2dbb6a-a1ea-4023-9ace-6466cee57241@51.81.203.63:443?flow=xtls-rprx-vision&fp=random&pbk=nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0&security=reality&sid=4477382ff6d3d41c&sni=www.icloud.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://df53b6c2-8005-475c-9eb9-74e1be785dc8@2.27.69.117:443?flow=xtls-rprx-vision&fp=chrome&pbk=-bn-69fLm8-ZIN4AWcFJTvliohVXnevdOK6E0HJF90Y&security=reality&sid=123c2bff&sni=addons.mozilla.org&type=tcp#🌐 Сервер 🔥
+vless://03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a@uspanel.unixzone.us:30016?host=uspanel.unixzone.us&path=%2Fusserver&security=none&sni=uspanel.unixzone.us&type=ws#🌐 Сервер 🔥
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.93:23576?flow=xtls-rprx-vision&fp=random&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&security=reality&sni=fuck.rkn&type=tcp#🌐 Сервер 🔥
