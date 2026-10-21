@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 21.10.2026 06:21:22
+# Обновлено: 21.10.2026 12:11:37
 
 # ===== VPN (Hidashimora) =====
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=ios#🇸🇬 Сингапур 🔥
-vless://ab4f3e97-27ba-496a-8133-9d7ca285fcba@8.6.112.0:443?security=tls&type=ws&headerType=&path=%2F&host=polshaov.ochmaybrooooo.online&sni=polshaov.ochmaybrooooo.online&alpn=http%2F1.1&fp=android#🇫🇷 Франция 🔥
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@130.94.65.138:80?path=%2Fplatform108&security=none&type=ws#🇯🇵 Япония 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=firefox#🇸🇬 Сингапур 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?encryption=none&security=tls&sni=u.srilankangrill.online&insecure=0&allowInsecure=0&type=ws&host=u.srilankangrill.online&path=%2F&fp=edge#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=ios#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=safari#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?encryption=none&type=ws&host=u.srilankangrill.online&headerType=none&path=%2F&security=tls&sni=u.srilankangrill.online&fp=firefox#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=android#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=chrome#🇸🇬 Сингапур 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://52919204-4ed9-42c8-97a0-0f01d007f898@154.40.55.185:443?flow=xtls-rprx-vision&fp=chrome&host=www.oracle.com&path=%2F+&pbk=XY0OTrgnRWxHbqBC8u4qFWvZakjNZY83AAnL_lwHu1M&security=reality&sid=7f&sni=www.oracle.com&type=tcp#🌐 Сервер 🔥
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?flow=xtls-rprx-vision&fp=chrome&path=%2F&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.18.37.127:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform115.golnamakcert.top:80?fp=android&host=%5B&path=%2Fplatform115&security=none&type=ws#🌐 Сервер 🔥
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?fp=chrome&security=none&sni=uae.unixzone.us&type=ws#🌐 Сервер 🔥
+vless://a16a3336-c9ab-489f-9b85-c973f5e2cfa4@137.220.221.179:443?security=none&type=tcp#🌐 Сервер 🔥
+vless://2a9ab69b-26e7-44d0-a325-e5056d849900@154.12.38.202:443?fp=chrome&host=itunes.apple.com&path=%2Fws&pbk=iJDZHJQcTGl2VIwbsRmlOG9JGbbmxNY5wmv1hc6OwQM&security=reality&sid=c31176b6&sni=itunes.apple.com&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.97.6:443?host=lucasjow.us.ci&path=3fp%3Dchrome&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
