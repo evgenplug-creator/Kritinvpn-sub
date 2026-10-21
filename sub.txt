@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 21.10.2026 12:11:37
+# Обновлено: 21.10.2026 17:32:46
 
 # ===== VPN (Hidashimora) =====
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=ios#🇸🇬 Сингапур 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=safari#🇸🇬 Сингапур 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?encryption=none&type=ws&host=u.srilankangrill.online&headerType=none&path=%2F&security=tls&sni=u.srilankangrill.online&fp=firefox#🇸🇬 Сингапур 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=android#🇸🇬 Сингапур 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=chrome#🇸🇬 Сингапур 🔥
+vless://1263d819-9089-4b14-ab52-09a747817ebc@grimness-backlogs.cdn-content.com:443?security=tls&alpn=http%2F1.1&sni=grimness-backlogs.cdn-content.com&type=ws&headerType=none&host=grimness-backlogs.cdn-content.com&path=%2Fws&fp=edge#🇺🇸 США 🔥
+vless://XpnTeam-31@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=ios#🇫🇷 Франция 🔥
+vless://1263d819-9089-4b14-ab52-09a747817ebc@grimness-backlogs.cdn-content.com:443?security=tls&alpn=http%2F1.1&sni=grimness-backlogs.cdn-content.com&type=ws&headerType=none&host=grimness-backlogs.cdn-content.com&path=%2Fws&fp=ios#🇺🇸 США 🔥
+vless://XpnTeam-32@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=firefox#🇫🇷 Франция 🔥
+vless://XpnTeam-32@199.232.78.170:443?encryption=none&security=tls&sni=ssl.fastly.com&alpn=http%2F1.1&type=ws&host=Appxdn.global.ssl.fastly.net&path=%2F&fp=edge#🇫🇷 Франция 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?fp=chrome&security=none&sni=uae.unixzone.us&type=ws#🌐 Сервер 🔥
-vless://a16a3336-c9ab-489f-9b85-c973f5e2cfa4@137.220.221.179:443?security=none&type=tcp#🌐 Сервер 🔥
-vless://2a9ab69b-26e7-44d0-a325-e5056d849900@154.12.38.202:443?fp=chrome&host=itunes.apple.com&path=%2Fws&pbk=iJDZHJQcTGl2VIwbsRmlOG9JGbbmxNY5wmv1hc6OwQM&security=reality&sid=c31176b6&sni=itunes.apple.com&type=ws#🌐 Сервер 🔥
-vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.97.6:443?host=lucasjow.us.ci&path=3fp%3Dchrome&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?flow=xtls-rprx-vision&fp=random&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://49c0aac1-5e05-4f04-b624-248fc59e03c4@54.169.200.246:41688?flow=xtls-rprx-vision&fp=firefox&pbk=srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk&security=reality&sid=7f342137c20387&sni=www.intel.com&type=raw#🌐 Сервер 🔥
+vless://7b188eea-b08f-42c2-bac7-d3b0e74218b8@147.182.212.232:56565?alpn=http%2F1.1&flow=xtls-rprx-vision&fp=chrome&pbk=Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY&security=reality&sni=www.paypal.com&type=tcp#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@172.67.155.65:8443?host=lucasjow.us.ci&path=%2Fcart%2Fdocs%2Fwww%2Fproxyip%3Fed%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
