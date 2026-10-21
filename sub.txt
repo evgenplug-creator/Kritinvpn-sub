@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 21.10.2026 01:25:26
+# Обновлено: 21.10.2026 06:21:22
 
 # ===== VPN (Hidashimora) =====
-vless://01f71c9f-fa9b-449d-2ee2-79a2f14de293@uiuxtestdfgh-production.up.railway.app:443?path=%2Fws%2F01f71c9f-fa9b-449d-2ee2-79a2f14de293&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=uiuxtestdfgh-production.up.railway.app&type=ws&allowInsecure=0&sni=uiuxtestdfgh-production.up.railway.app&fp=android#🇳🇱 Нидерланды 🔥
-vless://9b0ae636-a50b-4667-bbe0-22a0600610a5@sable56.fars-remen.ir:8445?security=reality&encryption=none&pbk=7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04&headerType=none&type=tcp&sni=play.google.com&sid=73da8baa63f8d537&fp=edge#🌐 Сервер 🔥
-vless://9b0ae636-a50b-4667-bbe0-22a0600610a5@sable56.fars-remen.ir:8445?security=reality&encryption=none&pbk=7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04&headerType=none&type=tcp&sni=play.google.com&sid=73da8baa63f8d537&fp=ios#🌐 Сервер 🔥
-vless://68c3d665-b2b5-4ffb-9f37-9f3d8c47324d@se1.h1cloud.net:26128?mode=gun&pbk=sACiHit5lNtPRK_eFP6jT8dMPUZ4kQRsfPj_LL5p7Uk&security=reality&serviceName=df50147201bf&sid=13ac4d3bdadf1ea1&sni=www.icloud.com&spx=%2F&type=grpc&fp=chrome#🇸🇪 Швеция 🔥
-vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?encryption=none&security=tls&sni=u.srilankangrill.online&insecure=0&allowInsecure=0&type=ws&host=u.srilankangrill.online&path=%2F&fp=chrome#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&sni=u.srilankangrill.online&fp=ios#🇸🇬 Сингапур 🔥
+vless://ab4f3e97-27ba-496a-8133-9d7ca285fcba@8.6.112.0:443?security=tls&type=ws&headerType=&path=%2F&host=polshaov.ochmaybrooooo.online&sni=polshaov.ochmaybrooooo.online&alpn=http%2F1.1&fp=android#🇫🇷 Франция 🔥
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@130.94.65.138:80?path=%2Fplatform108&security=none&type=ws#🇯🇵 Япония 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=firefox#🇸🇬 Сингапур 🔥
+vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@news.zoom.us:8443?encryption=none&security=tls&sni=u.srilankangrill.online&insecure=0&allowInsecure=0&type=ws&host=u.srilankangrill.online&path=%2F&fp=edge#🇸🇬 Сингапур 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://d56624b2-35bb-468c-9b2a-e0b0df7230c1@154.31.114.248:50159?flow=xtls-rprx-vision&fp=chrome&host=www.cloudflare.com&path=%2F&pbk=j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA&security=reality&sid=091e1c5db8451757&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:19825?flow=xtls-rprx-vision&fp=chrome&pbk=GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI&security=reality&sid=6ba85179e30d4fc2&sni=sg2-8sb.6121999.dpdns.org&type=raw#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.90:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform118.golnamakcert.top:80?host=platform118.golnamakcert.top&path=%2Fplatform118&security=none&type=ws#🌐 Сервер 🔥
+vless://52919204-4ed9-42c8-97a0-0f01d007f898@154.40.55.185:443?flow=xtls-rprx-vision&fp=chrome&host=www.oracle.com&path=%2F+&pbk=XY0OTrgnRWxHbqBC8u4qFWvZakjNZY83AAnL_lwHu1M&security=reality&sid=7f&sni=www.oracle.com&type=tcp#🌐 Сервер 🔥
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:13672?flow=xtls-rprx-vision&fp=chrome&path=%2F&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.18.37.127:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform115.golnamakcert.top:80?fp=android&host=%5B&path=%2Fplatform115&security=none&type=ws#🌐 Сервер 🔥
