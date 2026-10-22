@@ -1,24 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 22.10.2026 19:24:09
+# Обновлено: 22.10.2026 22:37:21
 
 # ===== VPN (Hidashimora) =====
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?path=%2Fdula&security=tls&encryption=none&host=speed.dulacloud.store&type=ws&sni=speed.dulacloud.store&allowInsecure=0&insecure=0&fp=firefox#🇸🇬 Сингапур 🔥
-vless://XpnTeam-36@140.248.186.45:443?host=Appxdn.global.ssl.fastly.net&path=%2F&security=tls&sni=ssl.fastly.com&type=ws&fp=ios#🇫🇷 Франция 🔥
-vless://056405e8-de9f-4d0d-8145-956f13cc34da@ba0229x.us4.h1clayd.click:443?mode=auto&path=%2Fdade0d58a20b&pbk=2E2qSCOHLYD5rqV8GZjwODqKnQ4Qg7zqe7LnUKwzyF8&security=reality&sid=8da8bb9dd3213eb8&sni=ba0229x.us4.h1clayd.click&spx=%2F&type=xhttp&fp=ios#🇺🇸 США 🔥
-vless://056405e8-de9f-4d0d-8145-956f13cc34da@a0688bt.us4.h1clayd.click:443?type=tcp&security=reality&sni=a0688bt.us4.h1clayd.click&pbk=5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E&sid=257420d9d430152a&fp=safari#🇺🇸 США 🔥
-vless://3e16033f-71d8-417b-abea-7756253f3c3d@da0bcdc2133654d7.tunvi.w-ert.org:32093?security=reality&alpn=h2%2Chttp%2F1.1&encryption=none&pbk=Jps_lXkq4doz-qvvikPlMevcR1CG3ZFRPHyAadj3Fhc&headerType=none&type=tcp&sni=amp-api-edge.apps.apple.com&sid=ca358c46a3e9d52a&fp=qq#🇩🇪 Германия 🔥
+vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?path=%2Fdula&security=tls&encryption=none&host=speed.dulacloud.store&type=ws&sni=speed.dulacloud.store&allowInsecure=0&insecure=0&fp=android#🇸🇬 Сингапур 🔥
+vless://XpnTeam-36@140.248.186.45:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=android#🇫🇷 Франция 🔥
+vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?path=%2Fdula&security=tls&encryption=none&host=speed.dulacloud.store&type=ws&sni=speed.dulacloud.store&allowInsecure=0&insecure=0&fp=chrome#🇸🇬 Сингапур 🔥
+vless://XpnTeam-36@140.248.186.45:443?host=Appxdn.global.ssl.fastly.net&path=%2F&security=tls&sni=ssl.fastly.com&type=ws&fp=chrome#🇫🇷 Франция 🔥
+vless://7967bf59-57e3-4cde-9898-527b0fe60022@141.193.213.20:8443?path=%2Fdula&security=tls&encryption=none&host=speed.dulacloud.store&type=ws&sni=speed.dulacloud.store&allowInsecure=0&insecure=0&fp=edge#🇸🇬 Сингапур 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://9c794bb7-54fe-4acd-844a-a26209af36c3@194.87.29.96:8443?type=grpc&security=reality&pbk=zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs&sid=4d2cf3&sni=vk.ru&fp=chrome#🇩🇪 Германия 🔥
-vless://9c794bb7-54fe-4acd-844a-a26209af36c3@194.87.29.96:8443?type=grpc&security=reality&pbk=zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs&sid=4d2cf3&sni=vk.ru&fp=random#🇩🇪 Германия 🔥
-vless://9c794bb7-54fe-4acd-844a-a26209af36c3@194.87.29.96:8443?type=grpc&security=reality&pbk=zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs&sid=4d2cf3&sni=vk.ru&fp=safari#🇩🇪 Германия 🔥
-vless://9c794bb7-54fe-4acd-844a-a26209af36c3@194.87.29.96:8443?type=grpc&security=reality&pbk=zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs&sid=4d2cf3&sni=vk.ru&fp=edge#🇩🇪 Германия 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://1e3d3634-36ac-43ac-a439-9665d885238f@206.206.76.75:443?flow=xtls-rprx-vision&fp=chrome&pbk=TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig&security=reality&sid=9930177816ab09da&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://67952583-8572-42e1-943d-0602794f885b@510.150333.xyz:21002?fp=chrome&pbk=IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA&security=reality&sid=d9a6b52e98121db2&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://4a3d18d7-dfbe-4077-986a-6b145e417568@45.39.198.205:8443?flow=xtls-rprx-vision&fp=chrome&pbk=pOOWxG69IvNxQyZUtd4QDK0KEtFHVsjC-m5-zcsi5Do&security=reality&sid=c5b8bed4faee8363&sni=gateway.icloud.com&type=raw#🌐 Сервер 🔥
-vless://e6df2095-a73c-4043-8693-8d5a03686870@172.67.155.65:8443?host=lucasjow.us.ci&path=%2Fcart%2Fdocs%2Fwww%2Fproxyip%3Fed%23Telegram---mehrosaboran&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@172.67.155.65:8443?host=lucasjow.us.ci&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@104.21.91.244:443?fp=chrome&host=lucasjow.us.ci&path=%2F%3FTELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM%3Fed%3D2560&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=raw#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.97.6:443?host=lucasjow.us.ci&path=%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
