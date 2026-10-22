@@ -1,20 +1,26 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 21.10.2026 21:19:30
+# Обновлено: 22.10.2026 00:06:53
 
 # ===== VPN (Hidashimora) =====
-vless://1e5dc1cb-fda6-4152-b1bf-52ff7570c160@104.36.69.180:443?security=reality&flow=xtls-rprx-vision&pbk=QhEh_RgwlY-eLMAF3HmH0F8_MtYqvV1CnRxuvjDuInw&sid=8f4a9d2c1e6b3f50&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F&fp=safari#🇺🇸 США 🔥
+vless://XpnTeam-33@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=chrome#🇫🇷 Франция 🔥
 vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@165.99.222.161:443?security=reality&sni=in1.vkusnews.com&flow=xtls-rprx-vision&pbk=SC6AnZ_BlvDruiGFpDRno9b1V3wMmq9gjB-KEHHUlE4&type=tcp&headerType=none&encryption=none&fp=qq#🌐 Сервер 🔥
-vless://1e5dc1cb-fda6-4152-b1bf-52ff7570c160@104.36.69.180:443?flow=xtls-rprx-vision&pbk=QhEh_RgwlY-eLMAF3HmH0F8_MtYqvV1CnRxuvjDuInw&security=reality&sid=8f4a9d2c1e6b3f50&sni=www.cloudflare.com&type=tcp&fp=edge#🇺🇸 США 🔥
-vless://056405e8-de9f-4d0d-8145-956f13cc34da@8fc752g.fi3.h1clayd.click:443?encryption=none&pbk=GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18&security=reality&serviceName=f345a414c040&sid=09d0a94a1c6fc9d5&sni=8fc752g.fi3.h1clayd.click&spx=%2F&type=grpc&fp=safari#🇫🇮 Финляндия 🔥
-vless://d0d08709-093d-45dc-ac6f-fd18890fa2c5@hu3.aiage.work:443?encryption=none&security=reality&sni=hu3.aiage.work&flow=xtls-rprx-vision&pbk=M67-jEVPxSEjAhdBgL-lFgzQt_FloM7tL092KC7LTFE&sid=a09ef132e6a308ae&fp=chrome#🌐 Сервер 🔥
+vless://c166ca49-4af0-416d-8411-2100f7bde9fe@66.154.101.36:443?pbk=t_aj99mkcVXDY_7xI9RhWyEY3khupiGiDsGKEJ7EajM&security=reality&sid=5590a9bae52e0586&sni=www.tesla.com&encryption=none&type=tcp&fp=chrome#🇺🇸 США 🔥
+vless://XpnTeam-33@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=android#🇫🇷 Франция 🔥
+vless://6877f68f-2443-445d-8c11-16c77a2699a5@174.136.204.23:34539?encryption=none&flow=xtls-rprx-vision&pbk=KZ95U9GVT36nb3EPuraPI2BwyikGlQv8sIyRvgECt2E&security=reality&sid=ab400d5a&sni=apple.com&type=tcp&fp=chrome#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
+vless://261160d5-0343-4b85-8c28-3d40dd681559@45.128.78.171:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ozon.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=chrome#🇩🇪 Германия 🔥
+vless://9ebf4fda-7395-4800-b42f-b2dda649880a@e1-us.edgemedia.lol:21443?pbk=1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ&headerType=none&sni=ya.ru&encryption=none&flow=xtls-rprx-vision&type=tcp&sid=d2061bb1&security=reality&fp=firefox#🇺🇸 США 🔥
+vless://9ebf4fda-7395-4800-b42f-b2dda649880a@e1-us.edgemedia.lol:21443?pbk=1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ&headerType=none&sni=ya.ru&encryption=none&flow=xtls-rprx-vision&type=tcp&sid=d2061bb1&security=reality&fp=safari#🇺🇸 США 🔥
+vless://9ebf4fda-7395-4800-b42f-b2dda649880a@e1-us.edgemedia.lol:21443?security=reality&type=tcp&sni=ya.ru&host=ya.ru&flow=xtls-rprx-vision&fp=random&pbk=1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ&sid=d2061bb1#🇺🇸 США 🔥
 
 # ===== LTE Mobile (RU) =====
+vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@45.144.30.113:443?security=reality&encryption=none&pbk=Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=syberia.russiavibory.online#🇫🇮 Финляндия 🔥
+vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@45.9.12.7:443?security=reality&encryption=none&pbk=Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=peskov.russiavibory.online#🇫🇮 Финляндия 🔥
 
 # ===== Premium (Au1rxx) =====
-vless://82eb8419-59f4-4d3e-9106-d05d22af615c@156.229.164.4:9443?flow=xtls-rprx-vision&fp=chrome&pbk=0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4&security=reality&sid=b390142456517acc&sni=www.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.225:443?flow=xtls-rprx-vision&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.98.0:443?host=lucasjow.us.ci&path=%2F%3FTelegram---mehrosaboranfp%3Dchrome&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
-vless://e6df2095-a73c-4043-8693-8d5a03686870@104.18.43.174:443?fp=chrome&host=lucasjow.us.ci&path=%2F&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.97.6:443?alpn=http%2F1.1&host=lucasjow.us.ci&path=%2F%3FSAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp%3Dchrome&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.98.0:443?alpn=http%2F1.1&fp=chrome&host=lucasjow.us.ci&path=%2F%3FTelegram---DailyConfigs---DailyConfigs---DailyConfigs&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.98.0:443?alpn=http%2F1.1&fp=chrome&host=lucasjow.us.ci&path=3&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
+vless://e6df2095-a73c-4043-8693-8d5a03686870@188.114.98.0:443?alpn=http%2F1.1&fp=chrome&host=lucasjow.us.ci&path=%3FTELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN%3Fed%3D2560&security=tls&sni=lucasjow.us.ci&type=ws#🌐 Сервер 🔥
