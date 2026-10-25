@@ -1,22 +1,24 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 25.10.2026 08:59:00
+# Обновлено: 25.10.2026 13:40:36
 
 # ===== VPN (Hidashimora) =====
-vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@45.144.221.169:443?security=reality&encryption=none&pbk=Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=arizona.eosapp.net#🇺🇸 США 🔥
-vless://7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc@217.12.204.59:443?type=xhttp&security=tls&fp=firefox&sni=i6c4a6t02b86qw.hat.onl&path=/hls/is1z8lgy/seg&host=i6c4a6t02b86qw.hat.onl&mode=auto#🌐 Сервер 🔥
-vless://605dea9b-b485-45c9-af9b-cc2b0195023c@se1.mycloud1.org:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=se1.mycloud1.org&pbk=Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E&sid=afee962d&fp=chrome#🇸🇪 Швеция 🔥
-vless://846cedee-2a52-0002-a0b9-11850ead6a8b@nl-central.v8x2b.lol:443?security=reality&pbk=q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE&sni=nl-central.v8x2b.lol&type=tcp&headerType=none&host=nl-central.v8x2b.lol&path=%2F&fp=qq#🇩🇪 Германия 🔥
-vless://846cedee-2a52-0001-a0b9-11850ead6a8b@ee-central.v8x2b.lol:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=USSepsAbvP9LpByHLV2xD2H8dq8GAJ6G0fINEqD4PAw&sni=ee-central.v8x2b.lol#🌐 Сервер 🔥
+vless://653137c6-474e-4a3d-9a20-5a5afb3d4a4f@5.175.205.190:27774#🇩🇪 Германия 🔥
+vless://846cedee-2a52-0002-a0b9-11850ead6a8b@191.217.216.24:443?encryption=none&pbk=q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE&security=reality&sni=nl-central.v8x2b.lol&type=tcp&fp=safari#🇩🇪 Германия 🔥
+vless://4c346148-ece9-487a-bffb-ba5a399b2d71@188.225.83.133:443?type=grpc&security=reality&encryption=none&sni=xnodtwx.artemida.live&pbk=JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw&sid=a1b2c3d4e5f6a7b8&headerType=none&mode=gun&fp=firefox#🇳🇱 Нидерланды 🔥
+vless://d5dc8280-1feb-4328-b289-5bd6d0487bff@151.101.3.6:443?encryption=none&security=tls&sni=apps.apple.com&alpn=h3&type=xhttp&mode=packet-up&host=cloudrix.global.ssl.fastly.net&path=%2Ffastly&fp=safari#🇫🇷 Франция 🔥
+vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@196.247.163.10:443?security=reality&encryption=none&pbk=5984Ah0pkfSVekU5xafQ1trZZN7MyNCJ-3KfCo-O6A4&headerType=&type=tcp&flow=xtls-rprx-vision&sni=britainmh.eosvpn.com&fp=safari#🇬🇧 Великобритания 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87@45.128.78.196:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ozon.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=firefox#🇩🇪 Германия 🔥
-vless://fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87@45.128.78.196:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=ozon.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=ios#🇩🇪 Германия 🔥
+vless://7c464358-6c89-4623-bd20-7c7bcd51bc55@vd2.outlinevpn.cc:12213?security=reality&type=tcp&sni=music.yandex.ru&host=music.yandex.ru&flow=xtls-rprx-vision&pbk=kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI&sid=6a29a03b21&fp=firefox#🇳🇱 Нидерланды 🔥
+vless://7c464358-6c89-4623-bd20-7c7bcd51bc55@vd2.outlinevpn.cc:12213?security=reality&encryption=none&pbk=kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=music.yandex.ru&sid=6a29a03b21&fp=ios#🇳🇱 Нидерланды 🔥
+vless://7c464358-6c89-4623-bd20-7c7bcd51bc55@vd2.outlinevpn.cc:12213?security=reality&encryption=none&pbk=kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI&headerType=none&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=music.yandex.ru&sid=6a29a03b21&fp=qq#🇳🇱 Нидерланды 🔥
+vless://7c464358-6c89-4623-bd20-7c7bcd51bc55@vd2.outlinevpn.cc:12213?security=reality&type=tcp&sni=music.yandex.ru&host=music.yandex.ru&flow=xtls-rprx-vision&pbk=kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI&sid=6a29a03b21&fp=random#🇳🇱 Нидерланды 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?host=13.140.56.100&path=%2Fvless&security=none&type=ws#🌐 Сервер 🔥
-vless://c7c27192-60a5-4ce1-b613-95270d82309d@5.253.29.254:10443?fp=chrome&security=none&sni=5.253.29.254&type=tcp#🌐 Сервер 🔥
-vless://b9bfa54d-bc44-4592-a6d6-89a9665d286f@edge.bookmai.com:443?flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=mother-earth.fyi&type=raw#🌐 Сервер 🔥
-vless://76b6a658-ce80-4500-b24d-404c94639ac6@67.159.49.30:2091?flow=xtls-rprx-vision&fp=chrome&pbk=1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k&security=reality&sid=08a4b1f473932632&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://dc620cd6-a9d8-4a0f-8f18-006b895db77e@66.70.179.198:2053?fp=random&pbk=k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU&security=reality&sid=83f8317a948bb769&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
+vless://3644635c-f8c4-449c-a665-fce1897a7bf3@66.90.115.130:2090?flow=xtls-rprx-vision&fp=chrome&pbk=qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk&security=reality&sid=bb472a184677af64&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://1af36694-b548-4b18-89a0-bc076eab4ed7@178.172.227.124:14430?host=178.172.227.124&path=%2Fvless&security=none&sni=178.172.227.124&type=ws#🌐 Сервер 🔥
+vless://b256c867-a020-48e0-be80-1b079f2613a2@45.76.172.197:443?fp=chrome&path=%2Fws&pbk=Ag8SQ5QdqfHO9pKWA93kqGmH5EQo7Xm5Z4RbPnwPBBE&security=reality&sid=ff3597db&sni=itunes.apple.com&type=ws#🌐 Сервер 🔥
