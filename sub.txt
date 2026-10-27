@@ -1,20 +1,21 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 27.10.2026 08:13:24
+# Обновлено: 27.10.2026 14:48:37
 
 # ===== VPN (Hidashimora) =====
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&security=reality&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&fp=qq#🇳🇱 Нидерланды 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?allowInsecure=1&encryption=none&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&security=reality&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&fp=firefox#🇳🇱 Нидерланды 🔥
-vless://30572b57-f5ab-4eb8-82d4-a24d399b99f6@168.113.171.68:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU&sni=a10.eosapp.net#🇩🇪 Германия 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=chrome#🇳🇱 Нидерланды 🔥
-vless://ef328563-cda1-4530-9b0a-988cc5a74d78@31.210.43.142:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=flooraccount.net&type=tcp&fp=ios#🌐 Сервер 🔥
+vless://XpnTeam-54@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=chrome#🇫🇷 Франция 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=safari#🇳🇱 Нидерланды 🔥
+vless://4b1be712-774c-4b65-8491-a3339e124a70@se1-cl3.vless-fiberstasis.top:443?type=grpc&security=reality&pbk=qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo&sid=11d37dd92940329e&sni=se1-cl3.vless-fiberstasis.top&mode=multi&serviceName=grpc-se-3&fp=chrome#🇸🇪 Швеция 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?security=reality&type=tcp&packetEncoding=xudp&sni=ge-s-1.pythonmakemigreat.wiki&flow=xtls-rprx-vision&sid=2c9a2790ad5900b2&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&encryption=none&fp=chrome#🇩🇪 Германия 🔥
+vless://5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f@147.78.182.6:8443?security=reality&type=grpc&serviceName=TunService&mode=gun&sni=www.epson.com&pbk=Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8&fp=edge#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
+hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://41b1c169-5905-4d98-b6a6-56896c25737c@511.150333.xyz:21001?fp=chrome&pbk=HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU&security=reality&sid=ab39fc68ab3dee81&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@milo.networkforexir.site:8080?security=none&type=raw#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.89:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=raw#🌐 Сервер 🔥
+vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?fp=chrome&security=none&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&path=%2F%2B&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.9:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://c14ec728-3eca-4750-87fc-fd1e6aeb81d5@195.123.235.183:443?flow=xtls-rprx-vision&fp=chrome&path=%2F&pbk=H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY&security=reality&sid=a0e2a6074c6456b0&sni=gateway.icloud.com&type=tcp#🌐 Сервер 🔥
