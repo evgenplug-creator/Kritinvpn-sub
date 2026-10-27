@@ -1,21 +1,23 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 27.10.2026 14:48:37
+# Обновлено: 27.10.2026 19:51:04
 
 # ===== VPN (Hidashimora) =====
-vless://XpnTeam-54@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com&fp=chrome#🇫🇷 Франция 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=safari#🇳🇱 Нидерланды 🔥
-vless://4b1be712-774c-4b65-8491-a3339e124a70@se1-cl3.vless-fiberstasis.top:443?type=grpc&security=reality&pbk=qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo&sid=11d37dd92940329e&sni=se1-cl3.vless-fiberstasis.top&mode=multi&serviceName=grpc-se-3&fp=chrome#🇸🇪 Швеция 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?security=reality&type=tcp&packetEncoding=xudp&sni=ge-s-1.pythonmakemigreat.wiki&flow=xtls-rprx-vision&sid=2c9a2790ad5900b2&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&encryption=none&fp=chrome#🇩🇪 Германия 🔥
-vless://5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f@147.78.182.6:8443?security=reality&type=grpc&serviceName=TunService&mode=gun&sni=www.epson.com&pbk=Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8&fp=edge#🇺🇸 США 🔥
+vless://2446e2e2-1ce3-4502-9050-1dd32bacc68c@875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network:20065?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network&fp=safari#🇩🇪 Германия 🔥
+vless://80c2ebdb-755f-4516-a3ea-72fc3f4caed0@151.101.3.6:443?alpn=h3&encryption=none&host=Mastervpsfasjt.global.ssl.fastly.net&mode=auto&path=%2F&security=tls&sni=Apps.apple.com&type=xhttp&fp=chrome#🌐 Сервер 🔥
+vless://32b5ca9b-3f81-4031-965d-e8b074216e8d@201.24.121.243:443?mode=gun&security=tls&alpn=h2&encryption=none&authority=%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&insecure=0&type=grpc&serviceName=vlgrpc&allowInsecure=0&sni=kk-ru24a1.testkknegr.online&fp=chrome#🇷🇺 Россия 🔥
+vless://b9fdc03f-389b-4cda-9be4-155b623bee15@2.26.6.1:2087?type=tcp&security=tls&allowInsecure=0&insecure=0&fp=ios#🇵🇱 Польша 🔥
+vless://b9fdc03f-389b-4cda-9be4-155b623bee15@2.26.6.1:2087?security=tls&sni=2.26.6.1&fp=safari#🇵🇱 Польша 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
+hysteria2://STYyftThFn@freedom.chenlan.top:12765?insecure=1&sni=vk.com#🇯🇵 Япония 🔥
+hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
+hysteria2://099830134df5ac3a04a4b21d39b8c395@163.192.14.135:50160/?insecure=1&sni=vk.com#🇺🇸 США 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@edge10.cyrionflare.com:2052?fp=chrome&security=none&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&path=%2F%2B&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.9:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
-vless://c14ec728-3eca-4750-87fc-fd1e6aeb81d5@195.123.235.183:443?flow=xtls-rprx-vision&fp=chrome&path=%2F&pbk=H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY&security=reality&sid=a0e2a6074c6456b0&sni=gateway.icloud.com&type=tcp#🌐 Сервер 🔥
+vless://0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8@151.241.226.201:2053?fp=random&pbk=bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104&security=reality&sid=9e419c0759b54d6f&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://67952583-8572-42e1-943d-0602794f885b@510.150333.xyz:21003?fp=random&host=www.cloudflare.com&pbk=IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA&security=reality&sid=f3602a3a1cf928b7&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
+vless://cb2dbb6a-a1ea-4023-9ace-6466cee57241@51.81.203.63:443?flow=xtls-rprx-vision&fp=chrome&pbk=nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0&security=reality&sid=4477382ff6d3d41c&sni=www.icloud.com&spx=%2F&type=tcp#🌐 Сервер 🔥
