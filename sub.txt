@@ -1,23 +1,21 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 27.10.2026 19:51:04
+# Обновлено: 27.10.2026 23:32:43
 
 # ===== VPN (Hidashimora) =====
-vless://2446e2e2-1ce3-4502-9050-1dd32bacc68c@875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network:20065?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network&fp=safari#🇩🇪 Германия 🔥
-vless://80c2ebdb-755f-4516-a3ea-72fc3f4caed0@151.101.3.6:443?alpn=h3&encryption=none&host=Mastervpsfasjt.global.ssl.fastly.net&mode=auto&path=%2F&security=tls&sni=Apps.apple.com&type=xhttp&fp=chrome#🌐 Сервер 🔥
-vless://32b5ca9b-3f81-4031-965d-e8b074216e8d@201.24.121.243:443?mode=gun&security=tls&alpn=h2&encryption=none&authority=%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&insecure=0&type=grpc&serviceName=vlgrpc&allowInsecure=0&sni=kk-ru24a1.testkknegr.online&fp=chrome#🇷🇺 Россия 🔥
-vless://b9fdc03f-389b-4cda-9be4-155b623bee15@2.26.6.1:2087?type=tcp&security=tls&allowInsecure=0&insecure=0&fp=ios#🇵🇱 Польша 🔥
-vless://b9fdc03f-389b-4cda-9be4-155b623bee15@2.26.6.1:2087?security=tls&sni=2.26.6.1&fp=safari#🇵🇱 Польша 🔥
+vless://f439e4fe-139b-4882-ad8b-a16176d09c88@78.153.136.15:443?security=reality&encryption=none&pbk=EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8&headerType=&type=tcp&sni=eu53.cdn77.icu&sid=1ed136481e0ede74&fp=ios#🇷🇺 Россия 🔥
+vless://50a87e21-f0e2-4b53-a787-91adfe748f63@finlandlanzarotte.live:443?type=tcp&security=reality&flow=xtls-rprx-vision&pbk=6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo&sni=finlandlanzarotte.live&fp=firefox#🇺🇸 США 🔥
+vless://XpnTeam-55@199.232.78.160:443?encryption=none&security=tls&sni=ssl.fastly.com&alpn=http%2F1.1&type=ws&host=Appxdn.global.ssl.fastly.net&path=%2F&fp=chrome#🇫🇷 Франция 🔥
+vless://80c2ebdb-755f-4516-a3ea-72fc3f4caed0@151.101.3.6:443?encryption=none&security=tls&sni=Apps.apple.com&alpn=h3&type=xhttp&mode=auto&host=Mastervpsfasjt.global.ssl.fastly.net&path=%2F&fp=firefox#🇫🇮 Финляндия 🔥
+vless://80c2ebdb-755f-4516-a3ea-72fc3f4caed0@151.101.3.6:443?encryption=none&security=tls&sni=Apps.apple.com&alpn=h3&type=xhttp&mode=auto&host=Mastervpsfasjt.global.ssl.fastly.net&path=%2F&fp=chrome#🇫🇮 Финляндия 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-hysteria2://STYyftThFn@freedom.chenlan.top:12765?insecure=1&sni=vk.com#🇯🇵 Япония 🔥
-hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
-hysteria2://099830134df5ac3a04a4b21d39b8c395@163.192.14.135:50160/?insecure=1&sni=vk.com#🇺🇸 США 🔥
+hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8@151.241.226.201:2053?fp=random&pbk=bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104&security=reality&sid=9e419c0759b54d6f&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://67952583-8572-42e1-943d-0602794f885b@510.150333.xyz:21003?fp=random&host=www.cloudflare.com&pbk=IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA&security=reality&sid=f3602a3a1cf928b7&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://cb2dbb6a-a1ea-4023-9ace-6466cee57241@51.81.203.63:443?flow=xtls-rprx-vision&fp=chrome&pbk=nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0&security=reality&sid=4477382ff6d3d41c&sni=www.icloud.com&spx=%2F&type=tcp#🌐 Сервер 🔥
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?fp=unsafe&host=uae.unixzone.us&path=%2F&security=none&type=ws#🌐 Сервер 🔥
+vless://2a6c617d-98e4-49c3-95ab-76f02fcf0150@46.137.202.178:12512?flow=xtls-rprx-vision&fp=firefox&pbk=sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA&security=reality&sid=e692a8250d2e2fd0&sni=www.intel.com&type=raw#🌐 Сервер 🔥
+vless://36cf792c-f07d-4500-97ea-a395e5178deb@77.232.135.141:8445?fp=chrome&security=tls&serviceName=beru-pl&sni=ru1.radiolumens.uk&type=grpc#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=qq&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
