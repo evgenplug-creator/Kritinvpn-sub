@@ -1,13 +1,13 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 29.10.2026 01:35:11
+# Обновлено: 29.10.2026 08:06:50
 
 # ===== VPN (Hidashimora) =====
-vless://71a195c5-df47-47ad-81be-f4d3a3a21be3@199.232.239.239:443?mode=auto&path=%2F%40CloudVPNchannel%2F%40CloudVPNchannel%2F%40CloudVPNchannel&security=tls&alpn=h2&encryption=none&insecure=0&host=cloudnet2026.global.ssl.fastly.net&fp=ios&type=xhttp&allowInsecure=0&sni=ssl.fastly.com#🇫🇮 Финляндия 🔥
-vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?type=xhttp&security=tls&fp=safari&sni=ru2.radiolumens.uk&path=/beru-uk&mode=auto#🇬🇧 Великобритания 🔥
-vless://7c730089-1791-4828-89b2-86e7e1663063@ae.privatevip.ir:450?encryption=none&host=ae.privatevip.ir&path=%2F&security=none&type=ws#🇺🇸 США 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&type=tcp&packetEncoding=xudp&sni=sw.golangwikito.cfd&fp=chrome&flow=xtls-rprx-vision&sid=a1037b25dcef6aa7&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&encryption=none#🇳🇱 Нидерланды 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=safari#🇳🇱 Нидерланды 🔥
 vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?type=xhttp&security=tls&path=/beru-uk&sni=ru2.radiolumens.uk&fp=chrome#🇬🇧 Великобритания 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=edge#🇳🇱 Нидерланды 🔥
+vless://36cf792c-f07d-4500-97ea-a395e5178deb@ru2.radiolumens.uk:9444?mode=auto&path=%2Fberu-uk&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=xhttp&sni=ru2.radiolumens.uk&allowInsecure=0&insecure=0&fp=edge#🇬🇧 Великобритания 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&type=tcp&packetEncoding=xudp&sni=sw.golangwikito.cfd&fp=chrome&flow=xtls-rprx-vision&sid=a1037b25dcef6aa7&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&encryption=none#🇳🇱 Нидерланды 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
@@ -15,7 +15,7 @@ hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳�
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@178.212.35.198:443?fp=firefox&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://1a8ecc41-6e62-431b-8eca-87c2fa4dc286@168.222.43.53:2052?security=none&type=tcp#🌐 Сервер 🔥
-vless://c14ec728-3eca-4750-87fc-fd1e6aeb81d5@195.123.235.183:443?flow=xtls-rprx-vision&fp=chrome&pbk=H3R3BUAl7thrIZsznTbb-eRREIjQOH2f3WO0oTN7OGY&security=reality&sid=a0e2a6074c6456b0&sni=gateway.icloud.com&type=raw#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=random&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&path=%2F%2B&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://81dc0b61-f9fe-4ad6-8b4e-b8c067b73712@152.228.139.33:35108?pbk=X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg&security=reality&serviceName=grpc-common3&sid=52add08b86a5ccea&sni=www.nvidia.com&type=grpc#🌐 Сервер 🔥
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?host=uae.unixzone.us&security=none&type=ws#🌐 Сервер 🔥
