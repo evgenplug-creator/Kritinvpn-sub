@@ -1,22 +1,21 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 29.10.2026 15:24:51
+# Обновлено: 29.10.2026 20:27:09
 
 # ===== VPN (Hidashimora) =====
-vless://5e55a2d4-d1a9-4fb1-608a-86d43399bb17@s3.lemvuno.ir:2087?mode=auto&pcs=e13a8316b04a67e148ada4c91e5be8458976d65998174938c7ba0b6eac23bb3c&path=%2FBetForward&security=tls&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=s3.lemvuno.ir&type=xhttp&allowInsecure=0&sni=s3.lemvuno.ir&fp=chrome#🇩🇪 Германия 🔥
-vless://cd6a469c-01ca-49a0-b521-755d7dfdfb9f@151.101.3.6:443?encryption=none&security=tls&sni=apps.apple.com&alpn=h3&type=xhttp&mode=packet-up&host=cloudrix.global.ssl.fastly.net&path=%2Ffastly&fp=android#🇫🇷 Франция 🔥
-vless://cd6a469c-01ca-49a0-b521-755d7dfdfb9f@151.101.3.6:443?encryption=none&security=tls&sni=apps.apple.com&alpn=h3&type=xhttp&mode=packet-up&host=cloudrix.global.ssl.fastly.net&path=%2Ffastly&fp=chrome#🇫🇷 Франция 🔥
-vless://71a195c5-df47-47ad-81be-f4d3a3a21be3@199.232.239.239:443?mode=auto&path=%2F%40CloudVPNchannel%2F%40CloudVPNchannel%2F%40CloudVPNchannel&security=tls&alpn=h2&encryption=none&insecure=0&host=cloudnet2026.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=ssl.fastly.com&fp=qq#🇫🇮 Финляндия 🔥
-vless://05c66efe-4f1e-4df9-99e6-2b1b624fa7ae@39.109.109.213:443?encryption=none&security=tls&sni=sg.jinggai.online&alpn=http%2F1.1&type=ws&path=%2Fconnect%2F01&host=sg.jinggai.online&fp=chrome#🇨🇦 Канада 🔥
+vless://f90b7d43-69e2-4b46-a672-8029bc6796a2@ee.h1cloud.net:25895?encryption=none&security=reality&sni=www.samsung.com&pbk=jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k&sid=a73f0410d728c823&type=tcp&headerType=none&fp=firefox#🌐 Сервер 🔥
+vless://05c66efe-4f1e-4df9-99e6-2b1b624fa7ae@47.82.155.79:443?encryption=none&security=tls&sni=sg.jinggai.online&alpn=http%2F1.1&type=ws&path=%2Fconnect%2F01&host=sg.jinggai.online&fp=chrome#🌐 Сервер 🔥
+vless://bdf38176-48e9-40f1-9d1c-d501c333b464@151.101.67.6:443?encryption=none&security=tls&sni=amp-api-edge.apps.apple.com&alpn=h3&type=xhttp&mode=auto&host=kkbr.tm&path=%2Fcrownnet&fp=firefox#🇩🇪 Германия 🔥
+vless://3ec60ed4-df40-483d-bbf9-33f65ce9c3e7@94.249.186.139:43000?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&pbk=QUXt6kRkacRqiqckfCYCoEqzFHBlM69HRypO6asSTGI&sid=36cbbcaf&spx=%2F&fp=chrome#🇩🇪 Германия 🔥
+vless://1fe01c8a-ab37-4e95-bbfc-95d4a608931e@31.58.234.135:47443?security=reality&encryption=none&pbk=r69Y55UMNEcuk345EEMQtVvpK8cNccqo3y9WjY-ugDc&headerType=&type=tcp&flow=xtls-rprx-vision&sni=nl-1.waspguard.ru&sid=ae97223a8f799871&fp=chrome#🇳🇱 Нидерланды 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://b1da2601-ff93-46d6-af87-04af3f541fde@5.180.181.113:443?flow=xtls-rprx-vision&pbk=wY_MYPJUx849su3BlowuxnwnUaj25iLfRw2LooQfPAY&security=reality&sni=sun1-19.userapi.com&type=tcp&fp=chrome#🇳🇱 Нидерланды 🔥
 hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://dc620cd6-a9d8-4a0f-8f18-006b895db77e@66.70.179.198:2053?fp=chrome&pbk=k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU&security=reality&sid=83f8317a948bb769&sni=www.cloudflare.com&type=raw#🌐 Сервер 🔥
-vless://965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0@95.174.68.188:14430?host=95.174.68.188&path=%2Fvless&security=none&sni=95.174.68.188&type=ws#🌐 Сервер 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fr.golangwikito.cfd:443?flow=xtls-rprx-vision&fp=firefox&host=fr.golangwikito.cfd&path=%2F&pbk=isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA&security=reality&sid=e6d589857d1cec5e&sni=fr.golangwikito.cfd&type=tcp#🌐 Сервер 🔥
-vless://f5e70ce3-cfb4-4df1-b25c-d19bfae627c0@45.90.57.119:8443?flow=xtls-rprx-vision&fp=chrome&pbk=L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI&security=reality&sid=16036bbef04d0509&sni=twitch.tv&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.18.37.127:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@152.69.200.216:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.84:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?fp=chrome&path=%2Fvless&security=false&type=ws#🌐 Сервер 🔥
