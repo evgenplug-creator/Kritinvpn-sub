@@ -1,24 +1,22 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 01.11.2026 01:54:20
+# Обновлено: 01.11.2026 08:48:25
 
 # ===== VPN (Hidashimora) =====
-vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&security=reality&sid=a111111111111111&sni=calendar.salphetka.ru&type=tcp#🇫🇷 Франция 🔥
-vless://53f03acd-fec1-6685-fc8f-03baf9550cb8@195.141.65.98:443?encryption=none&security=tls&sni=148-253-210-191.sslip.io&alpn=http%2F1.1&type=ws&path=%2Ftest-ws&host=148-253-210-191.sslip.io&fp=ios#🇩🇪 Германия 🔥
-vless://2f9107cb-9af0-4c94-a89d-50437218e5fa@87.228.71.195:443?type=ws&security=tls&path=%2Fmd%2F1&sni=ap2.directly.chat&fp=edge#🌐 Сервер 🔥
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@sw.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg&sid=a1037b25dcef6aa7&sni=sw.golangwikito.cfd&type=tcp&headerType=none&host=sw.golangwikito.cfd&path=%2F&fp=firefox#🇳🇱 Нидерланды 🔥
-vless://c7fc009a-026b-46e5-a0c5-82e32bcabd69@nl.coffeconsulting.uk:443?encryption=none&security=reality&sni=nl.coffeconsulting.uk&fp=firefox&flow=xtls-rprx-vision&type=tcp&pbk=Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo&sid=492d593d82fc6674#🇳🇱 Нидерланды 🔥
+vless://056d58b7-2577-4f82-b7a8-2473202419c2@151.101.193.242:443?&security=tls&fp=chrome&sni=piracy-android.video-streams.org&type=ws&headerType=none&host=piracy-android.video-streams.org&path=%2Fws#🇺🇸 США 🔥
+vless://40af9131-d540-448a-bc56-5bba147a1dc3@103.116.7.100:2087?type=ws&security=tls&fp=firefox&host=proxy-1cu.pages.dev&ed=2560#🌐 Сервер 🔥
+vless://2497c739-697d-43e4-bef7-ed1a6e8e5c91@adheres-scruple.quick-cdn.net:443?encryption=none&type=ws&path=%2Fws&host=adheres-scruple.quick-cdn.net&security=tls&sni=adheres-scruple.quick-cdn.net&alpn=http%2F1.1&fp=chrome#🇺🇸 США 🔥
+vless://7443ec9d-4ded-409b-ac14-a20328502c13@minimize-evenness.cdn-content.com:443?path=%2Fws&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=minimize-evenness.cdn-content.com&type=ws&allowInsecure=0&sni=minimize-evenness.cdn-content.com&fp=safari#🇺🇸 США 🔥
+vless://71ee5343-b431-44be-bed7-22b9b9f7253c@piracy-android.video-streams.org:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=piracy-android.video-streams.org&fp=chrome#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
+hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
 hysteria2://3d7634af8cb2c6cb4bac1c0efad8b43d@152.67.200.82:50160?insecure=1&sni=vk.com#🇰🇷 Корея 🔥
-vless://2d2f710b-574c-43e7-bc8c-8d69c3e7806a@138.124.53.224:30446?mode=auto&path=%2Fapi%2Fv2%2Fconfig&security=reality&encryption=none&pbk=m1IKQBFBKoY1Dzltcv40GXf6IA4_LgtKdvCIN1e31hA&host=ok.ru&fp=firefox&type=xhttp&sni=ok.ru&sid=fe3e6b8b31192185#🇩🇪 Германия 🔥
-vless://2d2f710b-574c-43e7-bc8c-8d69c3e7806a@185.173.147.176:30447?security=reality&encryption=none&pbk=516PSdm_rjV1YdoGT8npOHTH3u8SfiD-2gV-Tkax02g&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ok.ru&sid=850a8440dff47fe2#🇺🇸 США 🔥
-vless://2d2f710b-574c-43e7-bc8c-8d69c3e7806a@138.124.53.224:30444?security=reality&encryption=none&pbk=9p_IFYdiRFr2rS0dkAEM3dncMWlNrMRbqnK-fCi0H3w&fp=firefox&type=grpc&serviceName=grpc-neo&sni=max.ru&sid=11360560921d04c2#🇩🇪 Германия 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://6bdc8320-7eae-46fc-be08-f5f54e65dfc8@in.smrtai.top:443?fp=random&pbk=3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q&security=reality&sid=6bdc8320&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.17.50.53:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.104:443?flow=xtls-rprx-vision&fp=ios&host=%2F%40net2ray&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.202:443?flow=xtls-rprx-vision&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
+vless://ce18d0eb-5c71-41f9-96e5-1632e22456e4@195.123.240.65:443?flow=xtls-rprx-vision&fp=random&host=www.cloudflare.com&pbk=StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE&security=reality&sid=19296c9f1bf9c7b1&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
+vless://2a6c617d-98e4-49c3-95ab-76f02fcf0150@46.137.202.178:12512?flow=xtls-rprx-vision&fp=random&pbk=sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA&security=reality&sid=e692a8250d2e2fd0&sni=www.intel.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?flow=xtls-rprx-vision&fp=qq&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
