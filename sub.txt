@@ -1,22 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 01.11.2026 08:48:25
+# Обновлено: 01.11.2026 15:49:27
 
 # ===== VPN (Hidashimora) =====
-vless://056d58b7-2577-4f82-b7a8-2473202419c2@151.101.193.242:443?&security=tls&fp=chrome&sni=piracy-android.video-streams.org&type=ws&headerType=none&host=piracy-android.video-streams.org&path=%2Fws#🇺🇸 США 🔥
-vless://40af9131-d540-448a-bc56-5bba147a1dc3@103.116.7.100:2087?type=ws&security=tls&fp=firefox&host=proxy-1cu.pages.dev&ed=2560#🌐 Сервер 🔥
-vless://2497c739-697d-43e4-bef7-ed1a6e8e5c91@adheres-scruple.quick-cdn.net:443?encryption=none&type=ws&path=%2Fws&host=adheres-scruple.quick-cdn.net&security=tls&sni=adheres-scruple.quick-cdn.net&alpn=http%2F1.1&fp=chrome#🇺🇸 США 🔥
-vless://7443ec9d-4ded-409b-ac14-a20328502c13@minimize-evenness.cdn-content.com:443?path=%2Fws&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=minimize-evenness.cdn-content.com&type=ws&allowInsecure=0&sni=minimize-evenness.cdn-content.com&fp=safari#🇺🇸 США 🔥
-vless://71ee5343-b431-44be-bed7-22b9b9f7253c@piracy-android.video-streams.org:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=piracy-android.video-streams.org&fp=chrome#🇺🇸 США 🔥
+vless://ecbc4229-e8d3-4607-8f02-fd592c9a0743@minimize-evenness.cdn-content.com:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=%2Fws&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=&fp=chrome&type=ws&allowInsecure=0&sni=#🇺🇸 США 🔥
+vless://9d50fde6-7e89-4dee-9fee-17a77046604c@ghosts-spasm.quick-cdn.net:443?fp=chrome&host=ghosts-spasm.quick-cdn.net&path=%2Fws&security=tls&sni=ghosts-spasm.quick-cdn.net&type=ws#🇺🇸 США 🔥
+vless://4f46eb95-a57f-457f-895f-f50e6ad9f164@adheres-scruple.quick-cdn.net:443?path=/ws&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=adheres-scruple.quick-cdn.net&fp=chrome&type=ws&allowInsecure=0&sni=adheres-scruple.quick-cdn.net#🇺🇸 США 🔥
+vless://86a83d11-d751-4b60-aa4e-1dca5cff7028@us3.shtil.io:443?type=tcp&security=tls&fp=firefox&sni=us3.shtil.io#🇺🇸 США 🔥
+vless://53f03acd-fec1-6685-fc8f-03baf9550cb8@195.141.65.98:443?encryption=none&security=tls&sni=148-253-210-191.sslip.io&alpn=http%2F1.1&type=ws&path=%2Ftest-ws&host=148-253-210-191.sslip.io&fp=ios#🇩🇪 Германия 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
-hysteria2://3d7634af8cb2c6cb4bac1c0efad8b43d@152.67.200.82:50160?insecure=1&sni=vk.com#🇰🇷 Корея 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://ce18d0eb-5c71-41f9-96e5-1632e22456e4@195.123.240.65:443?flow=xtls-rprx-vision&fp=random&host=www.cloudflare.com&pbk=StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE&security=reality&sid=19296c9f1bf9c7b1&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://2a6c617d-98e4-49c3-95ab-76f02fcf0150@46.137.202.178:12512?flow=xtls-rprx-vision&fp=random&pbk=sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA&security=reality&sid=e692a8250d2e2fd0&sni=www.intel.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?flow=xtls-rprx-vision&fp=qq&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
+vless://7b22dce8-7ebd-425b-8ca4-7b6190321985@94.249.148.20:443?fp=firefox&security=tls&serviceName=grpc&sni=a.de-3.bnc-gt.co.uk&type=grpc#🌐 Сервер 🔥
+vless://ca678d26-5435-4d13-b378-06c4c3b070ff@5.34.177.164:443?flow=xtls-rprx-vision&fp=firefox&pbk=cwWhNuekusD1iPZZ--7G891dU9PCacxyCYwsZxOApHA&security=reality&sid=b2efed6d157e7bb0&sni=gateway.icloud.com&type=tcp#🌐 Сервер 🔥
+vless://6cc745e3-4eb9-46c8-a4a1-85dee7b87edc@138.124.70.41:14430?fp=chrome&path=%2Fvless&security=false&type=ws#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.202:443?alpn=networld_vpn-channel&flow=xtls-rprx-vision&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
