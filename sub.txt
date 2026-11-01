@@ -1,13 +1,13 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 01.11.2026 20:15:20
+# Обновлено: 01.11.2026 23:46:14
 
 # ===== VPN (Hidashimora) =====
+vless://11f654d8-8ee6-4663-8fc6-26f2a128b519@adheres-scruple.quick-cdn.net:443?security=tls&type=ws&sni=adheres-scruple.quick-cdn.net&path=%2Fws&host=adheres-scruple.quick-cdn.net&fp=chrome#🇺🇸 США 🔥
+vless://440fe024-dd04-4581-9657-4a49afa65b81@151.101.65.242:443?encryption=none&fp=firefox&host=piracy-android.video-streams.org&path=/ws&security=tls&sni=piracy-android.video-streams.org&type=ws#🇺🇸 США 🔥
+vless://b0cf4078-96b8-4e11-80a8-0f9352565a16@151.101.193.242:443?&security=tls&fp=chrome&sni=adheres-scruple.quick-cdn.net&type=ws&headerType=none&host=adheres-scruple.quick-cdn.net&path=%2Fws#🇺🇸 США 🔥
 vless://9819d5c6-bc6e-4e31-8af7-c023ecff6022@grimness-backlogs.cdn-content.com:443?security=tls&type=ws&sni=grimness-backlogs.cdn-content.com&path=%2Fws&host=grimness-backlogs.cdn-content.com&fp=chrome#🇺🇸 США 🔥
-vless://409f4682-a458-4671-8805-40dfc6978336@grimness-backlogs.cdn-content.com:443?security=tls&type=ws&path=/ws&host=grimness-backlogs.cdn-content.com&packetEncoding=xudp&alpn=http/1.1&sni=grimness-backlogs.cdn-content.com&fp=chrome#🇺🇸 США 🔥
-vless://71ee5343-b431-44be-bed7-22b9b9f7253c@piracy-android.video-streams.org:443?encryption=none&security=tls&type=ws&path=%2Fws&sni=piracy-android.video-streams.org&fp=chrome#🇺🇸 США 🔥
-vless://ecbc4229-e8d3-4607-8f02-fd592c9a0743@minimize-evenness.cdn-content.com:443?path=/ws&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=minimize-evenness.cdn-content.com&fp=chrome&type=ws&allowInsecure=0&sni=minimize-evenness.cdn-content.com#🇺🇸 США 🔥
-vless://566e98ad-4a56-4c1d-9dbc-83987079731b@151.101.193.242:443?encryption=none&fp=firefox&host=piracy-android.video-streams.org&path=/ws&security=tls&sni=piracy-android.video-streams.org&type=ws#🇺🇸 США 🔥
+vless://056d58b7-2577-4f82-b7a8-2473202419c2@199.232.173.242:443?security=tls&type=ws&sni=adheres-scruple.quick-cdn.net&path=%2Fws&host=adheres-scruple.quick-cdn.net&fp=firefox#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
@@ -15,7 +15,7 @@ hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳�
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.231:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:17623?flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.104:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&path=%2F&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&host=%2F%3Fbia_telegram%40soskeynets&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.22:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://ae908ff5-f749-402c-af25-e6e9aef4d6bb@45.138.100.248:14430?fp=chrome&host=45.138.100.248&path=%2Fvless&security=false&type=ws#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.111.102:443?fp=ios&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://d4b08cd6-0903-411a-9dac-45dbdf5c9712@57.131.38.163:2053?fp=chrome&host=--v2raynplus--v2raynplus--v2raynplus--&pbk=Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc&security=reality&sid=5b8a942318178e7b&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
