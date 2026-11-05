@@ -1,13 +1,13 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 05.11.2026 01:40:24
+# Обновлено: 05.11.2026 09:02:04
 
 # ===== VPN (Hidashimora) =====
-vless://b7acaa0f-de11-4a44-a03e-6c3e576d6b23@176.122.170.61:18670?encryption=none&flow=xtls-rprx-vision&pbk=_PSy4hdsfe8T3KhqoEwQraLGFsAHqTRi4mmx-CpI1VY&security=reality&sid=3fabeb43185cff26&sni=www.cloudflare.com&type=tcp&fp=ios#🌐 Сервер 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@185.174.137.106:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&path=%2F&host=u.srilankangrill.online&fp=qq#🇸🇬 Сингапур 🔥
 vless://0ef68b97-f878-4cea-b756-c56ea3632851@news.zoom.us:2087?type=ws&security=tls&sni=free.vkehi.store&host=free.vkehi.store&fp=edge#🌐 Сервер 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@185.174.137.106:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&path=%2F&host=u.srilankangrill.online&fp=firefox#🇸🇬 Сингапур 🔥
-vless://326c45d1-966c-4080-874f-ac73883c5e4a@132.243.119.223:443?encryption=none&flow=xtls-rprx-vision&pbk=KjXapnfwZtRbZIKBDsP-5YOL1nsiHLds8Hw-JfzczDo&security=reality&sid=5e50b6c8fe883545&sni=www.techadvisor.com&type=tcp&fp=safari#🇳🇱 Нидерланды 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fr.golangwikito.cfd:443?security=reality&type=tcp&sni=fr.golangwikito.cfd&flow=xtls-rprx-vision&pbk=isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA&sid=e6d589857d1cec5e&fp=safari#🇳🇱 Нидерланды 🔥
+vless://0ef68b97-f878-4cea-b756-c56ea3632851@news.zoom.us:2087?type=ws&security=tls&sni=free.vkehi.store&host=free.vkehi.store&fp=safari#🌐 Сервер 🔥
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fr.golangwikito.cfd:443?security=reality&flow=xtls-rprx-vision&pbk=isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA&sid=e6d589857d1cec5e&sni=fr.golangwikito.cfd&type=tcp&headerType=none&host=fr.golangwikito.cfd&path=%2F&fp=safari#🇳🇱 Нидерланды 🔥
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@103.232.95.178:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=chrome#🇸🇬 Сингапур 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 Нидерланды 🔥
@@ -15,7 +15,7 @@ hysteria2://gf1%3Agfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳�
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&host=%3Fbia_telegram%40soskeynets&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=firefox&host=%2F%3Fbia_telegram%40marambashi_marambashi_marambashi_marambashi_marambashi&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://2d1ad594-80a4-4bfb-87a6-038e39701f51@146.235.16.130:19825?flow=xtls-rprx-vision&fp=chrome&pbk=GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI&security=reality&sid=6ba85179e30d4fc2&sni=sg2-8sb.6121999.dpdns.org&type=tcp#🌐 Сервер 🔥
-vless://a346c521-7a7f-452b-9356-a4893feb5982@62.133.63.45:8444?fp=firefox&pbk=FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0&security=reality&serviceName=GunService&sni=github.com&type=grpc#🌐 Сервер 🔥
+vless://67952583-8572-42e1-943d-0602794f885b@510.150333.xyz:21004?pbk=IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA&security=reality&sid=4e0418d648f86141&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
+vless://729dd5f2-f5ff-4070-8c10-863eceded0b1@195.123.235.177:443?flow=xtls-rprx-vision&fp=chrome&host=%3Ftelegram--marambashi--marambashi&pbk=5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI&security=reality&sid=c85d029f5e8eb393&sni=gateway.icloud.com&type=tcp#🌐 Сервер 🔥
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://f46182d1-e13b-47d3-97e2-fa5426a93e7c@45.132.75.213:2053?fp=safari&pbk=TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY&security=reality&sid=cd7e85995ae2afc9&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
