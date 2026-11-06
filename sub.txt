@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 05.11.2026 23:20:03
+# Обновлено: 06.11.2026 03:32:32
 
 # ===== VPN (Hidashimora) =====
-vless://326227e2-f2d1-4f43-8715-9da854f5f4c0@104.21.29.202:443?security=tls&sni=px2.5ibtc.cn&type=ws&host=px2.5ibtc.cn&path=%2F326227e2-f2d1-4f43-8715-9da854f5f4c0&fp=chrome#🇭🇰 Гонконг 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.10.234:443?security=tls&type=ws&path=%2F&host=u.srilankangrill.online&packetEncoding=xudp&sni=u.srilankangrill.online&fp=chrome#🇸🇬 Сингапур 🔥
-vless://0ef68b97-f878-4cea-b756-c56ea3632851@news.zoom.us:2087?type=ws&security=tls&sni=free.vkehi.store&host=free.vkehi.store&fp=firefox#🌐 Сервер 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=chrome#🇺🇸 США 🔥
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.10.10:443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=%2F&fp=chrome#🇸🇬 Сингапур 🔥
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.10.10:443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=chrome#🇸🇬 Сингапур 🔥
+vless://fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349@vpn.cintaku.qzz.io:443?host=vpn.cintaku.qzz.io&path=%2Fvlessws&security=tls&sni=vpn.cintaku.qzz.io&type=ws#🌐 Сервер 🔥
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@104.16.156.227:443?security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=chrome#🇸🇬 Сингапур 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:443?headerType=none&host=steep-lake-615e.xeremed6978165.workers.dev&path=%2Fws&security=tls&sni=steep-lake-615e.xeremed6978165.workers.dev&type=ws&fp=ios#🇳🇱 Нидерланды 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.19.164.155:443?security=tls&type=ws&path=/tyxyws&host=jp3.yohototo.top&packetEncoding=xudp&sni=jp3.yohototo.top&fp=chrome#🇯🇵 Япония 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.89:443?flow=xtls-rprx-vision&fp=chrome&host=telegram-leviko_v2ray&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.30:8443?fp=firefox&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&security=reality&sid=974f7f8f&sni=play.googleapis.com&type=tcp#🌐 Сервер 🔥
-vless://44ae52b9-76fc-444d-8e43-186b4384b80a@free-amsterdam-node-1.cloudwidecdn.com:443?flow=xtls-rprx-vision&fp=firefox&pbk=PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU&security=reality&sid=1d86d17709852910&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://8e8210b7-71a4-4799-8b9b-2e69698b1eaf@site.teslamotor.site:20001?host=site.teslamotor.site&path=%2F&security=none&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.90:443?flow=xtls-rprx-vision&fp=edge&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?host=uae.unixzone.us&path=%2F&security=none&sni=uae.unixzone.us&type=ws#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.168:443?alpn=networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-&flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?path=%2Fvless&security=none&type=ws#🌐 Сервер 🔥
