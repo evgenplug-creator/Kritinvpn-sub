@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 09.11.2026 10:05:53
+# Обновлено: 09.11.2026 20:57:22
 
 # ===== VPN (Hidashimora) =====
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=safari#🇺🇸 США 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.2:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=firefox&type=xhttp&host=oh4.global.ssl.fastly.net&path=%2F&mode=auto&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMaxEachPostBytes%22%3A%22500000%22%2C%22scMinPostsIntervalMs%22%3A%2260%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A16%7D%7D#🇫🇷 Франция 🔥
-vless://b48e1596-e835-4547-bdae-31daadf9ea17@5.53.124.191:8008?encryption=none&type=xhttp&security=none&path=%2F&mode=auto#🇨🇦 Канада 🔥
-vless://30610baf-4645-4c7b-9a22-0d0a0a79eab5@mao.kipfelmao.de5.net:443?security=tls&type=ws&path=%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F&host=mao.kipfelmao.de5.net&packetEncoding=xudp&sni=mao.kipfelmao.de5.net&encryption=none&fp=android#🇺🇸 США 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&fp=chrome&encryption=none#🇺🇸 США 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&encryption=none&fp=edge#🇺🇸 США 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.17.50.53:443?&security=tls&fp=chrome&sni=jp3.yohototo.top&type=ws&headerType=none&host=jp3.yohototo.top&path=%2Ftyxyws#🇯🇵 Япония 🔥
+vless://1beed393-7c4d-4432-beee-f1026b72d0cf@104.17.70.206:8443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=free.sahanwickramasinghe.com&fp=chrome&type=ws&sni=free.sahanwickramasinghe.com&allowInsecure=0&insecure=0#🇩🇪 Германия 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:2053?security=tls&sni=twilight-frost-15b0.yigom67484.workers.dev&type=ws&host=twilight-frost-15b0.yigom67484.workers.dev&path=%2Fws&fp=ios&alpn=http%2F1.1&allowInsecure=0#🇳🇱 Нидерланды 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=ios#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://27c5483f-17f4-48ae-9a04-def53d88440d@152.69.226.63:25555?path=%2F&security=none&type=ws#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?flow=xtls-rprx-vision&fp=ios&host=%2F%3Ftelegram--marambashi--marambashi&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@154.26.188.52:443?flow=xtls-rprx-vision&fp=chrome&path=%2F&pbk=Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc&security=reality&sid=b46b142b&sni=www.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.90:443?flow=xtls-rprx-vision&fp=ios&path=%2F&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.111.102:443?fp=firefox&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?flow=xtls-rprx-vision&fp=chrome&host=%2F%3Ftelegram---marambashi---marambashi---marambashi---marambashi&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.202:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&path=%2F&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://990bf436-f1b9-4e7f-857d-14378acc4ae5@support.zoom.us:8080?host=free.nadun.store&path=%2F&security=none&sni=support.zoom.us&type=ws#🌐 Сервер 🔥
