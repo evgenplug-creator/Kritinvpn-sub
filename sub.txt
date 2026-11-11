@@ -1,21 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 10.11.2026 19:24:12
+# Обновлено: 11.11.2026 00:10:56
 
 # ===== VPN (Hidashimora) =====
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@3.169.9.125:443?security=tls&sni=d3kw8eszm8s6l1.cloudfront.net&alpn=http%2F1.1&fp=chrome&type=ws&host=d3kw8eszm8s6l1.cloudfront.net&path=%2F&encryption=none#🇵🇱 Польша 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@3.169.9.125:443?security=tls&sni=djb2br1cgydas.cloudfront.net&alpn=http%2F1.1&fp=chrome&type=ws&host=djb2br1cgydas.cloudfront.net&path=%2F&encryption=none#🇵🇱 Польша 🔥
-vless://b48e1596-e835-4547-bdae-31daadf9ea17@5.53.124.191:8008?encryption=none&type=xhttp&security=none&path=%2F&mode=auto#🇨🇦 Канада 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&encryption=none&fp=qq#🇺🇸 США 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&fp=chrome&encryption=none#🇺🇸 США 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&encryption=none&fp=edge#🇺🇸 США 🔥
+vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.253:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd9.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇵🇱 Польша 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:443?type=ws&security=tls&fp=chrome&host=shiny-base-4d9a.mifolan4697928.workers.dev#🇳🇱 Нидерланды 🔥
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@renderer-bridge-2-133.mirra.now:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&serviceName=VideoRenderer&sni=renderer-bridge-2-133.mirra.now&fp=edge#🇩🇪 Германия 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=firefox#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://0f81141f-8290-4a47-b1fa-c5761e39f7f0@2.26.3.89:8443?flow=xtls-rprx-vision&security=reality&sni=dzen.ru&fp=firefox&pbk=U4eg2bwFbsthGPg-9Q6beiK25kGpUA6WgmDXTO3D7S8&sid=6fbe10cb38739aab#🇫🇮 Финляндия 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://cb2dbb6a-a1ea-4023-9ace-6466cee57241@51.81.203.63:443?flow=xtls-rprx-vision&pbk=nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0&security=reality&sid=4477382ff6d3d41c&sni=www.icloud.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.163:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&spx=%2FHesarWeb&type=tcp#🌐 Сервер 🔥
-vless://91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a@165.154.63.139:443?flow=xtls-rprx-vision&fp=firefox&path=%2F&pbk=AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ&security=reality&sid=ca4aedd4&sni=www.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://41b1c169-5905-4d98-b6a6-56896c25737c@511.150333.xyz:21003?fp=chrome&host=511.150333.xyz&path=%2F&pbk=HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU&security=reality&sid=bab49aa4c2a88d27&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
+vless://68512eac-cd53-4de3-8d1e-08f6e04af1a9@13.140.56.100:14430?fp=unsafe&host=13.140.56.100&path=%2Fvless&security=none&sni=13.140.56.100&type=ws#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.168:443?flow=xtls-rprx-vision&host=cdn8848.776676.xyz&path=%2Fchannels%2Fact&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://d9fe2431-8351-41eb-b956-75d96dec5d4a@2.27.118.10:443?fp=firefox&pbk=goey7Sc4Xm6Nvdukb_DuoUnrkPSV0p4hPWbAmk2_AHc&security=reality&sid=ecf1d9f7caa6ba67&sni=ph-nl-s3784.cybercat.network&type=tcp#🌐 Сервер 🔥
+vless://41b1c169-5905-4d98-b6a6-56896c25737c@103.106.229.37:21004?fp=firefox&pbk=HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU&security=reality&sid=2df2bd9d8366cef1&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
