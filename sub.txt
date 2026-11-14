@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 14.11.2026 01:35:42
+# Обновлено: 14.11.2026 08:40:21
 
 # ===== VPN (Hidashimora) =====
-vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:2053?security=tls&sni=twilight-frost-15b0.yigom67484.workers.dev&type=ws&host=twilight-frost-15b0.yigom67484.workers.dev&path=%2Fws&fp=ios&alpn=http%2F1.1&allowInsecure=0#🇳🇱 Нидерланды 🔥
+vless://1beed393-7c4d-4432-beee-f1026b72d0cf@104.17.70.206:8443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=free.sahanwickramasinghe.com&fp=chrome&type=ws&sni=free.sahanwickramasinghe.com&allowInsecure=0&insecure=0#🇩🇪 Германия 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?type=ws&security=tls&fp=chrome&host=fancy-mouse-6aff.wixit71180.workers.dev&encryption=none#🇳🇱 Нидерланды 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=chrome#🇺🇸 США 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:443?encryption=none&host=delicate-hall-bf16.vpndkah.workers.dev&path=/ws&security=tls&sni=delicate-hall-bf16.vpndkah.workers.dev&type=ws#🇳🇱 Нидерланды 🔥
 vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.17.210.74:443?security=tls&type=ws&path=%2Ftyxyws&host=jp3.yohototo.top&packetEncoding=xudp&sni=jp3.yohototo.top&fp=safari#🇯🇵 Япония 🔥
-vless://b48e1596-e835-4547-bdae-31daadf9ea17@5.53.124.191:8008?encryption=none&type=xhttp&security=none&path=%2F&mode=auto&sni=5.53.124.191#🇨🇦 Канада 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.253:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd9.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇵🇱 Польша 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=ios#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:17623?flow=xtls-rprx-vision&fp=ios&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.74:443?flow=xtls-rprx-vision&fp=ios&host=host%3D---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir---%2540spiddy_ir&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
-vless://E221699D-E705-4664-9162-A75A82AA3997@sg2-xr.zgrelay.com:443?path=%2F700gvl-kr3&security=tls&sni=sg2-xr.zgrelay.com&type=ws#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.235:443?flow=xtls-rprx-vision&fp=firefox&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://a05ecf37-c661-4247-ab09-4432cf0f3cc1@connect.wecantos.site:10000?fp=chrome&host=connect.wecantos.site&path=%2F&security=false&type=tcp#🌐 Сервер 🔥
+vless://44ae52b9-76fc-444d-8e43-186b4384b80a@86.54.28.75:443?flow=xtls-rprx-vision&pbk=PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU&security=reality&sid=1d86d17709852910&sni=www.apple.com&type=raw#🌐 Сервер 🔥
+vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?flow=xtls-rprx-vision&fp=random&host=www.apple.com&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&security=reality&sid=a3a578ab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://9d9a048b-3aea-4b3e-b106-1106bf301feb@54.251.9.130:24146?flow=xtls-rprx-vision&pbk=VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo&security=reality&sid=7205d9079521832c&sni=www.intel.com&type=raw#🌐 Сервер 🔥
