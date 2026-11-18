@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 18.11.2026 17:49:32
+# Обновлено: 18.11.2026 23:56:45
 
 # ===== VPN (Hidashimora) =====
-vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:443?security=tls&type=ws&path=%2Fws&host=delicate-hall-bf16.vpndkah.workers.dev&packetEncoding=xudp&sni=delicate-hall-bf16.vpndkah.workers.dev&fp=chrome&encryption=none#🇳🇱 Нидерланды 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&allowInsecure=0&fp=firefox#🇺🇸 США 🔥
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=firefox#🇺🇸 США 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.88:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd5.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇫🇷 Франция 🔥
-vless://1beed393-7c4d-4432-beee-f1026b72d0cf@104.17.70.206:8443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=free.sahanwickramasinghe.com&fp=chrome&type=ws&sni=free.sahanwickramasinghe.com&allowInsecure=0&insecure=0#🇩🇪 Германия 🔥
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@renderer-bridge-2-133.mirra.now:443?type=grpc&security=tls&sni=renderer-bridge-2-133.mirra.now&path=VideoRenderer&serviceName=VideoRenderer&fp=safari#🇩🇪 Германия 🔥
+vless://0ad875ef-b751-46e3-aa89-e1ae20e43bcc@fetch.onecloudtraining.com:443?encryption=none&type=xhttp&security=tls&sni=fetch.onecloudtraining.com&fp=firefox&alpn=h2%2Chttp/1.1&path=/cdn/v2/blob/uvUWSZiudw&mode=stream-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22maxConcurrency%22%3A0%2C%22maxConnections%22%3A2%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%7D#🇬🇧 Великобритания 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&sni=fast.145779.xyz&fp=chrome#🇺🇸 США 🔥
+vless://d027b485-4e11-4485-9d0f-2ef1f1129eff@172.67.219.189:443?encryption=none&host=cdn4.salamfox.ir&path=%2Fd027b485-4e11-4485-9d0f-2ef1f1129eff&security=tls&sni=cdn4.salamfox.ir&type=ws&fp=ios#🇨🇦 Канада 🔥
+vless://2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac@172.66.47.123:443?type=ws&security=tls&fp=chrome&host=web-tomcat.pages.dev#🇨🇦 Канада 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://8e8210b7-71a4-4799-8b9b-2e69698b1eaf@site.teslamotor.site:20001?security=none&sni=site.teslamotor.site&type=tcp#🌐 Сервер 🔥
-vless://1d4e18bd-1f26-4915-b35a-7ace4826e76a@194.61.31.126:2053?fp=chrome&pbk=PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU&security=reality&sid=9980e0609b0d3891&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://ca52e2b6-fb9f-4dac-b6dc-49da9923f251@209.200.246.148:443?flow=xtls-rprx-vision&fp=chrome&pbk=uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk&security=reality&sid=f98843107912e782&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.89:443?flow=xtls-rprx-vision&fp=chrome&host=--ghoflshcan--ghoflshcan--ghoflshcan--&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://7b22dce8-7ebd-425b-8ca4-7b6190321985@94.249.148.20:443?security=tls&serviceName=grpc&sni=a.de-3.bnc-gt.co.uk&type=grpc#🌐 Сервер 🔥
+vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&host=%2F%3Ftelegram---marambashi---marambashi---marambashi---marambashi&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?fp=firefox&host=uae.unixzone.us&path=%2F&security=none&type=ws#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.89:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
