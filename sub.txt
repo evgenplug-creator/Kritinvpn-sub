@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 17.11.2026 18:21:58
+# Обновлено: 18.11.2026 01:09:27
 
 # ===== VPN (Hidashimora) =====
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&encryption=none&fp=qq#🇺🇸 США 🔥
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.17.210.74:443?security=tls&type=ws&path=%2Ftyxyws&host=jp3.yohototo.top&packetEncoding=xudp&sni=jp3.yohototo.top&fp=safari#🇯🇵 Япония 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?alpn=http%2F1.1&host=fast.145779.xyz&path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws&fp=edge#🇺🇸 США 🔥
-vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?type=ws&security=tls&fp=firefox&host=fancy-mouse-6aff.wixit71180.workers.dev#🇳🇱 Нидерланды 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&alpn=http%2F1.1&fp=safari#🇺🇸 США 🔥
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@renderer-bridge-2-133.mirra.now:443?type=grpc&security=tls&fp=chrome&sni=renderer-bridge-2-133.mirra.now&serviceName=VideoRenderer#🇩🇪 Германия 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?alpn=http%2F1.1&host=fancy-mouse-6aff.wixit71180.workers.dev&path=%2Fws&security=tls&sni=fancy-mouse-6aff.wixit71180.workers.dev&type=ws&fp=safari#🇳🇱 Нидерланды 🔥
+vless://b48e1596-e835-4547-bdae-31daadf9ea17@5.53.124.191:8008?security=none&type=xhttp&fp=safari#🇨🇦 Канада 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?type=ws&path=%252Fws-tesla&host=&security=tls&sni=fast.145779.xyz&fp=qq#🇺🇸 США 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=edge#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://8e8210b7-71a4-4799-8b9b-2e69698b1eaf@155.117.5.208:20001?security=none&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.229:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.234:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:17623?flow=xtls-rprx-vision&fp=qq&host=www.apple.com&path=%2F&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.2:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.39.4.109:18967?flow=xtls-rprx-vision&fp=edge&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://0ab273e4-cea6-41d0-bbab-41071d2fc455@5.252.179.15:443?flow=xtls-rprx-vision&fp=chrome&pbk=XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY&security=reality&sid=296f27de82dad7ff&sni=www.bing.com&type=tcp#🌐 Сервер 🔥
+vless://a16a3336-c9ab-489f-9b85-c973f5e2cfa4@137.220.221.179:443?security=none&type=tcp#🌐 Сервер 🔥
