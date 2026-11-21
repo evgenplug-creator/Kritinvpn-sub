@@ -1,21 +1,22 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 21.11.2026 17:52:59
+# Обновлено: 21.11.2026 22:49:55
 
 # ===== VPN (Hidashimora) =====
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.128:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd7.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇵🇱 Польша 🔥
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@172.67.199.126:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&fp=edge#🇺🇸 США 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?host=fast.145779.xyz&path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws#🇺🇸 США 🔥
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws#🇺🇸 США 🔥
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.17.210.74:443?security=tls&type=ws&path=%2Ftyxyws&host=jp3.yohototo.top&packetEncoding=xudp&sni=jp3.yohototo.top&fp=safari#🇯🇵 Япония 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:2053?encryption=none&host=twilight-frost-15b0.yigom67484.workers.dev&path=%2Fws&security=tls&sni=twilight-frost-15b0.yigom67484.workers.dev&type=ws&fp=firefox#🇳🇱 Нидерланды 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&encryption=none&fp=qq#🇺🇸 США 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=chrome#🇺🇸 США 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&alpn=http%2F1.1&fp=android#🇺🇸 США 🔥
+vless://2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac@172.66.47.123:443?type=ws&security=tls&fp=chrome&host=web-tomcat.pages.dev#🇨🇦 Канада 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://32cb2801-4ae0-4200-900f-a0be39bd5d2f@194.87.222.205:8443?security=reality&flow=xtls-rprx-vision&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&sid=d8d4ee29&sni=storage.yandexcloud.net&fp=firefox#🇳🇱 Нидерланды 🔥
+vless://920b3cd9-4f82-4669-bbd2-d4a28b9052c6@132.243.242.244:9543?encryption=none&flow=xtls-rprx-vision&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&security=reality&sid=123abcdf&sni=storage.yandexcloud.net&type=tcp&fp=edge#🇩🇪 Германия 🔥
+vless://920b3cd9-4f82-4669-bbd2-d4a28b9052c6@132.243.242.244:9543?encryption=none&flow=xtls-rprx-vision&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&security=reality&sid=123abcdf&sni=storage.yandexcloud.net&type=tcp&fp=firefox#🇩🇪 Германия 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72@134.185.81.5:47881?flow=xtls-rprx-vision&fp=chrome&pbk=6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4&security=reality&sid=38d72071&sni=www.tesla.com&type=raw#🌐 Сервер 🔥
-vless://e769c1c2-f2b8-4006-bc84-0672c8368578@72.56.23.254:41827?flow=xtls-rprx-vision&fp=chrome&pbk=cpKcsAG-_0k5q8envXiiOoBzt53gxwVWEqg6uVKMNDk&security=reality&sid=fba996d8e3568d0d&sni=www.google.nl&type=tcp#🌐 Сервер 🔥
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&host=join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?flow=xtls-rprx-vision&fp=chrome&host=%2F%3Fbia_telegram&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#🌐 Сервер 🔥
+vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@milo.rubinaz.xyz:8080?security=none&sni=milo.rubinaz.xyz&type=tcp#🌐 Сервер 🔥
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?fp=random&security=none&type=ws#🌐 Сервер 🔥
+vless://c6362720-0931-4b91-b187-d8ecf3149734@155.117.5.208:10002?security=none&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.225:443?flow=xtls-rprx-vision&fp=random&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
