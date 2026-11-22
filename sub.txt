@@ -1,24 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 22.11.2026 10:47:04
+# Обновлено: 22.11.2026 18:15:06
 
 # ===== VPN (Hidashimora) =====
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&alpn=http%2F1.1&fp=android#🇺🇸 США 🔥
-vless://eaf76557-2219-4799-8171-d7020adfefd0@45.130.125.151:443?alpn=http%2F1.1&host=fancy-mouse-6aff.wixit71180.workers.dev&path=%2Fws&security=tls&sni=fancy-mouse-6aff.wixit71180.workers.dev&type=ws&fp=safari#🇳🇱 Нидерланды 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.2:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=firefox&type=xhttp&host=oh4.global.ssl.fastly.net&path=%2F&mode=auto&extra=%7B%22noGRPCHeader%22%3Atrue%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMaxEachPostBytes%22%3A%22500000%22%2C%22scMinPostsIntervalMs%22%3A%2260%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22maxConnections%22%3A16%7D%7D#🇫🇷 Франция 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&allowInsecure=0&fp=edge#🇺🇸 США 🔥
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws#🇺🇸 США 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@172.67.199.126:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&fp=chrome#🇺🇸 США 🔥
+vless://27653b37-603c-4c90-b1f5-25c4d23f8932@renderer-bridge-2-133.mirra.now:443?type=grpc&encryption=none&serviceName=VideoRenderer&path=VideoRenderer&sni=renderer-bridge-2-133.mirra.now&security=tls&fp=firefox&alpn=h2#🇩🇪 Германия 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?security=tls&type=ws&path=%2Fws-tesla&sni=fast.145779.xyz&fp=chrome#🇺🇸 США 🔥
+vless://b48e1596-e835-4547-bdae-31daadf9ea17@5.53.124.191:8008?encryption=none&type=xhttp&security=none&path=%2F&mode=auto#🇨🇦 Канада 🔥
+vless://30610baf-4645-4c7b-9a22-0d0a0a79eab5@mao.kipfelmao.de5.net:443?type=ws&path=%252Fapi%252Fv1%252Fguests%252Fprofiles%252F5de14443985f%252F&host=mao.kipfelmao.de5.net&security=tls&sni=mao.kipfelmao.de5.net&fp=chrome#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
-vless://ae506c31-9407-4f3a-9796-20a96a29eb53@18.198.223.156:3443?encryption=none&type=xhttp&security=reality&sni=travel.yandex.ru&pbk=UDfaRJ-3n3hU1SldWMXD9W31R3LjNydS0usDlhV_W00&sid=abcdef0123456789&path=%2F&host=de.vp.uspn.io&mode=auto&fp=chrome#🇩🇪 Германия 🔥
-vless://ae506c31-9407-4f3a-9796-20a96a29eb53@16.192.72.134:3443?encryption=none&type=xhttp&security=reality&sni=travel.yandex.ru&pbk=UDfaRJ-3n3hU1SldWMXD9W31R3LjNydS0usDlhV_W00&sid=abcdef0123456789&path=%2F&host=se.vp.uspn.io&mode=auto&fp=chrome#🇸🇪 Швеция 🔥
-vless://ae506c31-9407-4f3a-9796-20a96a29eb53@18.198.223.156:3443?encryption=none&type=xhttp&security=reality&sni=travel.yandex.ru&pbk=UDfaRJ-3n3hU1SldWMXD9W31R3LjNydS0usDlhV_W00&sid=abcdef0123456789&path=%2F&host=de.vp.uspn.io&mode=auto&fp=edge#🇩🇪 Германия 🔥
-vless://ae506c31-9407-4f3a-9796-20a96a29eb53@16.192.72.134:3443?encryption=none&type=xhttp&security=reality&sni=travel.yandex.ru&pbk=UDfaRJ-3n3hU1SldWMXD9W31R3LjNydS0usDlhV_W00&sid=abcdef0123456789&path=%2F&host=se.vp.uspn.io&mode=auto&fp=safari#🇸🇪 Швеция 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.202:443?flow=xtls-rprx-vision&fp=ios&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.35:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://a2de9567-9646-45a9-a410-7303a43bdb6c@151.245.106.49:2053?fp=random&host=www.cloudflare.com&pbk=F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo&security=reality&sid=429499c03d4cc8a0&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://c6362720-0931-4b91-b187-d8ecf3149734@connect.hondamotor.site:10002?fp=chrome&security=none&type=tcp#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.111.102:443?fp=firefox&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
+vless://558b26f6-061b-4079-9b84-ca13b3e90ae3@191.44.108.31:443?flow=xtls-rprx-vision&fp=random&host=www.google.com&pbk=QLh2Y5Ig7pncEIvOYpZlLH2rUHZ3CRuyAo1A_emWZQU&security=reality&sid=3ba10d9ce34380c9&sni=www.google.com&type=tcp#🌐 Сервер 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws#🌐 Сервер 🔥
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.48:443?host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#🌐 Сервер 🔥
