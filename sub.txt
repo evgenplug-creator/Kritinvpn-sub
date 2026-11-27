@@ -1,20 +1,24 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 26.11.2026 20:23:45
+# Обновлено: 27.11.2026 03:03:54
 
 # ===== VPN (Hidashimora) =====
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=firefox#🇺🇸 США 🔥
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@172.67.199.126:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=qq#🇺🇸 США 🔥
-vless://c83f15bf-1817-4ec8-a19f-6393d226434c@fast.145779.xyz:2053?type=ws&path=%252Fws-tesla&host=&security=tls&sni=fast.145779.xyz&fp=qq#🇺🇸 США 🔥
-vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:2053?encryption=none&host=twilight-frost-15b0.yigom67484.workers.dev&path=%2Fws&security=tls&sni=twilight-frost-15b0.yigom67484.workers.dev&type=ws&fp=firefox#🇳🇱 Нидерланды 🔥
+vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.88:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd5.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇫🇷 Франция 🔥
+vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@3.169.9.125:443?security=tls&sni=d14jyezfrcyf60.cloudfront.net&alpn=http%2F1.1&fp=chrome&type=ws&host=d14jyezfrcyf60.cloudfront.net&path=%2F&encryption=none#🇫🇷 Франция 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?alpn=http%2F1.1&host=fast.145779.xyz&path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws&fp=edge#🇺🇸 США 🔥
 vless://c83f15bf-1817-4ec8-a19f-6393d226434c@172.67.199.126:2053?security=tls&type=ws&path=%2Fws-tesla&host=fast.145779.xyz&packetEncoding=xudp&sni=fast.145779.xyz&fp=edge#🇺🇸 США 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=edge#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
+vless://e307f400-d65e-4afd-bfe2-9a54deca5678@2.27.122.255:443?encryption=none&flow=xtls-rprx-vision&pbk=Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg&security=reality&sid=d52d3ecf49447c2a&sni=sun9-37.userapi.com&type=tcp&fp=ios#🇫🇮 Финляндия 🔥
+vless://e307f400-d65e-4afd-bfe2-9a54deca5678@2.27.122.255:443?encryption=none&flow=xtls-rprx-vision&pbk=Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg&security=reality&sid=d52d3ecf49447c2a&sni=sun9-37.userapi.com&type=tcp&fp=firefox#🇫🇮 Финляндия 🔥
+vless://e307f400-d65e-4afd-bfe2-9a54deca5678@2.27.122.255:443?encryption=none&flow=xtls-rprx-vision&pbk=Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg&security=reality&sid=d52d3ecf49447c2a&sni=sun9-37.userapi.com&type=tcp&fp=qq#🇫🇮 Финляндия 🔥
+vless://e307f400-d65e-4afd-bfe2-9a54deca5678@2.27.122.255:443?encryption=none&flow=xtls-rprx-vision&pbk=Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg&security=reality&sid=d52d3ecf49447c2a&sni=sun9-37.userapi.com&type=tcp&fp=chrome#🇫🇮 Финляндия 🔥
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.163:443?flow=xtls-rprx-vision&fp=chrome&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=raw#🌐 Сервер 🔥
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:17623?flow=xtls-rprx-vision&fp=qq&host=www.apple.com&path=%2F&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
-vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?alpn=channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn&flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://49c0aac1-5e05-4f04-b624-248fc59e03c4@54.169.200.246:41688?flow=xtls-rprx-vision&fp=chrome&host=www.intel.com&path=%2F&pbk=srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk&security=reality&sid=7f342137c20387&sni=www.intel.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.89:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.104:443?flow=xtls-rprx-vision&fp=random&host=yahoo.com&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.74:443?flow=xtls-rprx-vision&fp=ios&host=yahoo.com&path=%2F&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:17623?flow=xtls-rprx-vision&fp=edge&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
