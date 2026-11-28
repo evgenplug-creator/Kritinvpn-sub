@@ -1,20 +1,20 @@
 #profile-title: 🏳️KritinVPN
 #profile-update-interval: 1
-# Обновлено: 27.11.2026 21:51:56
+# Обновлено: 28.11.2026 03:44:08
 
 # ===== VPN (Hidashimora) =====
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.253:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd9.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇵🇱 Польша 🔥
-vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:443?encryption=none&host=workers.jijew83195.workers.dev&path=/ws&security=tls&sni=workers.jijew83195.workers.dev&type=ws#🇳🇱 Нидерланды 🔥
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&alpn=http%2F1.1&fp=qq#🇺🇸 США 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@3.169.9.125:443?security=tls&sni=d14jyezfrcyf60.cloudfront.net&alpn=http%2F1.1&fp=chrome&type=ws&host=d14jyezfrcyf60.cloudfront.net&path=%2F&encryption=none#🇫🇷 Франция 🔥
-vless://67cd3349-f789-4cbb-8b91-4b6b1654ce7c@151.101.36.128:443?security=tls&sni=accounts.fastly.com&alpn=h3&fp=chrome&type=xhttp&host=ovd7.global.ssl.fastly.net&path=%2F&mode=auto&encryption=none#🇵🇱 Польша 🔥
+vless://c83f15bf-1817-4ec8-a19f-6393d226434c@104.21.58.37:2053?security=tls&sni=fast.145779.xyz&type=ws&host=fast.145779.xyz&path=%2Fws-tesla&fp=safari#🇺🇸 США 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=chrome#🇺🇸 США 🔥
+vless://eaf76557-2219-4799-8171-d7020adfefd0@104.18.151.231:443?type=ws&security=tls&fp=chrome&host=workers.retaxay188.workers.dev#🇳🇱 Нидерланды 🔥
+vless://30610baf-4645-4c7b-9a22-0d0a0a79eab5@mao.kipfelmao.de5.net:443?security=tls&type=ws&path=%2Fapi%2Fv1%2Fguests%2Fprofiles%2F5de14443985f%2F&host=mao.kipfelmao.de5.net&packetEncoding=xudp&sni=mao.kipfelmao.de5.net&encryption=none&fp=android#🇺🇸 США 🔥
+vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@172.67.199.126:2053?type=ws&path=%252Fws-tesla&host=fast.145779.xyz&security=tls&sni=fast.145779.xyz&fp=edge#🇺🇸 США 🔥
 
 # ===== LTE (WHITE-SNI-RU) =====
 
 # ===== LTE Mobile (RU) =====
 
 # ===== Premium (Au1rxx) =====
-vless://cb2dbb6a-a1ea-4023-9ace-6466cee57241@51.81.203.63:443?flow=xtls-rprx-vision&pbk=nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0&security=reality&sid=4477382ff6d3d41c&sni=www.icloud.com&type=tcp#🌐 Сервер 🔥
-vless://41b1c169-5905-4d98-b6a6-56896c25737c@511.150333.xyz:21002?fp=chrome&pbk=HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU&security=reality&sid=3ab8d93dd9b1a5be&sni=www.cloudflare.com&type=tcp#🌐 Сервер 🔥
-vless://729dd5f2-f5ff-4070-8c10-863eceded0b1@195.123.235.177:443?flow=xtls-rprx-vision&fp=firefox&pbk=5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI&security=reality&sni=gateway.icloud.com&type=tcp#🌐 Сервер 🔥
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.225:443?flow=xtls-rprx-vision&fp=edge&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://ead0dd61-d398-40ad-80d6-a0e1e516d7d3@212.227.235.66:2053?fp=chrome&pbk=7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk&security=reality&sid=29e8dcd2b37aaa7f&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.90:443?flow=xtls-rprx-vision&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.231:443?flow=xtls-rprx-vision&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&security=reality&sid=c39cc7310a&sni=yahoo.com&type=tcp#🌐 Сервер 🔥
+vless://1d4e18bd-1f26-4915-b35a-7ace4826e76a@194.61.31.126:2053?fp=chrome&pbk=PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU&security=reality&sid=9980e0609b0d3891&sni=www.apple.com&type=tcp#🌐 Сервер 🔥
